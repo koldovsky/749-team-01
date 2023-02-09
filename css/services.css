@@ -1,0 +1,92 @@
+.footer__contact-us {
+    display: flex;
+    flex-direction: column;
+    padding-top: 90px;
+    padding-bottom: 50px;
+    padding-left: 24px;
+    padding-right: 24px;
+    background-color: #272622;
+    color:white;
+    min-width: 320px;
+    justify-content: center;
+}
+
+.footer__contacts-container {
+    display: flex;
+    flex-direction:column;
+    width: 66.6666666667%;
+    text-align:left;
+    line-height: 25.5px;
+}
+
+.footer__offer-to-contact {
+    width: 33.3333333333%;
+    min-width: 300px;
+    justify-content: flex-start
+}
+
+@media (min-width:500px) {
+    .footer__contact-us {
+        flex-direction: row;
+        padding-top: 100px;
+        align-items: center;
+    }
+    .footer__contacts-container    {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+}
+
+.footer__contacts-title {
+    color: white;
+    font-size: 24px;
+    font-family: Rubic, sans-serif;
+    font-weight: 600;
+}
+
+.footer__title {
+    font-family: Rubic, sans-serif;
+    font-size: 38px;
+    line-height: 41.8px;
+    color:white;
+    font-weight: 700;
+
+}
+
+.footer__subtitle {
+    font-size: 20px;
+    height: 60px;
+    font-weight: 700;]
+    line-height: 30px;
+    margin-top: 25px;
+}
+
+.footer__text-offer {
+    font-size: 17px;
+    font-family: Lato, sans-serif;
+    font-weight: 400;
+    line-height: 25.5px;
+    margin-top: 25px;
+    color:rgb(173,173,173)
+
+}
+
+.footer__order_form  {
+    margin-top: 35px;
+
+}
+
+.footer__contacts-info {
+    line-height: 25.5px;
+    font-family: Rubic, sans-serif;
+    font-size: 17px;
+    color:rgb(173,173,173);
+}
+
+.footer__address, .footer__phone, .footer__mail, .footer__operating-hours {
+    margin-bottom: 16px;
+}
+
+.footer__contacts-info {
+    margin-top: 5px;
+}
