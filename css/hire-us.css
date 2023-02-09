@@ -1,7 +1,7 @@
 .hire__us-background {
   background-image: url(../img/hire-us-background.jpg);
-  width: 1200px;
-  
+  width: 320px;
+}
 
 .hire__us-frame {
 }
@@ -39,6 +39,8 @@
   width: 202px;
   margin-top: 12px;
   padding: 11px 22px 11px 22px;
+  position: relative;
+  border-radius: 20px;
 }
 
 .hire__us-phone {
@@ -51,6 +53,8 @@
   width: 202px;
   margin-top: 12px;
   padding: 11px 22px 11px 22px;
+  position: relative;
+  border-radius: 20px;
 }
 
 .hire__us-email {
@@ -61,6 +65,10 @@
   box-sizing: border-box;
   height: 40px;
   width: 202px;
+  margin-top: 12px;
+  padding: 11px 22px 11px 22px;
+  position: relative;
+  border-radius: 20px;
 }
 
 .submit__button {
@@ -75,6 +83,7 @@
   margin-top: 12px;
   padding: 11px 22px 11px 22px;
   position: relative;
+  border-radius: 20px;
 }
 
 .hire__us-button {
