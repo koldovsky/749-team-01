@@ -1,47 +1,81 @@
 .hire__us-background {
-}
+  background-image: url(../img/hire-us-background.jpg);
+  width: 1200px;
+  
+
 .hire__us-frame {
 }
+
 .hire__us-form {
 }
+
 .hire__us-title {
 }
+
 .hire__us-subtitle {
   font-family: "Rubik", sans-serif;
   color: var(--subtext-color);
   font-weight: 700;
   font-size: 30px;
 }
+
 .hire__us-info {
   font-family: "Lato", sans-serif;
   color: var(--subtitle-color);
   font-weight: 700;
   font-size: 20px;
 }
+
 .hire__us-placeholder {
 }
+
 .hire__us-name {
   font-family: "Lato", sans-serif;
   color: var(--subtext-color);
   font-weight: 400;
   font-size: 15px;
+  box-sizing: border-box;
+  height: 40px;
+  width: 202px;
+  margin-top: 12px;
+  padding: 11px 22px 11px 22px;
 }
+
 .hire__us-phone {
   font-family: "Lato", sans-serif;
   color: var(--subtext-color);
   font-weight: 400;
   font-size: 15px;
+  box-sizing: border-box;
+  height: 40px;
+  width: 202px;
+  margin-top: 12px;
+  padding: 11px 22px 11px 22px;
 }
+
 .hire__us-email {
   font-family: "Lato", sans-serif;
   color: var(--subtext-color);
   font-weight: 400;
   font-size: 15px;
+  box-sizing: border-box;
+  height: 40px;
+  width: 202px;
 }
+
 .submit__button {
   font-family: "Lato", sans-serif;
   color: var(--button-color);
   font-weight: 700;
   font-size: 15px;
   background-color: rgb(231 39 45);
+  box-sizing: border-box;
+  height: 40px;
+  width: 202px;
+  margin-top: 12px;
+  padding: 11px 22px 11px 22px;
+  position: relative;
+}
+
+.hire__us-button {
 }
