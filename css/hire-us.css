@@ -1,3 +1,9 @@
+@media (max-width: 320px) {
+  .hire__us-background {
+    background-color: rgb(255 255 255);
+  }
+}
+
 .hire__us-background {
   background-image: url(../img/hire-us-background.jpg);
   width: 320px;
