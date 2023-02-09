@@ -1,0 +1,47 @@
+.hire__us-background {
+}
+.hire__us-frame {
+}
+.hire__us-form {
+}
+.hire__us-title {
+}
+.hire__us-subtitle {
+  font-family: "Rubik", sans-serif;
+  color: var(--subtext-color);
+  font-weight: 700;
+  font-size: 30px;
+}
+.hire__us-info {
+  font-family: "Lato", sans-serif;
+  color: var(--subtitle-color);
+  font-weight: 700;
+  font-size: 20px;
+}
+.hire__us-placeholder {
+}
+.hire__us-name {
+  font-family: "Lato", sans-serif;
+  color: var(--subtext-color);
+  font-weight: 400;
+  font-size: 15px;
+}
+.hire__us-phone {
+  font-family: "Lato", sans-serif;
+  color: var(--subtext-color);
+  font-weight: 400;
+  font-size: 15px;
+}
+.hire__us-email {
+  font-family: "Lato", sans-serif;
+  color: var(--subtext-color);
+  font-weight: 400;
+  font-size: 15px;
+}
+.submit__button {
+  font-family: "Lato", sans-serif;
+  color: var(--button-color);
+  font-weight: 700;
+  font-size: 15px;
+  background-color: rgb(231 39 45);
+}

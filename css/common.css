@@ -1,23 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap'); /*  font-family: 'Permanent Marker', cursive;  */
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap'); /*  font-family: 'Lato', sans-serif;   */
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');  /* font-family: 'Rubik', sans-serif;  */
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap"); /*  font-family: 'Permanent Marker', cursive;  */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap"); /*  font-family: 'Lato', sans-serif;   */
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap"); /* font-family: 'Rubik', sans-serif;  */
 
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
 }
-h2{
-    font-family: 'Permanent Marker', cursive;
-    font-size: 16px;
-    font-weight: 400;
-    color: var(--title-color);
+h2 {
+  font-family: "Permanent Marker", cursive;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--title-color);
 }
 
-:root{
-    --title-color: rgb(231, 49, 35);
-    --subtitle-color: rgb(69, 69, 69);
-    --text-color: rgb(103, 103, 103);
+:root {
+  --title-color: rgb(231, 49, 35);
+  --subtitle-color: rgb(69, 69, 69);
+  --text-color: rgb(103, 103, 103);
+  --subtext-color: rgb(40, 38, 35);
+  --button-color: rgb(255, 255, 255);
 }
