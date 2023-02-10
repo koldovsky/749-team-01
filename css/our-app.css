@@ -20,10 +20,11 @@
   .download__app-info .download__subtitle {
     margin-top: 20px;
     font-size: 38px;
-    font-weight: 700;
+    font-family: sans-serif;
     color: var(--subtext-color);
     text-transform: capitalize;
     font-family: 'Rubik', sans-serif;
+    font-weight: bold;
   }
 
   .download__app-info .download__slogan {
