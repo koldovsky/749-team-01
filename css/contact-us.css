@@ -6,16 +6,16 @@
     padding-left: 24px;
     padding-right: 24px;
     background-color: #272622;
-    color:white;
+    color: white;
     min-width: 320px;
     justify-content: center;
 }
 
 .footer__contacts-container {
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     width: 66.6666666667%;
-    text-align:left;
+    text-align: left;
     line-height: 25.5px;
 }
 
@@ -23,8 +23,8 @@
     width: 33.3333333333%;
     min-width: 300px;
     justify-content: flex-start;
-    padding-left:15px;
-    padding-right:15px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 @media (min-width:500px) {
@@ -33,10 +33,11 @@
         padding-top: 100px;
         align-items: center;
     }
-    .footer__contacts-container    {
-    padding-left: 15px;
-    padding-right: 15px;
-}
+
+    .footer__contacts-container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 }
 
 .footer__contacts-title {
@@ -50,7 +51,7 @@
     font-family: Rubic, sans-serif;
     font-size: 38px;
     line-height: 41.8px;
-    color:white;
+    color: white;
     font-weight: 700;
 
 }
@@ -69,11 +70,10 @@
     font-weight: 400;
     line-height: 25.5px;
     margin-top: 25px;
-    color:rgb(173,173,173)
-
+    color: rgb(173, 173, 173)
 }
 
-.footer__order_form  {
+.footer__order_form {
     margin-top: 35px;
 
 }
@@ -82,16 +82,19 @@
     line-height: 25.5px;
     font-family: Rubic, sans-serif;
     font-size: 17px;
-    color:rgb(173,173,173);
+    color: rgb(173, 173, 173);
 
 }
 
 .footer__contacts-info-containter {
     padding-left: 15px;
-    padding-right:15px;
+    padding-right: 15px;
 }
 
-.footer__address, .footer__phone, .footer__mail, .footer__operating-hours {
+.footer__address,
+.footer__phone,
+.footer__mail,
+.footer__operating-hours {
     margin-bottom: 16px;
 }
 
