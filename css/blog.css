@@ -10,11 +10,8 @@
     text-align: center;
 }
 .blog__header-subtitle {
-    font-family: sans-serif;
     color: rgb(40, 38, 35);
-    font-size: 47px;
-    font-weight: 700;
-    font-weight: bold;
+    font-size: 38px;
 }
 .blog__header-info {
     margin-top: 25px;

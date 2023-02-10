@@ -1,8 +1,5 @@
 .download {
-    padding-top: 90px;
-    padding-right: 24px;
-    padding-bottom: 90px;
-    padding-left: 24px;
+    padding: 90px 24px 90px 24px;
   }
   
   .download .app__phone-screenshot phone-img {
@@ -20,11 +17,8 @@
   .download__app-info .download__subtitle {
     margin-top: 20px;
     font-size: 38px;
-    font-family: sans-serif;
     color: var(--subtext-color);
     text-transform: capitalize;
-    font-family: 'Rubik', sans-serif;
-    font-weight: 800;
   }
 
   .download__app-info .download__slogan {
@@ -51,7 +45,7 @@
     padding-top: 7.5px;
     padding-bottom: 7.5px;
     display: grid;
-    grid-template-columns: 1fr 94%;
+    grid-template-columns: 1fr 212px;
   }
   
   .feature__block .feature__img {
@@ -59,12 +53,17 @@
     width: 50px;
     height: 50px;
     border-radius: 100%;
-    margin-right: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
   }
   
+.feature__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
   .feature__block .feature__img img {
     height: 26px;
     width: 26px;
@@ -74,7 +73,7 @@
   .feature__descr .feature__title {
     color: rgb(40, 38, 35);
     font-size: 22px;
-    font-weight: 700;
+    font-weight: 600;
     line-height: 26.4px;
   }
   
