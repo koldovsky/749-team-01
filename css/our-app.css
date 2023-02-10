@@ -19,6 +19,8 @@
     font-size: 38px;
     color: var(--subtext-color);
     text-transform: capitalize;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
   }
 
   .download__app-info .download__slogan {
