@@ -25,7 +25,9 @@ h3 {
   --subtitle-color: rgb(69, 69, 69);
   --text-color: rgb(103, 103, 103);
   --subtext-color: rgb(40, 38, 35);
-  --button-text-color: rgb(255, 255, 255);
+  --footer-background-color: #272622;
+  --button-text-color: #ffffff;
+  --icon-color: #fbbe36;
   font-family: "Lato", sans-serif;
   scroll-behavior: smooth;
 }
