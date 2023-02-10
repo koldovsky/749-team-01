@@ -1,3 +1,7 @@
+.footer{
+  background-color: #272622;
+}
+
 .footer__all-info {
     display: flex;
     flex-direction: column;
