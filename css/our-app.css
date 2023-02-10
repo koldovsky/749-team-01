@@ -1,0 +1,95 @@
+.download {
+    padding-top: 90px;
+    padding-right: 24px;
+    padding-bottom: 90px;
+    padding-left: 24px;
+  }
+  
+  .download .app__phone-screenshot phone-img {
+    padding: 15px;
+  }
+  
+  .download__app-info {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  
+  .download__app-info .download__subtitle {
+    margin-top: 20px;
+    font-size: 38px;
+    font-weight: 700;
+    color: var(--subtext-color);
+    text-transform: capitalize;
+    font-family: 'Rubik', sans-serif;
+  }
+
+  .download__app-info .download__slogan {
+    margin-top: 25px;
+    color: var(--subtitle-color);
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+  }
+  
+  .download__app-info .download__text {
+    margin-top: 25px;
+    color: var(--text-color);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25.5px;
+    font-family: 'Lato', sans-serif;
+  }
+  
+  .app__features {
+    margin-top: 20px;
+  }
+  
+  .feature__block {
+    padding-top: 7.5px;
+    padding-bottom: 7.5px;
+    display: grid;
+    grid-template-columns: 1fr 94%;
+  }
+  
+  .feature__block .feature__img {
+    background-color: #fbf7ed;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .feature__block .feature__img img {
+    height: 26px;
+    width: 26px;
+    margin: auto;
+  }
+  
+  .feature__descr .feature__title {
+    color: rgb(40, 38, 35);
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26.4px;
+  }
+  
+  .feature__descr .feature__text {
+    color: var(--text-color);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25.5px;
+  }
+  
+  .download__buttons {
+    margin-top: 35px;
+  }
+  
+  .download__buttons .download__icons-item .download__button-img {
+    margin: 10px;
+    width: 169px;
+    height: 51.9px;
+  }
