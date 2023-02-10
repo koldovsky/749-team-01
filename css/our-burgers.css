@@ -1,0 +1,20 @@
+.main__burgers-title { 
+    font-size: 20px;
+    text-align: center;
+}
+
+.main__burgers-subtitle {
+    
+    font-family: Rubick Light san-serif;
+    font-size: 56px;
+    font-weight: 700;
+    text-align: center;
+}
+.main__burgers-text {
+    font-family: Lato;
+    text-align: center;
+}
+.burgers__carousel-slide {
+    width: 206px;
+    
+}
