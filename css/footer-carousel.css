@@ -100,7 +100,6 @@
     .swiper-button-next::after,
     .swiper-button-prev::after {
         font-size: 16px !important;
-        font-weight: 1200 !important;
     }
 }
 
