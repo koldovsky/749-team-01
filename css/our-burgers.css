@@ -1,0 +1,50 @@
+.main__burgers {
+    background: url("//res2.weblium.site/res/621624150217f800226038e2/622f480a6feef20023bbfa14_optimized") 53.37% 0% / cover no-repeat, rgb(251, 247, 237); width: 1400px;" ;
+}
+.main__burgers-title { 
+    font-size: 20px;
+    text-align: center;
+}
+
+.main__burgers-subtitle {
+    
+    font-family: sans-serif;
+    font-size: 56px;
+    font-weight: 700;
+    text-align: center;
+}
+.main__burgers-text {
+    font-family: sans-serif;
+    text-align: center;
+}
+.burgers__carousel-slide {
+    width: 206px;
+    object-fit: cover;
+    box-sizing: border-box;
+  
+    
+}
+.main__burgers-carousel {
+    display: inline-flex;
+    width: auto;
+}
+.burgers__carousel-title {
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+}
+.burgers__carousel-text {
+    color: var(--text-color);
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    text-align: center;
+}
+.burgers__carousel-price {
+    color: var(--title-color);
+    font-family:  sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+}
