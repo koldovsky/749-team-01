@@ -15,12 +15,18 @@ h2 {
   color: var(--title-color);
 }
 
+h3{
+  font-family: 'Rubik', sans-serif;
+  font-weight: 800;
+}
+
 :root {
   --title-color: rgb(231, 49, 35);
   --subtitle-color: rgb(69, 69, 69);
   --text-color: rgb(103, 103, 103);
   --subtext-color: rgb(40, 38, 35);
   --button-text-color: rgb(255, 255, 255);
+  font-family: 'Lato', sans-serif;
 }
 
 img {
