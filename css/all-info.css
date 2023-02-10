@@ -45,6 +45,12 @@
   width: 32px;
 }
 
+.footer__social-link__img:hover {
+  filter: brightness(90%)
+}
+
+
+
 .footer__navigator-container,
 .footer__customers-container,
 .footer__subscribe-form {
@@ -80,6 +86,11 @@
   text-decoration: none;
   color: #ffffff;
   margin: 5px 0;
+}
+
+.footer__navigator-link:hover,
+.footer__customers-link:hover{
+ color: #fbbe36;
 }
 
 .footer__subscribe-email,
