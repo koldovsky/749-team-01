@@ -43,12 +43,12 @@
 .footer__contacts-title {
     color: white;
     font-size: 24px;
-    font-family: Rubic, sans-serif;
+    font-family: 'Rubic', sans-serif;
     font-weight: 600;
 }
 
 .footer__title {
-    font-family: Rubic, sans-serif;
+    font-family: 'Rubic', sans-serif;
     font-size: 38px;
     line-height: 41.8px;
     color: white;
@@ -66,7 +66,7 @@
 
 .footer__text-offer {
     font-size: 17px;
-    font-family: Lato, sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 400;
     line-height: 25.5px;
     margin-top: 25px;
@@ -80,7 +80,7 @@
 
 .footer__contacts-info {
     line-height: 25.5px;
-    font-family: Rubic, sans-serif;
+    font-family: 'Rubic', sans-serif;
     font-size: 17px;
     color: rgb(173, 173, 173);
 
