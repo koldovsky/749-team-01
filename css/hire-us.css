@@ -77,10 +77,10 @@
 
 .submit__button {
   font-family: "Lato", sans-serif;
-  color: var(--button-color);
+  color: var(--button-text-color);
   font-weight: 700;
   font-size: 15px;
-  background-color: rgb(231 39 45);
+  background-color: var(--title-color);
   box-sizing: border-box;
   height: 40px;
   width: 202px;
@@ -89,7 +89,17 @@
   position: relative;
   border-radius: 20px;
 }
+.submit__button:hover {
+    animation-name: background-color;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+    }
 
+  @keyframes background-color {
+    100% {
+      background-color: var(--animation-button-color);
+    }
+  }
 .hire__us-button {
 }
 
