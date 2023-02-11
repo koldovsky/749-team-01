@@ -41,7 +41,6 @@
 .blog__fotos {
     border-radius: 2%;
     height: auto;
-    min-width: 100 vh;
 }
 .blog__subtitle {
     margin-top: 20px;
