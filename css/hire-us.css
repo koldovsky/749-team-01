@@ -36,6 +36,7 @@
 .hire__us-name {
   font-family: "Lato", sans-serif;
   color: var(--subtext-color);
+  background-color: var(--form-background-color);
   font-weight: 400;
   font-size: 15px;
   box-sizing: border-box;
@@ -50,6 +51,7 @@
 .hire__us-phone {
   font-family: "Lato", sans-serif;
   color: var(--subtext-color);
+  background-color: var(--form-background-color);
   font-weight: 400;
   font-size: 15px;
   box-sizing: border-box;
@@ -64,6 +66,7 @@
 .hire__us-email {
   font-family: "Lato", sans-serif;
   color: var(--subtext-color);
+  background-color: var(--form-background-color);
   font-weight: 400;
   font-size: 15px;
   box-sizing: border-box;

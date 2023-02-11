@@ -29,6 +29,7 @@ h3 {
   --button-text-color: rgb(255, 255, 255);
   --icon-color: rgb(251, 190, 54);
   --animation-button-color: rgb(0, 0, 0);
+  --form-background-color: rgb(251 247 237);
   font-family: "Lato", sans-serif;
   scroll-behavior: smooth;
 }
