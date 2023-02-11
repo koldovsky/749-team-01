@@ -1,28 +1,28 @@
 .main__burgers {
-    background: url("//res2.weblium.site/res/621624150217f800226038e2/622f480a6feef20023bbfa14_optimized") 53.37% 0% / cover no-repeat, rgb(251, 247, 237); 
-    width: 1400px;
+    background: url(../img/burgers-background.jpg);
+    background-size: cover;
 }
 .main__burgers-title { 
     font-size: 20px;
     text-align: center;
 }
 
-.main__burgers-subtitle {
-    
-    font-family: sans-serif;
+.main__burgers-subtitle {    
+    font-family: "Rubik", sans-serif;
     font-size: 56px;
-    font-weight: 700;
+    font-weight: 400;
     text-align: center;
 }
 .main__burgers-text {
-    font-family: sans-serif;
+    font-family: 'Lato', sans-serif;
     text-align: center;
 }
 .burgers__carousel-slide {
     width: 206px;
     object-fit: cover;
     box-sizing: border-box;
-  
+    cursor: pointer; 
+    
     
 }
 .main__burgers-carousel {
@@ -30,10 +30,12 @@
     width: auto;
 }
 .burgers__carousel-title {
-    font-family: sans-serif;
-    font-weight: 600;
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
     font-size: 30px;
     text-align: center;
+    font-style: none;
+    display: flex;
 }
 .burgers__carousel-text {
     color: var(--text-color);
@@ -41,11 +43,34 @@
     font-weight: 400;
     font-size: 17px;
     text-align: center;
+    margin-top: 20px;
+    display: flex;
 }
 .burgers__carousel-price {
-    color: var(--title-color);
-    font-family:  sans-serif;
-    font-weight: 700;
+    color: rgb(231, 49, 35); 
+    font-family: 'Rubik', sans-serif;    
     font-size: 36px;
     text-align: center;
+    margin-top: 20px;
+}
+.discount__subtitle,
+.salads__subtitle  {
+    color: white;
+    font-family:'Rubik', sans-serif; 
+    font-weight: 700;
+    font-size: 36px;
+    
+}
+.discount{
+    background: url(../img/discount-background.jpg);
+    background-size: cover;
+   
+}
+.salads {
+    display: flex;
+    background: url(../img/salads-background.jpg);
+    
+}
+.actual__discount {
+    background: #fcbe37
 }
