@@ -1,8 +1,8 @@
 .blog {
-    background: url(/img/blog-background.jpg);
+    background: url(../img/blog-background.jpg);
     padding-top: 90px;
     padding-bottom: 90px;
-    max-width: 1200px
+    background-size: cover;
 }
 .blog__header {
     display: flex;
@@ -13,8 +13,6 @@
     font-family: sans-serif;
     color: rgb(40, 38, 35);
     font-size: 47px;
-    font-weight: 700;
-    font-weight: bold;
 }
 .blog__header-info {
     margin-top: 25px;
