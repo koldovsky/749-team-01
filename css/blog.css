@@ -10,7 +10,7 @@
     text-align: center;
 }
 .blog__header-subtitle {
-    color: rgb(40, 38, 35);
+    color: var(--subtext-color);
     font-size: 47px;
 }
 .blog__header-info {
@@ -39,8 +39,8 @@
 }
 .blog__fotos {
     border-radius: 2%;
-    width: 100%;
     height: auto;
+    min-width: 100 vh;
 }
 .blog__subtitle {
     margin-top: 20px;
@@ -56,18 +56,16 @@
 .blog__date {
     padding-left: 10px;
     border-left: 1px solid;
-    color: #fbbe36;
+    color: var(--icon-color);
     font-family: 'Lato', sans-serif;
     font-size: 15px;
     font-weight: bold;
 }
 .blog__title {
     margin-top: 15px;
-    font-family: sans-serif; 
+    font-family: 'Rubik', sans-serif;
     font-size: 24px;
     color: rgb(40, 38, 35);
-    font-weight: bold;
-    font-weight: 600;
 }
 .blog__news {
     margin-top: 20px;
@@ -84,7 +82,7 @@
     padding: 16px 28px 16px 28px;
     color: white;
     user-select: none;
-    background-color: #fbbe36;
+    background-color: var(--icon-color);
     box-sizing: border-box;
     text-decoration: solid;
     border-radius: 25px;
