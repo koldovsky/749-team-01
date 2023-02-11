@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap"); /*  font-family: 'Permanent Marker', cursive;  */
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap"); /*  font-family: 'Lato', sans-serif;   */
-@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap"); /* font-family: 'Rubik', sans-serif;  */
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@800&display=swap"); /* font-family: 'Rubik', sans-serif;  */
 
 * {
   margin: 0;
@@ -15,8 +15,8 @@ h2 {
   color: var(--title-color);
 }
 
-h3{
-  font-family: 'Rubik', sans-serif;
+h3 {
+  font-family: "Rubik", sans-serif;
   font-weight: 800;
 }
 
@@ -25,13 +25,16 @@ h3{
   --subtitle-color: rgb(69, 69, 69);
   --text-color: rgb(103, 103, 103);
   --subtext-color: rgb(40, 38, 35);
-  --button-text-color: rgb(255, 255, 255);
-  font-family: 'Lato', sans-serif;
+  --footer-background-color: #272622;
+  --button-text-color: #ffffff;
+  --icon-color: #fbbe36;
+  font-family: "Lato", sans-serif;
+  scroll-behavior: smooth;
 }
 
 img {
-  /* width: 100%; */
-  display:block;
+  width: 100%;
+  display: block;
 }
 
 .container {

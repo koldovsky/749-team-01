@@ -1,18 +1,16 @@
-@media (max-width: 320px) {
-  .hire__us-background {
-    background-color: rgb(255 255 255);
-  }
-}
-
-.hire__us-background {
-  background-image: url(../img/hire-us-background.jpg);
-  width: 320px;
-}
-
 .hire__us-frame {
 }
 
-.hire__us-form {
+.hire__us-section {
+  box-sizing: border-box;
+  position: absolute;
+  background-color: var(--button-text-color);
+  margin-bottom: -500px;
+  width: 272px;
+  text-align: center;
+  border-radius: 10px;
+  padding-top: 50px;
+  padding-top: 50px;
 }
 
 .hire__us-title {
@@ -94,3 +92,5 @@
 
 .hire__us-button {
 }
+
+

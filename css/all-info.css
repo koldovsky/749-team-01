@@ -1,5 +1,5 @@
 .footer {
-  background-color: #272622;
+  background-color: var(--footer-background-color);
 }
 
 .footer__all-info {
@@ -8,7 +8,7 @@
   justify-content: center;
   align-items: center;
   padding: 50px 24px 50px 24px;
-  color: #ffffff;
+  color: var(--button-text-color);
 }
 
 .footer__social-container {
@@ -46,7 +46,7 @@
 }
 
 .footer__social-link__img:hover {
-  filter: brightness(90%)
+  filter: brightness(90%);
 }
 
 
@@ -69,13 +69,12 @@
 .footer__navigator-title,
 .footer__customers-title {
   font-size: 24px;
-  font-weight: 600;
 }
 
 .footer_yellow-line {
   height: 4px;
   width: 60%;
-  background-color: #fbbe36;
+  background-color: var(--icon-color);
   margin: 15px 0;
 }
 
@@ -84,13 +83,13 @@
 .footer__subscribe-text {
   font-size: 17px;
   text-decoration: none;
-  color: #ffffff;
+  color: var(--button-text-color);
   margin: 5px 0;
 }
 
 .footer__navigator-link:hover,
 .footer__customers-link:hover{
- color: #fbbe36;
+ color: var(--icon-color);
 }
 
 .footer__subscribe-email,
@@ -114,13 +113,12 @@
 }
 
 .footer__subscribe-btn {
-  background-color: #e7272d;
-  color: #ffffff;
+  background-color: var(--title-color);
+  color: var(--button-text-color);
 }
 
 .footer__subscribe-btn:hover {
-  background-color: #fbbe36;
-  color: #ffffff;
+  background-color: var(--icon-color);
 }
 
 .footer__grey-line {
@@ -132,7 +130,7 @@
 .footer__grey-line span {
   display: block;
   height: 1px;
-  background-color: #ffffff;
+  background-color: var(--button-text-color);
   opacity: 0.2;
   width: 94%;
 }
@@ -143,7 +141,7 @@
   justify-content: center;
   align-items: center;
   padding: 0 24px 24px 24px;
-  color: #ffffff;
+  color: var(--button-text-color);
 }
 
 .footer__bottom-text {
