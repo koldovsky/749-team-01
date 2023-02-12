@@ -38,8 +38,6 @@
     box-shadow: 5px 5px 5px 5px rgb(247, 228, 228);
 }
 .franchising__burger, .catering__burger {
-    width: 272px;
-    height: 177px;
     align-items: center;
     border-radius: 10px 10px 0px 0px;
 }
