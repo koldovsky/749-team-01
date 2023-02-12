@@ -22,7 +22,7 @@ div:has(.aboutus__button) {
 
 .aboutus__left>img {
     width: 30vw;
-    max-width: 1200px;
+    max-width: 1000px;
 }
 
 .aboutus__right svg{
