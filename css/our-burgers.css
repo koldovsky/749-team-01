@@ -88,7 +88,7 @@
     min-width: 272px;
     min-height: 383px;
     width: 640px;
-    height: 383xp;
+    height: 383px;
     background: url(../img/discount-background.jpg);
     background-size:cover;
     border-radius: 2%;
@@ -102,7 +102,7 @@
     min-width: 272px;
     min-height: 402px;
     width: 450px;
-    height: 383xp;
+    height: 383px;
     background: url(../img/salads-background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -182,4 +182,7 @@
     border-radius: 50px;
     padding-top: 13px;
     margin: 15px;
+ }
+ .grab__your-discount-text {
+    
  }
