@@ -96,10 +96,12 @@
 .salads {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     min-width: 272px;
     min-height: 402px;
     background: url(../img/salads-background.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
     border-radius: 2%;
     padding: 31px 35px;              
 }
