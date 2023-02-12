@@ -31,6 +31,9 @@ h3 {
   --animation-button-color: rgb(0, 0, 0);
   --form-background-color: rgb(251 247 237);
   font-family: "Lato", sans-serif;
+  --subtitle-font: 'Rubik', sans-serif;
+  --subtitle-color: #ffffff;
+  --header-phone-color: #282623;
   scroll-behavior: smooth;
 }
 
