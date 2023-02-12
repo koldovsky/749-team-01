@@ -35,6 +35,7 @@ h3 {
   --form-background-color: rgb(251 247 237);
   font-family: "Lato", sans-serif;
   --subtitle-font: 'Rubik', sans-serif;
+  --subtitle-color: #696969;
   --subtitle-header-color: #ffffff;
   --header-phone-color: #282623;
   scroll-behavior: smooth;
