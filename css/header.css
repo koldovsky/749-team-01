@@ -87,7 +87,7 @@
 	background-color: var(--title-color);
 	width: 139px;
 	height: 51px;
-	color: var(--subtitle-color);
+	color: var(--subtitle-header-color);
 	padding: 12px 24px;
 }
 
@@ -110,7 +110,7 @@
 	font-family: 'Lato', sans-serif;
 	font-size: 17px;
 	font-weight: 700;
-	color: var(--subtitle-color);
+	color: var(--subtitle-header-color);
 }
 
 .header__call-phone {
