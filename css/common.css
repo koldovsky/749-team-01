@@ -1,6 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap"); /*  font-family: 'Permanent Marker', cursive;  */
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap"); /*  font-family: 'Lato', sans-serif;   */
-@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@800&display=swap"); /* font-family: 'Rubik', sans-serif;  */
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+/*  font-family: 'Permanent Marker', cursive;  */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+/*  font-family: 'Lato', sans-serif;   */
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@800&display=swap");
+/* font-family: 'Rubik', sans-serif;  */
 
 * {
   margin: 0;
@@ -8,6 +11,7 @@
   box-sizing: border-box;
   text-decoration: none;
 }
+
 h2 {
   font-family: "Permanent Marker", cursive;
   font-size: 16px;
@@ -22,7 +26,6 @@ h3 {
 
 :root {
   --title-color: rgb(231, 49, 35);
-  --subtitle-color: rgb(69, 69, 69); 
   --text-color: rgb(103, 103, 103);
   --subtext-color: rgb(40, 38, 35);
   --footer-background-color: rgb(39, 38, 34);
@@ -32,7 +35,7 @@ h3 {
   --form-background-color: rgb(251 247 237);
   font-family: "Lato", sans-serif;
   --subtitle-font: 'Rubik', sans-serif;
-  --subtitle-color: #ffffff;
+  --subtitle-header-color: #ffffff;
   --header-phone-color: #282623;
   scroll-behavior: smooth;
 }

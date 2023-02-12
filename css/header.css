@@ -59,7 +59,7 @@
 	font-size: 56px;
 	font-weight: 700;
 	line-height: 56px;
-	color: var(--subtitle-color);
+	color: var(--subtitle-header-color);
 }
 
 .header__text {
