@@ -70,7 +70,7 @@
     min-height: 800px;
     display: flex;
    flex-direction: column;
-   justify-content: space-between;   
+   justify-content: space-between;  
 }
 
 .discount__subtitle,
@@ -87,8 +87,10 @@
     justify-content: space-around;
     min-width: 272px;
     min-height: 383px;
+    max-width: 640px;
+    max-height: 383xp;
     background: url(../img/discount-background.jpg);
-    background-size: cover; 
+    background-size:cover;
     border-radius: 2%;
     padding: 31px 35px;    
 }
@@ -99,6 +101,8 @@
     justify-content: space-around;
     min-width: 272px;
     min-height: 402px;
+    max-width: 450px;
+    max-height: 383xp;
     background: url(../img/salads-background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
