@@ -1,96 +1,95 @@
-.hire__us-frame {
-}
-
-.hire__us-section {
-  box-sizing: border-box;
-  position: absolute;
-  background-color: var(--button-text-color);
-  margin-bottom: -500px;
-  width: 272px;
-  text-align: center;
-  border-radius: 10px;
-  padding-top: 50px;
-  padding-top: 50px;
-}
+/* .hire__us {
+  background-image: url(../img/hire-us-background.jpg);
+    width: 846px;
+} */
 
 .hire__us-title {
+  font-size: 20px;
+  text-align: center;
 }
-
 .hire__us-subtitle {
   font-family: "Rubik", sans-serif;
-  color: var(--subtext-color);
-  font-weight: 700;
   font-size: 30px;
+  font-weight: 400;
+  text-align: center;
+  width: 131px;
+  height: 107px;
+  margin-left: 70px;
 }
-
 .hire__us-info {
-  font-family: "Lato", sans-serif;
-  color: var(--subtitle-color);
-  font-weight: 700;
+  font-family: 'Lato', sans-serif;
   font-size: 20px;
-}
-
-.hire__us-placeholder {
-}
-
-.hire__us-name {
-  font-family: "Lato", sans-serif;
-  color: var(--subtext-color);
-  font-weight: 400;
-  font-size: 15px;
-  box-sizing: border-box;
-  height: 40px;
-  width: 202px;
-  margin-top: 12px;
-  padding: 11px 22px 11px 22px;
-  position: relative;
-  border-radius: 20px;
-}
-
-.hire__us-phone {
-  font-family: "Lato", sans-serif;
-  color: var(--subtext-color);
-  font-weight: 400;
-  font-size: 15px;
-  box-sizing: border-box;
-  height: 40px;
-  width: 202px;
-  margin-top: 12px;
-  padding: 11px 22px 11px 22px;
-  position: relative;
-  border-radius: 20px;
-}
-
-.hire__us-email {
-  font-family: "Lato", sans-serif;
-  color: var(--subtext-color);
-  font-weight: 400;
-  font-size: 15px;
-  box-sizing: border-box;
-  height: 40px;
-  width: 202px;
-  margin-top: 12px;
-  padding: 11px 22px 11px 22px;
-  position: relative;
-  border-radius: 20px;
-}
-
-.submit__button {
-  font-family: "Lato", sans-serif;
-  color: var(--button-color);
   font-weight: 700;
-  font-size: 15px;
-  background-color: rgb(231 39 45);
-  box-sizing: border-box;
-  height: 40px;
+  text-align: center;
+  width: 176px;
+  height: 114px;
+  margin-left: 50px;
+   
+}
+.hire__us-section {
+  width: 272px;
+  height: 666px;
+  background-color: var(--button-text-color);
+  margin-left: 24px;
+  border-radius: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.hire__us-placeholder {
   width: 202px;
-  margin-top: 12px;
-  padding: 11px 22px 11px 22px;
-  position: relative;
+  height: 264px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: start;
+  margin-left: 35px;
+}
+.hire__us-name {
+  width: 202px;
+  height: 40px;
   border-radius: 20px;
+  border-style: none;
+  padding: 11px 22px 11px 22px;
+  background-color: rgb(251 247 237);
+  font-size: 15px;
 }
-
-.hire__us-button {
+.hire__us-tel {
+  width: 202px;
+  height: 40px;
+  border-radius: 20px;
+  border-style: none;
+  padding: 11px 22px 11px 22px;
+  background-color: rgb(251 247 237);
+  font-size: 15px;
+  }
+.hire__us-email {
+  width: 202px;
+  height: 40px;
+  border-radius: 20px;
+  border-style: none;
+  padding: 11px 22px 11px 22px;
+  background-color: rgb(251 247 237);
+  font-size: 15px;
 }
-
-
+.submit__button {
+  width: 202px;
+  height: 40px;
+  border-radius: 20px;
+  border-style: none;
+  margin-left: 35px;
+  margin-top: 25px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(231, 49, 35);
+}
+ 
+  .submit__button:hover {
+    animation-name: background-color;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+  }
+ @keyframes background-color {
+    100% {
+      background-color: rgb(0, 0, 0);
+    }
+  }
