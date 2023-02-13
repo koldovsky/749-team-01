@@ -1,3 +1,9 @@
+.footer__top-background {
+    background-image: url('../img/footer__top-background.svg');
+    background-position: center;
+    width: 100%;
+}
+
 .footer__contact-us {
     display: flex;
     flex-direction: column;
