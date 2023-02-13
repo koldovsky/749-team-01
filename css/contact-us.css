@@ -15,15 +15,12 @@
 .footer__contacts-container {
     display: flex;
     flex-direction: column;
-    width: 66.6666666667%;
     text-align: left;
     line-height: 25.5px;
 }
 
 .footer__offer-to-contact {
-    width: 33.3333333333%;
-    min-width: 300px;
-    justify-content: flex-start;
+    justify-content: center;
     padding-left: 15px;
     padding-right: 15px;
 
