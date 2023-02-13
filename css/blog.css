@@ -20,8 +20,8 @@
 }
 .blog__press {
     display: grid;
-    padding-left: 90px;
-    padding-right: 90px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 @media (min-width: 770px) {
     .blog__press{

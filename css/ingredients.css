@@ -1,0 +1,38 @@
+.ingredients__right {
+    margin: 0 auto;
+    padding: 90px 30px;
+}
+
+.ingredients__subtitle {
+    font-size: 38px;
+}
+
+.description__benefits {
+    display: flex;
+}
+
+
+.description__benefits>img {
+    width: 6%;
+}
+
+.ingredients__description-bold {
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+.description__benefits {
+    font-size: 17px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+.ingredients__description {
+    font-size: 17px;
+    font-family: 'Lato', sans-serif;
+    color: rgb(103, 103, 103);
+    padding-top: 30px;
+}
