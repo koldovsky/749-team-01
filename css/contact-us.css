@@ -7,7 +7,8 @@
     padding-right: 24px;
     background-color: #272622;
     color: white;
-    min-width: 320px;
+    /* min-width: 320px; */
+    /* flex-wrap: wrap; */
     justify-content: center;
 }
 
@@ -25,6 +26,7 @@
     justify-content: flex-start;
     padding-left: 15px;
     padding-right: 15px;
+
 }
 
 @media (min-width:500px) {
@@ -83,12 +85,12 @@
     font-family: 'Rubic', sans-serif;
     font-size: 17px;
     color: rgb(173, 173, 173);
-
 }
 
-.footer__contacts-info-containter {
+.footer__contacts-info-container {
     padding-left: 15px;
     padding-right: 15px;
+    margin-top: 50px;
 }
 
 .footer__address,
@@ -100,4 +102,16 @@
 
 .footer__contacts-info {
     margin-top: 5px;
+}
+
+.footer__order_form-btn {
+    display: inline-block;
+    margin-top: 35px;
+    padding: 16px 28px 16px 28px;
+    color: var(--button-text-color);
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    background-color: var(--icon-color);
+    text-decoration: solid;
+    border-radius: 25px;
 }
