@@ -27,7 +27,9 @@
     margin-top: 25px;
     color: var(--subtitle-color);
     font-family: 'Lato', sans-serif;
+    font-size: 20px;
     font-weight: 700;
+    line-height: 30px;
   }
 
 .download__app-info .download__text {
@@ -51,6 +53,11 @@
     gap: 10px;
   }
   
+.feature__title {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+}
+
 .feature__block .feature__img {
     background-color: #fbf7ed;
     width: 50px;
