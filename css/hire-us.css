@@ -145,7 +145,7 @@
    }
  }
 
- @media (min-width: 767) {
+ @media (min-width: 767px) {
    .hire__us-section {
      height: 547px;
    }
