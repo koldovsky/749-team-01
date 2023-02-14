@@ -182,3 +182,11 @@
      height: 620px;
    }
  }
+
+ @media (min-width: 1200px) {
+   .hire__us-section {
+     width: 469px;
+     height: 620px;
+     margin-left: 21%;
+   }
+ }
