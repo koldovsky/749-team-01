@@ -117,6 +117,12 @@
     position: relative;
     text-align: left;
 }
+.franchising__bottom:hover {
+    background-color: var(--subtext-color);
+}
+ .catering__bottom:hover {
+    background-color: var(--subtext-color);
+}
 @media (min-width: 768px) {
     .franchising {
         display: flex;
