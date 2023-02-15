@@ -10,7 +10,7 @@
 .aboutus__left,
 .aboutus__right>div,
 .aboutus__svg,
-.aboutus__svg>div,
+.aboutus__svg>div
 /* div:has(.aboutus__button) */ { 
     display: grid;
     place-items: center;
