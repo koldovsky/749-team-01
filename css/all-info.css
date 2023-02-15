@@ -104,12 +104,12 @@
 }
 
 .footer__subscribe-email {
-  background-color: #ffffff1c;
-  color: rgb(251, 247, 237);
+  background-color: var(--email-footer-background);
+  color: var(--form-background-color);
 }
 
 .footer__subscribe-email:hover {
-  border: 2px solid rgb(251, 247, 237);
+  border: var(--form-background-color);
 }
 
 .footer__subscribe-btn {
