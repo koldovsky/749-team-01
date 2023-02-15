@@ -1,12 +1,12 @@
 .header {
-	background-image: url(https://res2.weblium.site/res/621624150217f800226038e2/6230ec8b64585600230c17a0?nowebp);
+	background-image: url(../img/header--banner-cover.jpg);
 	background-position-x: 25%;
 	background-size: cover;
 	padding: 0 24px;
 }
 
 .header__background-bottom {
-	background-image: url(https://res2.weblium.site/res/621624150217f800226038e2/62307eb98db26b0023d47681?nowebp);
+	background-image: url(../img/header-banner-bottom.svg);
 	background-color: transparent;
 	background-position: center;
 	height: 10px;
