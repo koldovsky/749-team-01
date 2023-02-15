@@ -5,7 +5,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    min-height: 4000px;    
+    min-height: 3000px;    
 }
 
 .main__burgers-title { 
@@ -128,7 +128,8 @@
     justify-content: space-between;
    background: #fcbe37;
     background-size: cover;
-    padding-left: 100px;     
+    padding-left: 100px;
+    margin-top: 10px;    
 }
 
 .grab__your-discount {
@@ -206,6 +207,9 @@
     color: #e7272d;
  }
  @media (min-width: 560px) {
+    .disconts__salads-actual-discount {
+        height: 960px;
+    }
     .discount__and-salads {
         flex-direction: row;
         gap: 30px;
