@@ -1,12 +1,12 @@
-.download {
+.our-app {
     padding: 90px 0px 90px 0px;
   }
 
-.download__allscreen-info {
+.our-app__allscreen-info {
     padding: 0px 24px 0px 24px;
 }  
 
-.download__app-info {
+.our-app__text-info {
     margin-top: 50px;
     display: flex;
     flex-direction: column;
@@ -14,7 +14,7 @@
     padding-left: 15px;
   }
 
-.download__app-info .download__subtitle {
+.our-app__text-info .our-app__subtitle {
     margin-top: 20px;
     font-size: 38px;
     color: var(--subtext-color);
@@ -23,7 +23,7 @@
     font-weight: bold;
   }
 
-.download__app-info .download__slogan {
+.our-app__text-info .our-app__slogan {
     margin-top: 25px;
     color: var(--subtitle-color);
     font-family: 'Lato', sans-serif;
@@ -32,7 +32,7 @@
     line-height: 30px;
   }
 
-.download__app-info .download__text {
+.our-app__text-info .our-app__text {
     margin-top: 25px;
     color: var(--text-color);
     font-size: 17px;
@@ -94,34 +94,34 @@
     line-height: 25.5px;
   }
   
-.download__buttons {
+.dour-app__buttons {
     margin-top: 35px;
   }
   
-.download__buttons .download__icons-item .download__button-img {
+.our-app__buttons .our-app__icons-item .our-app__button-img {
     margin: 10px;
     width: 169px;
     height: 51.9px;
   }
 
 @media (min-width: 387px) {
-    .download__buttons {
+    .our-app__buttons {
       display: flex;
       flex-direction: row;
     }
 }
 
 @media (min-width: 768px) {
-  .download__app-info {
+  .our-app__text-info {
     margin-top: 0px;
   }
 
-  .download__buttons {
+  .our-app__buttons {
     display: flex;
     flex-direction: column;
   }
 
-  .download__allscreen-info {
+  .our-app__allscreen-info {
     display: grid;
     grid-template-columns: 337px 1fr;
   }
