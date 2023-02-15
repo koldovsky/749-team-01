@@ -40,6 +40,7 @@ h3 {
   --header-phone-color: #282623;
   --background-header-color: #efad18;
   --email-footer-background: #ffffff1c;
+  --footer-carousel-button-color: rgba(0, 0, 0, 0.5);
   scroll-behavior: smooth;
 }
 
