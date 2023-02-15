@@ -1,6 +1,7 @@
 .video__section{
     background-image: url(../img/video_background.jpg);
     background-size: cover;
+    background-position: center;
     position: relative;
     min-width: 320px;
     display: block;

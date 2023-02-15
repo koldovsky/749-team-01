@@ -116,6 +116,11 @@
     margin-top: 0px;
   }
 
+  .download__buttons {
+    display: flex;
+    flex-direction: column;
+  }
+
   .download__allscreen-info {
     display: grid;
     grid-template-columns: 337px 1fr;
