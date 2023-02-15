@@ -52,7 +52,7 @@
    display: block;
    text-align: center;
    margin-top: 40px;
-
+  text-transform: capitalize;
  }
 
  .hire__us-subtitle {
@@ -77,7 +77,7 @@
  }
 
  .hire__us-placeholder {
-   width: 95%;
+   width: 85%;
    height: 180px;
    display: flex;
    flex-direction: column;
@@ -89,7 +89,7 @@
  .hire__us-tel,
  .hire__us-email {
 
-   width: 93%;
+   width: 95%;
    height: 40px;
    border-radius: 20px;
    border-style: none;
@@ -99,7 +99,7 @@
  }
 
  .submit__button {
-   width: 90%;
+   width: 80%;
    height: 40px;
    border-radius: 20px;
    border-style: none;
@@ -205,5 +205,8 @@
      width: 469px;
      height: 620px;
      margin-left: 21%;
+   }   
+   .hire__us-title {
+    font-size: 20px;
    }
  }
