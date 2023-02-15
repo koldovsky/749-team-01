@@ -70,8 +70,7 @@
 .discount__and-salads{
     min-height: 800px;
     display: flex;
-   flex-direction: column;
-   justify-content: space-between;
+   flex-direction: column;   
    padding: 0 24px; 
 }
 
@@ -88,7 +87,7 @@
     flex-direction: column;
     justify-content: space-around;
     min-width: 272px;
-    max-width: 641px;
+    max-width: 841px;
     min-height: 373px;
     max-height: 375px;
     background: url(../img/discount-background.jpg);
@@ -112,7 +111,12 @@
     border-radius: 2%;
     padding: 31px 35px;              
 }
-
+.salads__title {
+    color: white;
+}
+.salads__text {
+    color: white;
+}
 .discount__subtitle {
     text-align: left;
     padding-top: 30px;
@@ -204,10 +208,18 @@
  @media (min-width: 560px) {
     .discount__and-salads {
         flex-direction: row;
-        gap: 10px;
+        gap: 30px;
     }
     .actual__discount {
         flex-direction: row;
+        height: 91px;
+    }
+    .discount {
+        width: 690px;
+
+    }
+    .salads {
+        width: 580px;
     }
  }
 
