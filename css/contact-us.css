@@ -130,6 +130,7 @@
 .footer__order_form-btn:hover {
     background-color: var(--button-text-color);
     color: var(--animation-button-color);
+    transition: all 1s;
 }
 
 @media (min-width:990px) {
