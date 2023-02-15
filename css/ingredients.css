@@ -7,13 +7,9 @@
     font-size: 38px;
 }
 
-.description__benefits {
-    display: flex;
-}
-
-
 .description__benefits>img {
-    width: 6%;
+    width: 20px;
+    height: 20px;
 }
 
 .ingredients__description-bold {
@@ -24,6 +20,8 @@
 }
 
 .description__benefits {
+    display: flex;
+    align-items: flex-start;
     font-size: 17px;
     font-family: 'Lato', sans-serif;
     font-weight: bold;
@@ -35,4 +33,35 @@
     font-family: 'Lato', sans-serif;
     color: rgb(103, 103, 103);
     padding-top: 30px;
+}
+
+@media (min-width: 768px) {
+    .ingredients {
+        display: flex;
+        justify-content: space-between;
+        gap: 20%;
+    }
+
+    .ingredients__right {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .ingredients__left > img {
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+    }
+
+    .ingredients__description{
+        /* width: 80%; */
+    }
+
+    .ingredients__subtitle {
+        font-size: 56px;
+    }
+
+    
+    
 }
