@@ -156,10 +156,10 @@
     font-family: 'Lato', sans-serif;
     font-size: 16.5px;
     font-weight: 700;
-    color: white;
-    background: #e7272d;
+    color: black;
+    background: white;
     border: 2px solid;
-    border-color: #e7272d;
+    border-color: white;
     border-radius: 50px;
     padding-top: 13px;   
  }
@@ -207,6 +207,10 @@
     color: #e7272d;
  }
  @media (min-width: 560px) {
+    .discount__and-salads {
+        justify-content: center;
+        margin: 15px;
+    }
     .disconts__salads-actual-discount {
         height: 960px;
     }
@@ -215,8 +219,9 @@
         gap: 30px;
     }
     .actual__discount {
+        padding: 30px;
         flex-direction: row;
-        height: 91px;
+        height: 360px;
     }
     .discount {
         width: 690px;
