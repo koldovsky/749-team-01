@@ -1,8 +1,7 @@
 .blog {
     background: url(../img/blog-background.jpg);
-    height: 800px;  
+    background-size: cover;
     padding-bottom: 10px;
-    margin-top: 80px;
 }
 .blog__header {
     display: flex;
