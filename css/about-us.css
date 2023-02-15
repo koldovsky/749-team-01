@@ -1,7 +1,7 @@
 .aboutus {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 6rem;
+    gap: 3,5rem;
     background-image: url("../img/aboutus__background.jpg");
     background-size: 100%;
 }
@@ -68,6 +68,7 @@
     font-size: 16.5px;
     padding: 1rem;
     border-radius: 30px;
+    
 }
 .aboutus__button:hover {
     background-color: var(--subtext-color);
