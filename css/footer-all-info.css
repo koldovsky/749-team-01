@@ -49,8 +49,6 @@
   filter: brightness(90%);
 }
 
-
-
 .footer__navigator-container,
 .footer__customers-container,
 .footer__subscribe-form {
@@ -88,8 +86,8 @@
 }
 
 .footer__navigator-link:hover,
-.footer__customers-link:hover{
- color: var(--icon-color);
+.footer__customers-link:hover {
+  color: var(--icon-color);
 }
 
 .footer__subscribe-email,
@@ -193,5 +191,4 @@
   .footer__bottom-text {
     margin: 20px 30px 0 30px;
   }
-
 }
