@@ -1,6 +1,7 @@
 .main__burgers {
     background: url(../img/burgers-background.jpg);
-    padding: 0 24px;
+    background-position: center;
+    background-size: contain;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -70,7 +71,8 @@
     min-height: 800px;
     display: flex;
    flex-direction: column;
-   justify-content: space-between;  
+   justify-content: space-between;
+   padding: 0 24px; 
 }
 
 .discount__subtitle,
@@ -106,6 +108,7 @@
     background: url(../img/salads-background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: right;
     border-radius: 2%;
     padding: 31px 35px;              
 }
@@ -116,7 +119,12 @@
 }
 
 .actual__discount {
-    background: #fcbe37;        
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+   background: #fcbe37;
+    background-size: cover;
+    padding-left: 100px;     
 }
 
 .grab__your-discount {
@@ -183,6 +191,26 @@
     padding-top: 13px;
     margin: 15px;
  }
+ 
  .grab__your-discount-text {
-    
+    text-align: center;
+    font-size: 15px;
+    font-stretch: 100%;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
  }
+ .actual__discount-star {
+    color: #e7272d;
+ }
+ @media (min-width: 560px) {
+    .discount__and-salads {
+        flex-direction: row;
+        gap: 10px;
+    }
+    .actual__discount {
+        flex-direction: row;
+    }
+ }
+
+ 
+ 
