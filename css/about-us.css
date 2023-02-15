@@ -10,8 +10,8 @@
 .aboutus__left,
 .aboutus__right>div,
 .aboutus__svg,
-.aboutus__svg>div,
-div:has(.aboutus__button) {
+.aboutus__svg>div
+/* div:has(.aboutus__button) */ { 
     display: grid;
     place-items: center;
 }
@@ -58,9 +58,9 @@ div:has(.aboutus__button) {
     gap: 0.5rem;
 }
 
-div:has(.aboutus__button) {
+/* div:has(.aboutus__button) {
     width: 100%;
-}
+} */
 
 .aboutus__button {
     background-color: var(--title-color);

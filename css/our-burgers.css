@@ -1,10 +1,11 @@
 .main__burgers {
     background: url(../img/burgers-background.jpg);
-    padding: 0 24px;
+    background-position: center;
+    background-size: contain;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    min-height: 4000px;    
+    min-height: 2000px;    
 }
 
 .main__burgers-title { 
@@ -67,10 +68,9 @@
 }
 
 .discount__and-salads{
-    min-height: 800px;
     display: flex;
-   flex-direction: column;
-   justify-content: space-between;  
+   flex-direction: column;   
+   padding: 0 24px; 
 }
 
 .discount__subtitle,
@@ -86,7 +86,7 @@
     flex-direction: column;
     justify-content: space-around;
     min-width: 272px;
-    max-width: 641px;
+    max-width: 841px;
     min-height: 373px;
     max-height: 375px;
     background: url(../img/discount-background.jpg);
@@ -106,17 +106,29 @@
     background: url(../img/salads-background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: right;
     border-radius: 2%;
     padding: 31px 35px;              
 }
-
+.salads__title {
+    color: white;
+}
+.salads__text {
+    color: white;
+}
 .discount__subtitle {
     text-align: left;
     padding-top: 30px;
 }
 
 .actual__discount {
-    background: #fcbe37;        
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+   background: #fcbe37;
+    background-size: cover;
+    padding-left: 100px;
+       
 }
 
 .grab__your-discount {
@@ -143,10 +155,10 @@
     font-family: 'Lato', sans-serif;
     font-size: 16.5px;
     font-weight: 700;
-    color: white;
-    background: #e7272d;
+    color: black;
+    background: white;
     border: 2px solid;
-    border-color: #e7272d;
+    border-color: white;
     border-radius: 50px;
     padding-top: 13px;   
  }
@@ -183,6 +195,46 @@
     padding-top: 13px;
     margin: 15px;
  }
+ 
  .grab__your-discount-text {
-    
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
  }
+ .actual__discount-star {
+    color: #e7272d;
+ }
+ @media (min-width: 560px) {
+    
+    }
+    .discount__and-salads {
+        justify-content: center;
+        margin: 15px;
+    }
+
+    .discount__and-salads {
+        flex-direction: row;
+        gap: 30px;
+    }
+    .actual__discount {
+        padding: 30px;
+        flex-direction: row;
+        height: 160px;
+        margin-top: 150px;
+    }
+    .discount {
+        width: 690px;
+
+    }
+    .salads {
+        width: 580px;
+    }
+ @media (max-width: 768px) {
+    .discount__and-salads {
+        flex-direction: column;
+    }
+ }
+
+ 
+ 

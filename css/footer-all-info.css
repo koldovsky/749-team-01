@@ -49,8 +49,6 @@
   filter: brightness(90%);
 }
 
-
-
 .footer__navigator-container,
 .footer__customers-container,
 .footer__subscribe-form {
@@ -88,8 +86,8 @@
 }
 
 .footer__navigator-link:hover,
-.footer__customers-link:hover{
- color: var(--icon-color);
+.footer__customers-link:hover {
+  color: var(--icon-color);
 }
 
 .footer__subscribe-email,
@@ -104,12 +102,12 @@
 }
 
 .footer__subscribe-email {
-  background-color: #ffffff1c;
-  color: rgb(251, 247, 237);
+  background-color: var(--email-footer-background);
+  color: var(--form-background-color);
 }
 
 .footer__subscribe-email:hover {
-  border: 2px solid rgb(251, 247, 237);
+  border: var(--form-background-color);
 }
 
 .footer__subscribe-btn {
@@ -193,5 +191,4 @@
   .footer__bottom-text {
     margin: 20px 30px 0 30px;
   }
-
 }

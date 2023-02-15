@@ -1,20 +1,20 @@
-.download {
-    padding: 90px 24px 90px 24px;
+.our-app {
+    padding: 90px 0px 90px 0px;
   }
-  
-  .download .app__phone-screenshot phone-img {
-    padding: 15px;
-  }
-  
-  .download__app-info {
+
+.our-app__allscreen-info {
+    padding: 0px 24px 0px 24px;
+}  
+
+.our-app__text-info {
     margin-top: 50px;
     display: flex;
     flex-direction: column;
     padding-right: 15px;
     padding-left: 15px;
   }
-  
-  .download__app-info .download__subtitle {
+
+.our-app__text-info .our-app__subtitle {
     margin-top: 20px;
     font-size: 38px;
     color: var(--subtext-color);
@@ -23,14 +23,16 @@
     font-weight: bold;
   }
 
-  .download__app-info .download__slogan {
+.our-app__text-info .our-app__slogan {
     margin-top: 25px;
     color: var(--subtitle-color);
     font-family: 'Lato', sans-serif;
+    font-size: 20px;
     font-weight: 700;
+    line-height: 30px;
   }
-  
-  .download__app-info .download__text {
+
+.our-app__text-info .our-app__text {
     margin-top: 25px;
     color: var(--text-color);
     font-size: 17px;
@@ -38,19 +40,25 @@
     line-height: 25.5px;
     font-family: 'Lato', sans-serif;
   }
-  
-  .app__features {
+
+.app__features {
     margin-top: 20px;
   }
   
-  .feature__block {
+.feature__block {
     padding-top: 7.5px;
     padding-bottom: 7.5px;
     display: grid;
-    grid-template-columns: 1fr 212px;
+    grid-template-columns: 50px 1fr;
+    gap: 10px;
   }
   
-  .feature__block .feature__img {
+.feature__title {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+}
+
+.feature__block .feature__img {
     background-color: #fbf7ed;
     width: 50px;
     height: 50px;
@@ -66,32 +74,55 @@
   align-items: center;
 }
 
-  .feature__block .feature__img img {
+.feature__block .feature__img img {
     height: 26px;
     width: 26px;
     margin: auto;
   }
   
-  .feature__descr .feature__title {
-    color: rgb(40, 38, 35);
+.feature__descr .feature__title {
+    color: var(--subtext-color);
     font-size: 22px;
     font-weight: 600;
     line-height: 26.4px;
   }
   
-  .feature__descr .feature__text {
+.feature__descr .feature__text {
     color: var(--text-color);
     font-size: 17px;
     font-weight: 400;
     line-height: 25.5px;
   }
   
-  .download__buttons {
+.dour-app__buttons {
     margin-top: 35px;
   }
   
-  .download__buttons .download__icons-item .download__button-img {
+.our-app__buttons .our-app__icons-item .our-app__button-img {
     margin: 10px;
     width: 169px;
     height: 51.9px;
   }
+
+@media (min-width: 387px) {
+    .our-app__buttons {
+      display: flex;
+      flex-direction: row;
+    }
+}
+
+@media (min-width: 768px) {
+  .our-app__text-info {
+    margin-top: 0px;
+  }
+
+  .our-app__buttons {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .our-app__allscreen-info {
+    display: grid;
+    grid-template-columns: 337px 1fr;
+  }
+}

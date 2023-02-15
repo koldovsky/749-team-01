@@ -1,12 +1,12 @@
 .header {
-	background-image: url(https://res2.weblium.site/res/621624150217f800226038e2/6230ec8b64585600230c17a0?nowebp);
+	background-image: url(../img/header--banner-cover.jpg);
 	background-position-x: 25%;
 	background-size: cover;
 	padding: 0 24px;
 }
 
 .header__background-bottom {
-	background-image: url(https://res2.weblium.site/res/621624150217f800226038e2/62307eb98db26b0023d47681?nowebp);
+	background-image: url(../img/header-banner-bottom.svg);
 	background-color: transparent;
 	background-position: center;
 	height: 10px;
@@ -92,6 +92,12 @@
 	padding: 12px 24px;
 }
 
+.header__order-button:hover {
+	background-color: var(--header-phone-color);
+	transition: 0.6s;
+}
+
+
 .header__call-now {
 	width: 272px;
 	height: 81px;
@@ -141,7 +147,6 @@
 	}
 
 	.header {
-		background-image: url(https://res2.weblium.site/res/621624150217f800226038e2/6230ec8b64585600230c17a0?nowebp);
 		background-position-x: 45%;
 		background-position-y: 6rem;
 		background-size: cover;
@@ -176,7 +181,6 @@
 	}
 
 	.header {
-		background-image: url(https://res2.weblium.site/res/621624150217f800226038e2/6230ec8b64585600230c17a0?nowebp);
 		background-position-x: 50%;
 		background-position-y: 5rem;
 		background-size: cover;
@@ -185,23 +189,40 @@
 
 @media (min-width: 990px) {
 	.header {
-	padding: 0 24px;
+		padding: 0;
+		height: 974px;
 	}
-	
+
 	.header__contacts {
+		padding: 0;
+		background-color: var(--background-header-color);
 		height: 51px;
+		width: 100%;
+		font-family: 'Lato', sans-serif;
+		font-size: 15px;
+		color: var(--button-text-color);
+		font-weight: 900;
 		display: flex;
 		flex-direction: row;
 		justify-content: space-around;
 		align-items: center;
 	}
 
+	.header__email {
+		color: var(--button-text-color);
+	}
+
 	.header__nav {
+		padding: 0 40px;
 		height: 93px;
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
 		align-items: center;
+	}
+
+	.header__logo {
+		width: 173px;
 	}
 
 	.header__icons {
@@ -213,8 +234,57 @@
 
 	.header__menu {
 		width: 386px;
+		color: var(--subtext-color);
+		font-size: 17px;
 		display: flex;
 		flex-direction: row;
 		justify-content: space-around;
+	}
+
+	.header__menu-item {
+		color: var(--subtext-color);
+	}
+
+	.header__title {
+		font-size: 20px;
+	}
+
+	.header__slogan {
+		width: 519px;
+		font-size: 70px;
+		font-weight: 700;
+		line-height: 70px;
+	}
+
+	.header__banner {
+		padding: 150px 0px 130px 40px;
+		height: 874px;
+		width: 600px;
+	}
+
+	.header__banner-text {
+		height: 450px;
+		width: 600px;
+	}
+
+	.header__order-button {
+		margin-right: 20px;
+	}
+}
+
+@media (min-width: 1200px) {
+
+	.header__banner,
+	.header__banner-text {
+		width: 75%;
+	}
+
+	.header__slogan {
+		width: 95%;
+	}
+
+	.header {
+		background-position-y: 95%;
+		background-size: contain;
 	}
 }
