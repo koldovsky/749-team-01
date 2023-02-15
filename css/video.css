@@ -1,5 +1,6 @@
 .video__section{
     background-image: url(../img/video_background.jpg);
+    background-size: cover;
     position: relative;
     min-width: 320px;
     display: block;
@@ -17,11 +18,14 @@
 
 .video__content{
     margin-left: 74px;
-    margin-right: 74px;
+    margin-right: 35%;
     padding-top: 200px;
     padding-bottom: 190px;
-    display: flex;
-    flex-direction: column;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: grid;
+    grid-template-rows: minmax(320px, 1200px), 360px;
+    justify-content: center;
 }
 
 .watch__video{
@@ -35,6 +39,7 @@
     font-size: 56px;
     margin-top: 20px;
     font-weight: 700;
+    margin-bottom: 25px;
 }
 
 .video__slogan{
@@ -43,6 +48,7 @@
     font-family: 'Lato', sans-serif;
     font-weight: 700;
     margin-top: 25px;
+    text-align: justify;
 }
 
 .watch__video__text{
@@ -51,4 +57,22 @@
     font-family: 'Lato', sans-serif;
     font-weight: 700;
     margin: 7.5px;
+}
+
+@media (max-width: 770px) {
+    .video__subtitle{
+        font-size: 38px;
+    }
+
+    .video__title{
+        font-size: 18px;
+    }
+
+    .video__content{
+        padding-top: 110px;
+        padding-bottom: 110px;
+        padding-left: 24px;
+        padding-right: 24px;
+        margin: auto;
+    }
 }
