@@ -1,17 +1,15 @@
 .our-app {
-    padding: 90px 0px 90px 0px;
+    padding: 90px 0;
   }
 
 .our-app__allscreen-info {
-    padding: 0px 24px 0px 24px;
+    padding: 0px 24px;
 }  
 
 .our-app__text-info {
     margin-top: 50px;
     display: flex;
     flex-direction: column;
-    padding-right: 15px;
-    padding-left: 15px;
   }
 
 .our-app__text-info .our-app__subtitle {
@@ -46,14 +44,13 @@
   }
   
 .feature__block {
-    padding-top: 7.5px;
-    padding-bottom: 7.5px;
+    padding: 7.5px 0;
     display: grid;
     grid-template-columns: 50px 1fr;
     gap: 10px;
   }
   
-.feature__title {
+.feature__descr .feature__title {
   font-family: 'Lato', sans-serif;
   font-weight: 700;
 }
@@ -92,37 +89,102 @@
     font-size: 17px;
     font-weight: 400;
     line-height: 25.5px;
+    font-family: 'Lato', sans-serif;
   }
   
-.dour-app__buttons {
+.our-app__buttons {
     margin-top: 35px;
   }
   
-.our-app__buttons .our-app__icons-item .our-app__button-img {
+.our-app__buttons .our-app__icons-item {
     margin: 10px;
-    width: 169px;
-    height: 51.9px;
   }
+
+.our-app__buttons .our-app__icons-item .play-market__button-img {
+    width: 169px;
+    height: 51.93px;
+    border-radius: 5px;
+}
+
+.our-app__buttons .our-app__icons-item .app-store__button-img {
+    width: 150px;
+    height: 51.99px;
+    border-radius: 5px; 
+}
 
 @media (min-width: 387px) {
     .our-app__buttons {
       display: flex;
       flex-direction: row;
     }
+
+    .our-app__buttons .our-app__icons-item {
+      margin: 10px 5px;
+    }
 }
 
 @media (min-width: 768px) {
-  .our-app__text-info {
-    margin-top: 0px;
-  }
+    .our-app__allscreen-info {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
 
-  .our-app__buttons {
-    display: flex;
-    flex-direction: column;
-  }
+    .our-app__text-info {
+      margin-top: 0px;
+    }
 
-  .our-app__allscreen-info {
-    display: grid;
-    grid-template-columns: 337px 1fr;
+    .our-app__text-info .our-app__title {
+      font-size: 18px;
+    }
+
+    .our-app__text-info .our-app__subtitle {
+      font-size: 47px;
+      font-weight: 700;
+    }
+
+    .feature__block {
+      gap: 28px;
+    }
+
+    .feature__descr .feature__title {
+      font-size: 23px;
+      font-family: 'Lato', sans-serif;
+      font-weight: 700;
+    }
+
+    .feature__block .feature__img {
+      width: 70px;
+      height: 70px;
+    }
+    
+    .feature__block .feature__img img {
+      height: 40px;
+      width: 40px;
+    }
+
+    .our-app__buttons {
+      display: flex;
+      flex-direction: column;
+    }
+}
+
+@media (min-width: 900px) {
+    .our-app__buttons {
+      display: flex;
+      flex-direction: row;
+    }
+}
+
+@media (min-width: 1127px) {
+    .our-app {
+      background-image: url(../img/our-app__background.jpg);
+      background-size: cover;
+  }
+}
+
+@media (min-width: 1200px) {
+    .our-app__allscreen-info {
+      padding: 0 40px;
+      gap: 30px;
   }
 }
