@@ -1,0 +1,85 @@
+/* .aboutus {
+    background-image: url(../img/aboutus__background.jpg);
+} */
+
+.aboutus {
+    padding: 105px 0;
+}
+
+.aboutus__left {
+    display: flex;
+    justify-content: center;
+}
+
+.aboutus__picture {
+    width: 272px;
+    height: 281.05px;
+    display: flex;
+    justify-content: center;
+}
+
+.aboutus__checkbox {
+    width: 20px;
+}
+
+.aboutus__right {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    flex-direction: column;
+    padding: 0 7vw;
+}
+
+.aboutus__subtitle {
+    margin: 20px 0;
+    font-size: 38px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+}
+
+.aboutus__tagline {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--subtitle-color);
+}
+
+.aboutus__text {
+    margin: 25px 0;
+    font-size: 17px;
+    color: var(--text-color);
+    line-height: 25.5px;
+}
+
+.aboutus__checkbox-container {
+    display: grid;
+    grid-template-columns: 45% 1fr;
+    gap: 20px;
+        
+}
+
+.aboutus__checkbox-text {
+    display: grid;
+    grid-template-columns: 20% 1fr;
+    flex-wrap: wrap;
+    font-size: 17px;
+    font-weight: 700;
+    color: var(--font-color-checkboxtext);
+}
+
+.aboutus__additional-text {
+    margin: 25px 0 60px 0;
+    line-height: 25.5px;
+    color: var(--text-color);
+}
+
+.aboutus__button {
+    background-color: var(--title-color);
+    color: white;
+    font-size: 16.5px;
+    padding: 15px 30px;
+    border-radius: 35px;
+}
+
+.aboutus__button:hover {
+    background-color: var(--subtext-color);
+}

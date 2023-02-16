@@ -35,12 +35,13 @@ h3 {
   --form-background-color: rgb(251 247 237);
   font-family: "Lato", sans-serif;
   --subtitle-font: 'Rubik', sans-serif;
-  --subtitle-color: #696969;
+  --subtitle-color: rgb(105, 105, 105);
   --subtitle-header-color: #ffffff;
   --header-phone-color: #282623;
   --background-header-color: #efad18;
-  --email-footer-background: #ffffff1c;
+  --email-footer-background: rgba(255, 255, 255, 0.11);
   --footer-carousel-button-color: rgba(0, 0, 0, 0.5);
+  --font-color-checkboxtext: rgb(69, 69, 69);
   scroll-behavior: smooth;
 }
 
