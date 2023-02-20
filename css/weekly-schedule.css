@@ -29,14 +29,6 @@
     margin-bottom: 25px;
 }
 
-.schedule__right {
-    display: inline-block;
-}
-
-.schedule__right-item {
-    display: inline-block;
-}
-
 .schedule__left-call {
 	width: 272px;
 	height: 81px;
@@ -74,4 +66,19 @@
     font-weight: 700;
     margin-top: 25px;
     text-align: justify;
+}
+
+.schedule__right {
+    display: inline-block;
+    position: relative;
+    min-width: 320px;
+
+}
+
+.schedule__right-item {
+    display: inline-block;
+    position: relative;
+    width: 280px;
+    height: 320px;
+    background-color: #fff;
 }
