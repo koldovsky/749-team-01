@@ -3,10 +3,19 @@
     --schedule-left-title-color: white;
     background-color: var(--schedule-background-color);
     height: 480px;
+    position: relative;
+    min-width: 320px;
 }
 
 .schedule__left {
-    display: inline-block;
+    margin-left: 74px;
+    margin-right: 35%;
+    padding-top: 200px;
+    padding-bottom: 190px;
+    padding-left: 15px;
+    padding-right: 15px;
+    justify-content: center;
+    display: grid;
 }
 
 .schedule__left-title {
