@@ -75,8 +75,6 @@
 
 .schedule__right {
   display: inline-block;
-  align-items: center;
-  justify-content: center;
   width: 96%;
   max-width: 1800px;
   min-width: 320px;
