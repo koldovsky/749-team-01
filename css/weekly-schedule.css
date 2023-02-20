@@ -56,7 +56,8 @@
 	line-height: 25px;
 }
 .schedule__call-icon {
-    width: 50px;
-	height: 51px;
+    width: 40px;
 	margin-right: 15px;
+    background: rgb(239, 173, 24);
+    border-radius: 50%;
 }
