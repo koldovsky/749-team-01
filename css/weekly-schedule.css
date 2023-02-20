@@ -89,7 +89,7 @@
 }
 
 .schedule__right-item {
-  display: block;
+  display: inline-block;
   align-items: center;
   justify-content: center;
   height: 320px;
