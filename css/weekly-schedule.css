@@ -9,7 +9,7 @@
     display: inline-block;
 }
 
-schedule__left-title {
+.schedule__left-title {
     color: var(--schedule-left-title-color);
     font-size: 56px;
     margin-top: 20px;
