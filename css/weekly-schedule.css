@@ -10,6 +10,7 @@
 }
 
 .schedule__left {
+    border: 1px solid red;
     width: 380px;
     height: 380px;
     margin-left: 74px;
@@ -19,7 +20,7 @@
     padding-right: 15px;
     vertical-align: baseline;
     justify-content: center;
-    display: flex;
+    display: block;
 }
 
 .schedule__left-title {
@@ -81,4 +82,5 @@
     width: 280px;
     height: 320px;
     background-color: #fff;
+    border: 1px solid red;
 }
