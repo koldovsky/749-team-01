@@ -10,8 +10,6 @@
 }
 
 .schedule__left-title {
-    font-family: "Rubik", sans-serif;
-    font-weight: 800;
     color: var(--schedule-left-title-color);
     font-size: 56px;
     margin-top: 20px;
