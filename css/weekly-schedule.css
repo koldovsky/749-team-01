@@ -92,8 +92,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 320;
-  width: 300;
+  height: 320px;
+  width: 300px;
   border-radius: 6px;
   background-color: #fff;
 }
