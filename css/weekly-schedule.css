@@ -33,7 +33,7 @@
 
 .schedule__left-call {
 	width: 272px;
-	height: 81px;
+	height: 80px;
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-start;
@@ -74,13 +74,12 @@
     display: flex;
     width: 2250px;
     min-width: 320px;
-
 }
 
 .schedule__right-item {
     display: block;
     width: 280px;
     height: 320px;
+    margin-right: 24px;
     background-color: #fff;
-    border: 1px solid red;
 }
