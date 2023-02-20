@@ -1,6 +1,7 @@
 .schedule {
     --schedule-background-color: #fcbe37;
     background-color: var(--schedule-background-color);
+    height: 380px;
 }
 
 .schedule__left {
