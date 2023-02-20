@@ -4,7 +4,8 @@
     --schedule-call-icon-background-color: rgb(239, 173, 24);
     background-color: var(--schedule-background-color);
     height: 480px;
-    position: relative;
+    dispaly: flex;
+    position: static;
     min-width: 320px;
 }
 
@@ -69,7 +70,7 @@
 }
 
 .schedule__right {
-    display: inline-block;
+    display: flex;
     position: relative;
     width: 2250px;
     min-width: 320px;
@@ -77,7 +78,7 @@
 }
 
 .schedule__right-item {
-    display: inline-block;
+    display: block;
     position: relative;
     width: 280px;
     height: 320px;
