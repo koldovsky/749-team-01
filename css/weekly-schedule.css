@@ -74,7 +74,7 @@
 }
 
 .schedule__right {
-  display: flex;
+  display: inline-block;
   align-items: center;
   justify-content: center;
   width: 96%;
@@ -126,19 +126,6 @@
   font-weight: 800 !important;
 }
 
-@media (min-width: 380px) {
-  .schedule-button-next {
-    right: 5px !important;
-  }
-
-  .schedule-button-prev {
-    left: 5px !important;
-  }
-
-  .schedule__right-item {
-    width: 92%;
-  }
-}
 
 
 
