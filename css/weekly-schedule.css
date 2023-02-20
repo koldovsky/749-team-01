@@ -11,6 +11,10 @@
     display: inline-block;
 }
 
+.schedule__right-item {
+    display: inline-block;
+}
+
 .schedule__left-call {
 	width: 272px;
 	height: 81px;
