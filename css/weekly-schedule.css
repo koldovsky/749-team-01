@@ -3,6 +3,14 @@
     background-color: var(--schedule-background-color);
 }
 
+.schedule__left {
+    display: inline-block;
+}
+
+.schedule__right {
+    display: inline-block;
+}
+
 .schedule__left-call {
 	width: 272px;
 	height: 81px;
