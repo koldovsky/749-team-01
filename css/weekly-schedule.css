@@ -1,6 +1,7 @@
 .schedule {
     --schedule-background-color: #fcbe37;
-    --schedule-left-title-color: white;
+    --schedule-left-title-color: #fff;
+    --schedule-call-icon-background-color: rgb(239, 173, 24);
     background-color: var(--schedule-background-color);
     height: 480px;
     position: relative;
@@ -56,8 +57,9 @@
 	line-height: 25px;
 }
 .schedule__call-icon {
-    width: 40px;
+    width: 45px;
 	margin-right: 15px;
-    background: rgb(239, 173, 24);
+    padding: 3px;
+    background: var(--schedule-call-icon-background-color);
     border-radius: 50%;
 }
