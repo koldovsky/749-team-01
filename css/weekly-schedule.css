@@ -20,7 +20,7 @@
     padding-right: 15px;
     vertical-align: baseline;
     justify-content: center;
-    display: block;
+    display: inline-block;
 }
 
 .schedule__left-title {
