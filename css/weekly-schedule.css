@@ -9,11 +9,14 @@
 }
 
 .schedule__left {
+    width: 380px;
+    height: 380px;
     margin-left: 74px;
     padding-top: 100px;
     padding-bottom: 100px;
     padding-left: 15px;
     padding-right: 15px;
+    vertical-align: baseline;
     justify-content: center;
     display: inline-block;
 }
