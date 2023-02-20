@@ -1,3 +1,25 @@
+.schedule__left-call {
+	width: 272px;
+	height: 81px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.schedule__call-title {
+	font-family: 'Lato', sans-serif;
+	font-size: 17px;
+	font-weight: 700;
+	color: var(--subtitle-header-color);
+}
+
+.schedule__call-phone {
+	color: var(--header-phone-color);
+	font-family: 'Lato', sans-serif;
+	font-size: 17px;
+	line-height: 25px;
+}
 .schedule__call-icon {
     width: 50px;
 	height: 51px;
