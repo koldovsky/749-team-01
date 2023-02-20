@@ -71,6 +71,7 @@
 .schedule__right {
     display: inline-block;
     position: relative;
+    width: 2250px;
     min-width: 320px;
 
 }
