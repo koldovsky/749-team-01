@@ -214,12 +214,10 @@
     .discount__and-salads {
         justify-content: center;
         margin: 15px;
-    }
-
-    .discount__and-salads {
         flex-direction: row;
         gap: 30px;
     }
+
     .actual__discount {
         padding: 30px;
         flex-direction: row;
