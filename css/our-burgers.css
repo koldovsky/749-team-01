@@ -1,6 +1,6 @@
 .main__burgers {
     background: url(../img/burgers-background.jpg);
-    background-position: center;
+    background-position: cover;
     background-size: contain;
     display: flex;
     flex-direction: column;
