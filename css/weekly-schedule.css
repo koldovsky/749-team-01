@@ -8,9 +8,10 @@
   background-color: var(--schedule-background-color);
   height: 600px;
   position: static;
+
 }
 
-.schedule__left {
+.schedule-info {
   width: 380px;
   height: 392px;
   position: relative;
@@ -23,7 +24,7 @@
   display: inline-block;
 }
 
-.schedule__left-title {
+.schedule-info-title {
   color: var(--schedule-left-title-color);
   font-size: 56px;
   margin-top: 20px;
@@ -31,7 +32,7 @@
   margin-bottom: 25px;
 }
 
-.schedule__left-call {
+.schedule-info-call {
   width: 272px;
   height: 80px;
   display: flex;
@@ -40,20 +41,20 @@
   align-items: center;
 }
 
-.schedule__call-title {
+.schedule-info-call-message {
   font-family: 'Lato', sans-serif;
   font-size: 17px;
   font-weight: 700;
   color: var(--subtitle-header-color);
 }
 
-.schedule__call-phone {
+.schedule-info-phone-number {
   color: var(--header-phone-color);
   font-family: 'Lato', sans-serif;
   font-size: 17px;
   line-height: 25px;
 }
-.schedule__call-icon {
+.schedule-info-phone-icon {
   width: 45px;
   margin-right: 15px;
   padding: 5px;
@@ -61,7 +62,7 @@
   border-radius: 50%;
 }
 
-.schedule__left-message {
+.schedule-info--message {
   color: var(--schedule-message-color);
   font-size: 20px;
   font-family: 'Lato', sans-serif;
@@ -71,7 +72,8 @@
 }
 
 .schedule__right {
-  display: inline-block;
+  display: none;
+  position: relative;
   left: auto;
   width: auto;
   min-width: 320px;
@@ -80,6 +82,7 @@
 }
 
 .schedule__right-item {
+  position: relative;
   left: 16px;  
   vertical-align: middle;
   height: 345px;
