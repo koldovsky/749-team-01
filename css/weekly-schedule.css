@@ -6,10 +6,8 @@
   --schedule-button-color: #fff;
   --schedule-button-background-color:rgb(69, 69, 69);
   background-color: var(--schedule-background-color);
-  height: 480px;
-  display: flex;
+  height: 600px;
   position: static;
-  min-width: 320px;
 }
 
 .schedule__left {
