@@ -85,11 +85,9 @@
 .schedule__right-item {
   position: relative;
   left: 16px;  
-  display: inline-block;
-  align-items: center;
   vertical-align: middle;
-  height: 320px;
-  width: 300px;
+  height: 345px;
+  width: 345px;
   border-radius: 6px;
   background-color: #fff;
   margin-left: 36px;
