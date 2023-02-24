@@ -14,7 +14,7 @@
 
 .schedule__left {
   width: 380px;
-  height: 380px;
+  height: 392px;
   position: relative;
   left: 180px;
   margin-right: 72px;
@@ -73,7 +73,7 @@
 }
 
 .schedule__right {
-  display: inline-block;
+  display: flex;
   position: relative;
   left: auto;
   width: auto;
