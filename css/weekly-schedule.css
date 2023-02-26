@@ -6,26 +6,22 @@
   --schedule-button-color: #fff;
   --schedule-button-background-color:rgb(69, 69, 69);
   background-color: var(--schedule-background-color);
-  height: 480px;
-  display: flex;
+  height: 600px;
   position: static;
-  min-width: 320px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
 }
 
-.schedule__left {
+.schedule-info {
   width: 380px;
-  height: 380px;
-  position: relative;
-  left: 180px;
+  min-width: 270px;
+  height: 392px;
   margin-right: 72px;
-  padding-top: 100px;
-  padding-bottom: 100px;
   vertical-align: baseline;
-  justify-content: center;
-  display: inline-block;
+  grid-column: 1 / span 1;  
 }
 
-.schedule__left-title {
+.schedule-info-title {
   color: var(--schedule-left-title-color);
   font-size: 56px;
   margin-top: 20px;
@@ -33,7 +29,7 @@
   margin-bottom: 25px;
 }
 
-.schedule__left-call {
+.schedule-info-call {
   width: 272px;
   height: 80px;
   display: flex;
@@ -42,20 +38,20 @@
   align-items: center;
 }
 
-.schedule__call-title {
+.schedule-info-call-message {
   font-family: 'Lato', sans-serif;
   font-size: 17px;
   font-weight: 700;
   color: var(--subtitle-header-color);
 }
 
-.schedule__call-phone {
+.schedule-info-phone-number {
   color: var(--header-phone-color);
   font-family: 'Lato', sans-serif;
   font-size: 17px;
   line-height: 25px;
 }
-.schedule__call-icon {
+.schedule-info-phone-icon {
   width: 45px;
   margin-right: 15px;
   padding: 5px;
@@ -63,7 +59,7 @@
   border-radius: 50%;
 }
 
-.schedule__left-message {
+.schedule-info-message {
   color: var(--schedule-message-color);
   font-size: 20px;
   font-family: 'Lato', sans-serif;
@@ -72,24 +68,18 @@
   text-align: justify;
 }
 
-.schedule__right {
-  display: inline-block;
-  position: relative;
-  left: auto;
-  width: auto;
-  min-width: 320px;
-  padding-top: 100px;
-  padding-bottom: 100px;
+.schedule-daily-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  grid-column: 2 / span 2;
 }
 
-.schedule__right-item {
-  position: relative;
+.schedule-daily-item {
   left: 16px;  
-  display: inline-block;
-  align-items: center;
   vertical-align: middle;
-  height: 320px;
-  width: 300px;
+  height: 345px;
+  width: 345px;
   border-radius: 6px;
   background-color: #fff;
   margin-left: 36px;

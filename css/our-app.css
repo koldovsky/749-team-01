@@ -112,6 +112,27 @@
     border-radius: 5px; 
 }
 
+.our-app__countdown-container {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.countdown-time {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: var(--icon-color);
+}
+
+.countdown-days, .countdown-hours, .countdown-minutes, .countdown-seconds {
+    font-size: 25px;
+}
+
 @media (min-width: 387px) {
     .our-app__buttons {
       display: flex;
