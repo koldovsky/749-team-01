@@ -73,7 +73,7 @@
   text-align: justify;
 }
 
-.schedule-daily-container, schedule-daily-swiper-wrapper {
+.schedule-daily-container {
   display: inline-flex;
 /*  grid-column: 2 / span 2;*/
 }
