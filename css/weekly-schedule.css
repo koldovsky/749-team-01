@@ -8,8 +8,9 @@
   background-color: var(--schedule-background-color);
   height: 600px;
   position: static;
-  display: grid;
+  /*display: grid;
   grid-template-columns: 1fr 2fr;
+  */
 }
 
 .schedule-info {
