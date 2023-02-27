@@ -13,8 +13,8 @@
   */
 }
 
-.schedule-info-container {
-  display: inline-flex;
+.schedule-container {
+  display: flex;
 }
 
 .schedule-info {
@@ -73,19 +73,8 @@
   text-align: justify;
 }
 
-.schedule-daily-container, schedule-daily-swiper-wrapper {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
-
-/*  grid-column: 2 / span 2;*/
-}
-
 .schedule-daily-item {
-  flex: 1;
   left: 16px;  
-  vertical-align: middle;
   height: 345px;
   width: 345px;
   border-radius: 6px;
