@@ -11,7 +11,7 @@
 
 .schedule-container,  schedule-container-slider{
   height: 600px;
-  display: inline-flexbox;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   gap: 32px;
