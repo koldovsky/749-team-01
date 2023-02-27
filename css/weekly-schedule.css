@@ -70,7 +70,9 @@
   align-items: center;
   justify-content: center;
   gap: 36px;
-  flex-direction: row;
+  overflow-x: hidden;
+  max-width: 480px;
+  flex-wrap: nowrap;
 }
 
 .schedule-daily-slider {
@@ -79,6 +81,7 @@
 }
 
 .schedule-daily-item {
+  flex: none;
   text-align: center;
   vertical-align: baseline;
   height: 345px;
