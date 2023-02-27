@@ -19,7 +19,9 @@
   height: 392px;
   margin-right: 72px;
   vertical-align: baseline;
-  grid-column: 1 / span 1;  
+  grid-column: 1 / span 1;
+  display: inline-block;
+
 }
 
 .schedule-info-title {
