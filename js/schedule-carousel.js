@@ -1,8 +1,8 @@
 const scheduleSwiper = new Swiper('.schedule-daily-container',{
     loop: true,
     navigation: {
-        nextEl: '.schedule-slider-next',
-        prevEl: '.schedule-slider-prev',
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
       },
       simulateTouch: true,
       touchRadio: 1,
