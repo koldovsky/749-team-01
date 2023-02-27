@@ -9,9 +9,16 @@
   position: static;
 }
 
-.schedule-container,  schedule-container-slider{
+.schedule-container {
   height: 600px;
   display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+}
+
+.schedule-container-slider {
+  display: flex;
   align-items: center;
   justify-content: center;
   gap: 32px;
