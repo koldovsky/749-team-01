@@ -19,6 +19,7 @@
 .schedule-info {
   width: 345px;
   height: 345px;
+  flex: none;
 }
 
 .schedule-info-title {
@@ -69,6 +70,7 @@
 }
 
 .schedule-daily-item {
+  flex: none;
   height: 345px;
   width: 345px;
   border-radius: 6px;
