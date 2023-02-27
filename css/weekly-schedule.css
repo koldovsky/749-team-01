@@ -97,13 +97,36 @@
 
 .schedule-slider-prev,
 .schedule-slider-next {
-  display: inline-block;
+  color: white;
   background-color: black;
   border-radius: 50%;
   width: 24px;
   height: 24px;
-  color: white;
 }
+
+.schedule-slider-prev:hover,
+.schedule-slider-next:hover {
+  filter: brightness(90%);
+}
+
+.schedule-slider-prev {
+  left: 0 !important;
+}
+
+.schedule-slider-next {
+  right: 0 !important;
+}
+
+.schedule-slider-prev::after,
+.schedule-slider-next::after {
+  font-size: 12px !important;
+  font-weight: 800 !important;
+}
+
+
+
+
+
 
 .hidden-item {
   display: none;
