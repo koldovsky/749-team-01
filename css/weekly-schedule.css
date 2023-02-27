@@ -71,13 +71,10 @@
   justify-content: center;
   gap: 36px;
   overflow-x: hidden;
+  overflow-y: hidden;
   max-width: 480px;
   flex-wrap: nowrap;
-}
-
-.schedule-daily-slider {
-  padding: 50px 0 50px 0;
-
+  flex-direction: row;
 }
 
 .schedule-daily-item {
