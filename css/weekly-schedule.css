@@ -12,6 +12,8 @@
 .schedule-info {
   width: 345px;
   height: 345px;
+  position: relative;
+  left: 36px;
 }
 
 .schedule-info-title {
@@ -63,17 +65,13 @@
 
 
 .schedule-daily-container {
-  height: 600px;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   gap: 36px;
+  flex-direction: row;
 }
 
-
-.hidden-item {
-  display: none;
-}
 .schedule-daily-item {
   flex: none;
   text-align: center;
@@ -93,12 +91,18 @@
 
 .schedule-slider-prev,
 .schedule-slider-next {
+  display: inline-block;
   background-color: black;
   border-radius: 50%;
   width: 24px;
   height: 24px;
   color: white;
 }
+
+.hidden-item {
+  display: none;
+}
+
 
 
 
