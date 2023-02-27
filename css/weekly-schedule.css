@@ -75,8 +75,6 @@
 
 .schedule-daily-container, schedule-daily-swiper-wrapper {
   display: inline-flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
 /*  grid-column: 2 / span 2;*/
 }
 
