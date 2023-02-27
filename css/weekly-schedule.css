@@ -123,7 +123,7 @@
   font-weight: 800 !important;
 }
 
-@media (min-width: 380px) {
+@media only screen and (min-width: 380px) {
   .schedule-slider-next {
     right: 5px !important;
   }
@@ -133,7 +133,7 @@
   }
 }
 
-@media (min-width: 480px) {
+@media only screen and (min-width: 480px) {
   .schedule-slider-next {
     right: 0 !important;
   }
@@ -143,7 +143,7 @@
   }
 }
 
-@media (min-width: 770px) {
+@media only screen and (min-width: 770px) {
   .schedule-slider-next,
   .schedule-slider-prev {
     width: 32px !important;
@@ -156,10 +156,10 @@
   }
 }
 
-@media (min-width: 1000px) {
+@media only screen and (min-width: 1200px) {
 
-  .footer__swiper-container {
-    width: 92%;
+  .schedule-daily-container {
+    flex-direction: row;
   }
 }
 

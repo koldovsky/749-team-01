@@ -16,13 +16,13 @@ const scheduleSwiper = new Swiper('.schedule-daily-container',{
             slidesPerView: 1,
         },
         480:{
-            slidesPerView: 2,
+            slidesPerView: 1,
         },
         770:{
-            slidesPerView:1
-        },
-        1000:{
             slidesPerView:2
+        },
+        1200:{
+            slidesPerView:3
         },
       }
 });
