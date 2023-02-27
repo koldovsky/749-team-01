@@ -94,7 +94,8 @@
 .schedule-daily-item-directions {
   background-color: red;
   color: #fff;
-  border-radius: 10%;
+  border-radius: 25%;
+  padding: 15px 30px;
 }
 
 .schedule-slider-prev,
