@@ -13,6 +13,10 @@
   */
 }
 
+.schedule-info-container {
+  display: inline-flex;
+}
+
 .schedule-info {
   width: 380px;
   min-width: 270px;
@@ -20,8 +24,6 @@
   margin-right: 72px;
   vertical-align: baseline;
 /*  grid-column: 1 / span 1; */
-  display: inline-block;
-
 }
 
 .schedule-info-title {
