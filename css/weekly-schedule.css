@@ -88,6 +88,7 @@ schedule-daily-slider {
   width: 345px;
   border-radius: 8px;
   background-color: #fff;
+  margin-bottom: 32px;
 }
 
 .schedule-daily-item-directions {
