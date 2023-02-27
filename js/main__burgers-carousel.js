@@ -14,7 +14,7 @@
     function renderSlides(slides) {
         const slidesContainer = document.querySelector('.burgers__carousel-slide');
         slidesContainer.innerHTML = slides[currentSlide];  
-        if (window.innerWidth > 1700) {
+        if (window.innerWidth > 1500) {
             const secondSlide = currentSlide + 1 >= slides.length ? 0 : currentSlide + 1;
             slidesContainer.innerHTML += slides[secondSlide];
             if (window.innerWidth > 900) {
