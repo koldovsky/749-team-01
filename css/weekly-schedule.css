@@ -79,7 +79,9 @@ schedule-daily-slider {
 }
 
 .schedule-daily-item {
-  flex: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
   vertical-align: baseline;
   height: 345px;
