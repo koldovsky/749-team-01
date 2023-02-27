@@ -9,9 +9,9 @@
   position: static;
 }
 
-.schedule-container {
+.schedule-container,  schedule-container-slider{
   height: 600px;
-  display: flex;
+  display: inline-flexbox;
   align-items: center;
   justify-content: center;
   gap: 32px;
