@@ -66,11 +66,16 @@
 
 
 .schedule-daily-container {
-  display: inline-flex;
+  display: flex;
   align-items: center;
   justify-content: center;
   gap: 36px;
   flex-direction: row;
+}
+
+schedule-daily-slider {
+  padding: 50px 0 50px 0;
+
 }
 
 .schedule-daily-item {
