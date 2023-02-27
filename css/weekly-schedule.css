@@ -91,6 +91,12 @@
   background-color: #fff;
 }
 
+.schedule-daily-item-directions {
+  background-color: red;
+  color: #fff;
+  border-radius: 10%;
+}
+
 .schedule-slider-prev,
 .schedule-slider-next {
   background-color: black;
