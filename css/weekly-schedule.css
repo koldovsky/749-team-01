@@ -21,14 +21,14 @@
 
 .schedule-info {
   position: relative;
-  left: 36px;
+  left: 360px;
   width: 345px;
   height: 345px;
 }
 
 .schedule-container-slider {
-
   position: relative;
+  left: 36px;
   display: flex;
   flex-direction: row;
   align-items: center;
