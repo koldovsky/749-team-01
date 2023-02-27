@@ -23,15 +23,6 @@
   height: 345px;
 }
 
-.schedule-container-slider {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap: 32px;
-}
-
-
 .schedule-info-title {
   color: var(--schedule-left-title-color);
   font-size: 56px;
