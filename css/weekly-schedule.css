@@ -79,6 +79,7 @@
 }
 
 .schedule-daily-item {
+  flex: 1;
   left: 16px;  
   vertical-align: middle;
   height: 345px;
