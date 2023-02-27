@@ -12,17 +12,17 @@ const scheduleSwiper = new Swiper('.schedule-daily-container',{
       spaceBetween: 10,
       watchOverflow: true,
       breakpoints:{
-        480:{
+        380:{
             slidesPerView: 1,
         },
         480:{
             slidesPerView: 2,
         },
         770:{
-            slidesPerView:3
+            slidesPerView:1
         },
         1000:{
-            slidesPerView:6
+            slidesPerView:2
         },
       }
 });
