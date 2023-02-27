@@ -213,7 +213,7 @@
  }
  @media (min-width: 560px) {
     
-    }
+    
     .discount__and-salads {
         justify-content: center;
         margin: 15px;
@@ -235,6 +235,7 @@
     .salads {
         width: 580px;
     }
+}
  @media (max-width: 768px) {
     .discount__and-salads {
         flex-direction: column;
