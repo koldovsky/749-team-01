@@ -20,12 +20,8 @@
 }
 
 .schedule-info {
-  width: 380px;
-  min-width: 270px;
-  height: 392px;
-  margin-right: 72px;
-  vertical-align: baseline;
-/*  grid-column: 1 / span 1; */
+  width: 345px;
+  height: 345px;
 }
 
 .schedule-info-title {
