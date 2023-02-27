@@ -12,8 +12,7 @@
 .schedule-info {
   width: 345px;
   height: 345px;
-  position: relative;
-  left: 36px;
+  margin-left: 36px;
 }
 
 .schedule-info-title {
