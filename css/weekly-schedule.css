@@ -72,12 +72,10 @@
 }
 
 .schedule-daily-item {
-  left: 16px;  
   height: 345px;
   width: 345px;
   border-radius: 6px;
   background-color: #fff;
-  margin-left: 36px;
 }
 
 
