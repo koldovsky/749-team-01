@@ -1,90 +1,85 @@
-.aboutus {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 6rem;
-    background-image: url("../img/aboutus__background.jpg");
-    background-size: 100%;
-}
+/* .aboutus {
+    background-image: url(../img/aboutus__background.jpg);
+} */
 
-.aboutus__right,
-.aboutus__left,
-.aboutus__right>div,
-.aboutus__svg,
-.aboutus__svg>div,
-div:has(.aboutus__button) {
-    display: grid;
-    place-items: center;
+.aboutus {
+    padding: 105px 0;
 }
 
 .aboutus__left {
-    place-items: center end;
+    display: flex;
+    justify-content: center;
 }
 
-.aboutus__left>img {
-    width: 30vw;
-    max-width: 1000px;
+.aboutus__picture {
+    width: 272px;
+    height: 281.05px;
+    display: flex;
+    justify-content: center;
 }
 
-.aboutus__right svg{
-    max-width: var(--svg-max-width);
+.aboutus__checkbox {
+    width: 20px;
 }
 
-.aboutus__right>div{
-    place-items: center start;
-    gap: 1.2rem;
+.aboutus__right {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    flex-direction: column;
+    padding: 0 7vw;
 }
 
-.aboutus__title{
-    font-size: 20px;
-    font-family: "Permanent Marker";
-    color: var(--title-color);
-    font-weight: 500;
-}
-
-.aboutus__subtitle{
-    font-size: 56px;
+.aboutus__subtitle {
+    margin: 20px 0;
+    font-size: 38px;
     font-family: 'Rubik', sans-serif;
-    color: #282623; 
-    font-weight: 900;
+    font-weight: 700;
 }
 
-.aboutus__svg{
-    grid-template-columns: repeat(3,auto);
-    gap: 1rem;
+.aboutus__tagline {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--subtitle-color);
 }
 
-.aboutus__svg>div {
-    grid-template-columns: repeat(2,auto);
-    gap: 0.5rem;
+.aboutus__text {
+    margin: 25px 0;
+    font-size: 17px;
+    color: var(--text-color);
+    line-height: 25.5px;
 }
 
-div:has(.aboutus__button) {
-    width: 100%;
+.aboutus__checkbox-container {
+    display: grid;
+    grid-template-columns: 45% 1fr;
+    gap: 20px;
+        
+}
+
+.aboutus__checkbox-text {
+    display: grid;
+    grid-template-columns: 20% 1fr;
+    flex-wrap: wrap;
+    font-size: 17px;
+    font-weight: 700;
+    color: var(--font-color-checkboxtext);
+}
+
+.aboutus__additional-text {
+    margin: 25px 0 60px 0;
+    line-height: 25.5px;
+    color: var(--text-color);
 }
 
 .aboutus__button {
     background-color: var(--title-color);
     color: white;
     font-size: 16.5px;
-    padding: 1rem;
-    border-radius: 30px;
-}
-.aboutus__button:hover {
-    background-color: var(--subtext-color);
+    padding: 15px 30px;
+    border-radius: 35px;
 }
 
-@media (orientation: portrait) {
-    .aboutus {
-        grid-template-columns: none;
-        grid-template-rows: repeat(2, auto);
-    }
-    .aboutus__left {
-        place-items: center;
-    }
-    .aboutus__left>img {
-        width: 100vw;
-    }
-    .aboutus__right{
-        padding: 1rem
-    }
+.aboutus__button:hover {
+    background-color: var(--subtext-color);
 }

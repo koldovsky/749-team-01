@@ -33,26 +33,32 @@
         </div>
 
         <nav class="header__nav">
-            <a href=" #" class="header__logo-container">
-                <img class="header__logo" width="252" src="img/burger-logo.svg" alt="Burger Logo" />
+            <a href="index.html" class="header__logo-container">
+                <img class="header__logo" src="img/burger-logo.svg" alt="Burger Logo">
             </a>
+            <div class="burger">
+                <span class="burger__line burger__line_first"></span>
+                <span class="burger__line burger__line_second"></span>
+                <span class="burger__line burger__line_third"></span>
+                <span class="burger__line burger__line_fourth"></span>
+            </div>
 
             <div class="header__menu">
                 <a href="#" class="header__menu-item">About Us</a>
                 <a href="#" class="header__menu-item">Menu</a>
-                <a href="#" class="header__menu-item">Catering</a>
+                <a href="order-now-page.html" class="header__menu-item">Catering</a>
                 <a href="#" class="header__menu-item">Contacts</a>
             </div>
 
             <div class="header__icons">
                 <a class="header__icons-items" href="https://www.facebook.com" target="_blank">
-                    <img src="img/header--facebook-icons.svg" alt="Facebook Logo" />
+                    <img src="img/header--facebook-icons.svg" alt="Facebook Logo">
                 </a>
                 <a class="header__icons-items" href="https://www.instagram.com" target="_blank">
-                    <img src="img/header-instagram-icons.svg" alt="Instagram Logo" />
+                    <img src="img/header-instagram-icons.svg" alt="Instagram Logo">
                 </a>
                 <a class="header__icons-items" href="https://www.youtube.com" target="_blank">
-                    <img src="img/header-youtube-icons.svg" alt="Youtube Logo" />
+                    <img src="img/header-youtube-icons.svg" alt="Youtube Logo">
                 </a>
             </div>
         </nav>
@@ -66,9 +72,9 @@
                 </p>
             </div>
             <div class="header__order">
-                <a class="header__order-button button" href="#">Order Now</a>
+                <a class="header__order-button button" href="order-now-page.html">Order Now</a>
                 <div class="header__call-now">
-                    <img class="header__call-icon" width="50" src="img/phone.svg" alt="Phone Icon" />
+                    <img class="header__call-icon" src="img/phone.svg" alt="Phone Icon">
                     <div class="header__phone">
                         <h4 class="header__call-title">Call us</h4>
                         <a class="header__call-phone" href="tel:+12345678900">+ 1 (234) 567 89 00</a>
@@ -79,157 +85,151 @@
     </header>
     <div class="header__background-bottom"></div>
     <main>
-        <!-- AboutUs start -->
+        <!-- AboutUs -->
         <section class="aboutus">
             <div class="aboutus__left">
-                <img src="img/burger__components.png" alt="Burger Components" />
+                <img class="aboutus__picture" src="img/burger__components.png" alt="Burger Components">
             </div>
             <div class="aboutus__right">
-                <div>
-                    <h5 class="aboutus__title">ABOUT US</h5>
-                    <h2 class="aboutus__subtitle">Your Favorite <br>Burger Food Truck</h2>
-                    <h4 class="aboutus__tagline">
-                        Delicious burgers are waiting for you in Los Angeles.
-                    </h4>
-                    <p>
-                        Freddy Burgers is a superior burger food truck you can find roaming
-                        the streets of Los Angeles. We are a symbol of independence and
-                        premium budget food on the go. We cook our burgers using the
-                        freshest and the highest quality local ingredients.
-                    </p>
-                    <div class="aboutus__svg">
-                        <div>
-                            <svg viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg" height="100%">
-                                <path
-                                    d="M6 0c3.3137 0 6 2.6863 6 6s-2.6863 6-6 6-6-2.6863-6-6 2.6863-6 6-6zm2.6464 3.6464L5 7.293 3.3536 5.6464l-.7072.7072L5 8.707l4.3536-4.3535-.7072-.7072z"
-                                    fill="orange" fill-rule="evenodd"></path>
-                            </svg>
-                            <span>Hot burgers</span>
-                        </div>
-                        <div>
-                            <svg viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg" height="100%">
-                                <path
-                                    d="M6 0c3.3137 0 6 2.6863 6 6s-2.6863 6-6 6-6-2.6863-6-6 2.6863-6 6-6zm2.6464 3.6464L5 7.293 3.3536 5.6464l-.7072.7072L5 8.707l4.3536-4.3535-.7072-.7072z"
-                                    fill="orange" fill-rule="evenodd"></path>
-                            </svg>
-                            <span>Fresh salads</span>
-                        </div>
-                        <div>
-                            <svg viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg" height="100%">
-                                <path
-                                    d="M6 0c3.3137 0 6 2.6863 6 6s-2.6863 6-6 6-6-2.6863-6-6 2.6863-6 6-6zm2.6464 3.6464L5 7.293 3.3536 5.6464l-.7072.7072L5 8.707l4.3536-4.3535-.7072-.7072z"
-                                    fill="orange" fill-rule="evenodd"></path>
-                            </svg>
-                            <span>Beverages</span>
-                        </div>
+                <h2 class="aboutus__title">ABOUT US</h2>
+                <p class="aboutus__subtitle">Your Favorite Burger Food Truck</p>
+                <p class="aboutus__tagline">
+                    Delicious burgers are waiting for you in Los Angeles.
+                </p>
+                <p class="aboutus__text">
+                    Freddy Burgers is a superior burger food truck you can find roaming
+                    the streets of Los Angeles. We are a symbol of independence and
+                    premium budget food on the go. We cook our burgers using the
+                    freshest and the highest quality local ingredients.
+                </p>
+                <div class="aboutus__checkbox-container">
+                    <div class="aboutus__checkbox-text">
+                        <img class="aboutus__checkbox" src="img/galka.svg" alt="checkbox">
+                        <span>Hot burgers</span>
                     </div>
-                    <p>
-                        If you want to arrange a budget party and love our gourmet burgers,
-                        you can book our truck and feed your guests with excellent street
-                        food.
-                    </p>
-                    <div>
-                        <a class="aboutus__button" href="#">More About Us</a>
+                    <div class="aboutus__checkbox-text">
+                        <img class="aboutus__checkbox" src="img/galka.svg" alt="checkbox">
+                        <span>Fresh salads</span>
+                    </div>
+                    <div class="aboutus__checkbox-text">
+                        <img class="aboutus__checkbox" src="img/galka.svg" alt="checkbox">
+                        <span>Beverages</span>
                     </div>
                 </div>
+                <p class="aboutus__additional-text">
+                    If you want to arrange a budget party and love our gourmet burgers,
+                    you can book our truck and feed your guests with excellent street
+                    food.
+                </p>
+                <div class="aboutus__button-container">
+                    <a class="aboutus__button" href="https://osjt3.weblium.site/about">More About Us</a>
+                </div>
             </div>
-          </section>
-        <!-- AboutUs finish-->
+        </section>
+        <!-- AboutUs fin -->
         <!-- OUR BURGERS block start -->
         <div class="main__burgers">
             <div class="main__burgers-text-title">
-            <h2 class="main__burgers-title">OUR BURGERS</h2>
-            <p class="main__burgers-subtitle">Our Delicious Burgers</p>
-            <p class="main__burgers-text">
-                Hungry? Don't miss our selection of juicy burgers prepared just for
-                you!
-            </p>
-        </div> 
+                <h2 class="main__burgers-title">OUR BURGERS</h2>
+                <p class="main__burgers-subtitle">Our Delicious Burgers</p>
+                <p class="main__burgers-text">
+                    Hungry? Don't miss our selection of juicy burgers prepared just for
+                    you!
+                </p>
+            </div>
             <div class="main__burgers-carousel">
-                <article class="burgers__carousel-slide">
-                    <img width="150" src="img/double-beef.png" alt="Double Beef" />
+                <div class="our__burgers-carousel">
+                    <button class="our__burgers-carousel-prev"> &#10094;</button>
+                    <div class="our__burgers-carousel-slides"></div>
+                </div>
+                <div class="burgers__carousel-slide">
+                    <img width="150" src="img/double-beef.png" alt="Double Beef">
                     <h4 class="burgers__carousel-title">Double Beef</h4>
                     <p class="burgers__carousel-text">
                         2 patties, home-made sauce, tomato, and cheddar cheese
                     </p>
                     <p class="burgers__carousel-price">$12.00</p>
-                </article>
-                <article class="burgers__carousel-slide">
-                    <img width="150" src="img/freshburger.png" alt="Freshburger" />
+                </div>
+                <div class="burgers__carousel-slide">
+                    <img width="150" src="img/freshburger.png" alt="Freshburger">
                     <h4 class="burgers__carousel-title">Freshburger</h4>
                     <p class="burgers__carousel-text">
                         Beef, red onion relish, lettuce, two kinds of pepper & classic
                         sauce
                     </p>
                     <p class="burgers__carousel-price">$13.00</p>
-                </article>
-                <article class="burgers__carousel-slide">
-                    <img width="150" src="img/black-hamburger.png" alt="Black Hamburger" />
+                </div>
+                <div class="burgers__carousel-slide">
+                    <img width="150" src="img/black-hamburger.png" alt="Black Hamburger">
                     <h4 class="burgers__carousel-title">Black Hamburger</h4>
                     <p class="burgers__carousel-text">
                         Fresh bun with squid ink, beef patty, red onion, and cheese
                     </p>
                     <p class="burgers__carousel-price">$23.00</p>
-                </article>
-                <article class="burgers__carousel-slide">
-                    <img width="150" src="img/egg-freshburger.png" alt="Egg Freshburger" />
+                </div>
+                <div class="burgers__carousel-slide">
+                    <img width="150" src="img/egg-freshburger.png" alt="Egg Freshburger">
                     <h4 class="burgers__carousel-title">Egg Freshburger</h4>
                     <p class="burgers__carousel-text">
                         Beef, fried egg, red onion, lettuce, pepper, cheese, and classic
                         sauce
                     </p>
                     <p class="burgers__carousel-price">$17.00</p>
-                </article>
-                <article class="burgers__carousel-slide">
-                    <img width="150" src="img/chicken-burger.png" alt="Chicken burger" />
+                </div>
+                <div class="burgers__carousel-slide">
+                    <img width="150" src="img/chicken-burger.png" alt="Chicken burger">
                     <h4 class="burgers__carousel-title">Chicken burger</h4>
                     <p class="burgers__carousel-text">
                         Chicken breast, basil pesto, mustard mayo, tomato, and lettuce
                     </p>
                     <p class="burgers__carousel-price">$12.00</p>
-                </article>
-                <article class="burgers__carousel-slide">
-                    <img width="150" src="img/buffalo-ranch.png" alt="Buffalo Ranch" />
+                </div>
+                <div class="burgers__carousel-slide">
+                    <img width="150" src="img/buffalo-ranch.png" alt="Buffalo Ranch">
                     <h4 class="burgers__carousel-title">Buffalo Ranch</h4>
                     <p class="burgers__carousel-text">
                         Beef patty, crispy bacon, lettuce, tomato, and home-made sauce
                     </p>
                     <p class="burgers__carousel-price">$20.00</p>
-                </article>
-            </div>
-            <div class="discount__and-salads">
-                <div class="discount">
-                    <h2 class="discount__title">THIS MONTH SPECIAL</h2>
-                    <h4 class="discount__subtitle">
-                        Our Japanese <br />
-                        Oishi Burger
-                    </h4>
-                    <p class="discount__text">
-                        Fresh bun, tuna patty, cheese, tomatoes, and our <br />
-                        special oishi sauce
-                    </p>
-                    <a href="#" class="discount_order-button button">Order Now</a>
                 </div>
-                <div class="salads">
-                    <h2 class="salads__title">Salads</h2>
-                    <h4 class="salads__subtitle">
-                        Fresh Salad <br />
-                        with <br />Strawberry
-                    </h4>
-                    <p class="salads__text">
-                        Spinach, walnuts, feta cheese, chopped <br />
-                        strawberries, and signature sauce
-                    </p>
-                    <a href="#" class="salads_order-button button">Order Now</a>
-                </div>
+                <button class="our__burgers-carousel-next"> &#10095;</button>
             </div>
-            <div class="actual__discount">
-                <h5 class="grab__your-discount">Grab Your 10% off</h5>
-                <p class="grab__your-discount-text">
-                    * The discount is available to all new clients that order delivery
-                    or catering services.
-                </p>
-                <a href="#" class="use__discount">Use Discount</a>
+            <div class="disconts__salads-actual-discount">
+                <div class="discount__and-salads">
+                    <div class="discount">
+                        <h2 class="discount__title">THIS MONTH SPECIAL</h2>
+                        <h4 class="discount__subtitle">
+                            Our Japanese <br />
+                            Oishi Burger
+                        </h4>
+                        <p class="discount__text">
+                            Fresh bun, tuna patty, cheese, tomatoes, and our <br />
+                            special oishi sauce
+                        </p>
+                        <a href="#" class="discount_order-button button">Order Now</a>
+                    </div>
+                    <div class="salads">
+                        <h2 class="salads__title">Salads</h2>
+                        <h4 class="salads__subtitle">
+                            Fresh Salad <br />
+                            with <br />Strawberry
+                        </h4>
+                        <p class="salads__text">
+                            Spinach, walnuts, feta cheese, chopped <br />
+                            strawberries, and signature sauce
+                        </p>
+                        <a href="#" class="salads_order-button button">Order Now</a>
+                    </div>
+                </div>
+                <div class="actual__discount">
+                    <h5 class="grab__your-discount">Grab Your 10% off</h5>
+                    <p class="grab__your-discount-text">
+                        <span class="actual__discount-star"> * </span> The discount is available to all new clients that
+                        order<br> delivery
+                        or catering services.
+                    </p>
+                    <a href="#" class="use__discount">Use Discount</a>
+                </div>
             </div>
         </div>
 
@@ -238,7 +238,7 @@
         <!-- block 4 start -->
         <div class="ingredients">
             <div class="ingredients__left">
-                <img src="img/four-burger-picture.jpg" alt="ingredients-burger-pictire" />
+                <img class="ingredients__picture" src="img/four-burger-picture.jpg" alt="ingredients-burger-pictire">
             </div>
             <div class="ingredients__right">
                 <h2 class="ingredients__title">INGREDIENTS</h2>
@@ -252,24 +252,24 @@
                     producers carefully and ensure that every burger tastes perfect.
                 </p>
                 <div class="description__benefits">
-                    <img class="description__benefits-galka" width="40" src="img/galka.svg" alt="galka" />
-                    <p class="description__benefits-text">Humanely handled;</p>
+                    <img class="description__benefits-galka" src="img/galka.svg" alt="galka">
+                    <p class="description__benefits-text"> &nbsp; Humanely handled;</p>
                 </div>
                 <div class="description__benefits">
-                    <img class="description__benefits-galka" width="40" src="img/galka.svg" alt="galka" />
+                    <img class="description__benefits-galka" src="img/galka.svg" alt="galka">
                     <p class="description__benefits-text">
-                        Grass-fed and raised on local family ranches;
+                        &nbsp; Grass-fed and raised on local family ranches;
                     </p>
                 </div>
                 <div class="description__benefits">
-                    <img class="description__benefits-galka" width="40" src="img/galka.svg" alt="galka" />
-                    <p class="description__benefits-text">
+                    <img class="description__benefits-galka" src="img/galka.svg" alt="galka">
+                    <p class="description__benefits-text"> &nbsp;
                         No steroids, antibiotics, or growth hormones added.
                     </p>
                 </div>
 
                 <p class="ingredients__description">
-                    We also have a number of vegan options due to our collaboration with
+                    We also have a number of vegan options due to our collaboration with<br>
                     Beyond Meat and Impossible Foods.
                 </p>
             </div>
@@ -286,133 +286,129 @@
                 for partners and our customers. Check them out below and feel free ro
                 contact us.
             </p>
-            <div class="franchising" >
+            <div class="franchising">
                 <div class="franchising__image">
-                <img class="franchising__burger" src="img/services-cola.jpg" alt="Burger-cola">
+                    <img class="franchising__burger" src="img/services-cola.jpg" alt="Burger-cola">
                 </div>
                 <div class="franchising__block">
-                <div class="services__franchising">
-                <h4 class="franchising__title">Franchising</h4>
-                <p class="franchising__text">
-                    The easiest way to open a profitable business and start earning
-                    right now!
-                </p>
-                </div>    
-                <div class="franchising__punkt">
-                    <img class="franchising__hut" src="img/hut.svg" alt="hut" />
-                    <p class="franchising__pic">Full support included</p>
-                </div>
-                <div class="services__franchising">
-                <p class="franchising__topic">
-                    Want to become your own boss? With years of practical experience and
-                    well-established Freddy Burgers brand recognition in our area, we
-                    are proud to offer extensive franchise opportunities.
-                </p>
-                <div class="franchising__bottom"></div>
-                    <a href="#" class="franchising__bottom-text">Learn More</a>
-                </div>
+                    <div class="services__franchising">
+                        <h4 class="franchising__title">Franchising</h4>
+                        <p class="franchising__text">
+                            The easiest way to open a profitable business and start earning
+                            right now!
+                        </p>
+                    </div>
+                    <div class="franchising__punkt">
+                        <img class="franchising__hut" src="img/hut.svg" alt="hut">
+                        <p class="franchising__pic">Full support included</p>
+                    </div>
+                    <div class="services__franchising">
+                        <p class="franchising__topic">
+                            Want to become your own boss? With years of practical experience and
+                            well-established Freddy Burgers brand recognition in our area, we
+                            are proud to offer extensive franchise opportunities.
+                        </p>
+                        <div class="franchising__bottom"></div>
+                        <a href="#" class="franchising__bottom-text">Learn More</a>
+                    </div>
                 </div>
             </div>
             <!--Catering-->
-            <div class="catering" >
+            <div class="catering">
                 <div class="catering__image">
-                <img class="catering__burger" src="img/services-burger.jpg" alt="Burger-cola">
+                    <img class="catering__burger" src="img/services-burger.jpg" alt="Burger-cola">
                 </div>
                 <div class="catering__block">
-                <div class="services__catering">
-                <h4 class="catering__title">Catering</h4>
-                <p class="catering__text">
-                    Surprise your guests with juicy burgers and save on the event menu with our special offers! 
-                </p>
-                </div>    
-                <div class="catering__punkt">
-                    <img class="catering__hut" src="img/hut.svg" alt="hut" />
-                    <p class="catering__pic">Your party, our food from entrees to desserts</p>
-                </div>
-                <div class="services__catering">
-                <p class="catering__topic">
-                    If you are a burger lover and plan to arrange your party or corporate meeting at home or at the workplace, we are always ready to help yo with burger catering. We strive to keep you happy and well-fed. Just stay where you are and enjoy every yummy bite!
-                </p>
-                <div class="catering__bottom"></div>
-                    <a href="#" class="catering__bottom-text">Learn More</a>
-                </div>
+                    <div class="services__catering">
+                        <h4 class="catering__title">Catering</h4>
+                        <p class="catering__text">
+                            Surprise your guests with juicy burgers and save on the event menu with our special offers!
+                        </p>
+                    </div>
+                    <div class="catering__punkt">
+                        <img class="catering__hut" src="img/hut.svg" alt="hut">
+                        <p class="catering__pic">Your party, our food from entrees to desserts</p>
+                    </div>
+                    <div class="services__catering">
+                        <p class="catering__topic">
+                            If you are a burger lover and plan to arrange your party or corporate meeting at home or at
+                            the workplace, we are always ready to help yo with burger catering. We strive to keep you
+                            happy and well-fed. Just stay where you are and enjoy every yummy bite!
+                        </p>
+                        <div class="catering__bottom"></div>
+                        <a href="#" class="catering__bottom-text">Learn More</a>
+                    </div>
                 </div>
             </div>
-         
+
         </div>
 
         <!--SERVICES BLOCK FINISH-->
 
         <!--WEEKLY SCHEDULE BLOCK / BLOCK 6 START -->
-        <section>
-            <div class="schedule__right">
-                <h2 class="schedule__right-title">Weekly Schedule</h2>
-                <p class="schedule__right-message">
-                    Wonder where to find our food truck in Los Angeles? Check the
-                    schedule!
-                </p>
-                <div class="schedule__right-call">
-                    <img width="50" src="img/phone.svg" alt="Phone Icon" />
-                    <div class="">
-                        <h4>Call us</h4>
-                        <a href="tel:+12345678900">+ 1 (234) 567 89 00</a>
-                    </div>
-                </div>
-            </div>
-            <div class="schedule__left carousel">
-                <div class="schedule__left-item">
-                    <h4 class="schedule__left-weekday">Monday</h4>
-                    <p class="schedule__left-date">July 09</p>
-                    <p class="schedule__left-time">11.30 AM - 4.30 PM</p>
-                    <p class="schedule__left-location">
-                        <span>Port Jasen</span><span>7432 Kay Tunnel</span>
-                    </p>
-                    <a href="#" class="schedule__left-directions">Get Directions</a>
-                </div>
-                <div class="schedule__left-item">
-                    <h4 class="schedule__left-weekday">Tuesday</h4>
-                    <p class="schedule__left-date">July 10</p>
-                    <p class="schedule__left-time">1.30 PM - 6.30 PM</p>
-                    <p class="schedule__left-location">
-                        <span>East Richard</span><span>383 Gibson Loaf</span>
-                    </p>
-                    <a href="#" class="schedule__left-directions">Get Directions</a>
-                </div>
-                <div class="schedule__left-item">
-                    <h4 class="schedule__left-weekday">Wednesday</h4>
-                    <p class="schedule__left-date">July 11</p>
-                    <p class="schedule__left-time">11.30 AM - 3.30 PM</p>
-                    <p class="schedule__left-location">
-                        <span>West Darienport</span><span>195 Will Curve</span>
-                    </p>
-                    <a href="#" class="schedule__left-directions">Get Directions</a>
-                </div>
-                <div class="schedule__left-item">
-                    <h4 class="schedule__left-weekday">Thursday</h4>
-                    <p class="schedule__left-date">July 12</p>
-                    <p class="schedule__left-time">1.30 PM - 4.30 PM</p>
-                    <p class="schedule__left-location">
-                        <span>Culver City</span><span>NPR 9909 Jefferson Blvd</span>
-                    </p>
-                    <a href="#" class="schedule__left-directions">Get Directions</a>
-                </div>
-                <div class="schedule__left-item">
-                    <h4 class="schedule__left-weekday">Friday</h4>
-                    <p class="schedule__left-date">July 13</p>
-                    <p class="schedule__left-time">11.30 AM - 6.30 PM</p>
-                    <p class="schedule__left-location">
-                        <span>Universal</span><span>Lankershim Blvd. 91604</span>
-                    </p>
-                    <a href="#" class="schedule__left-directions">Get Directions</a>
-                </div>
-                <div class="schedule__left-item">
-                    <h4 class="schedule__left-weekday">Saturday - Sunday</h4>
-                    <p class="schedule__left-date">July 14</p>
-                    <p class="schedule__left-time"></p>
-                    <p class="schedule__left-location"><span>Catering Only</span></p>
-                    <a href="#" class="schedule__left-directions">Learn More</a>
-                </div>
-            </div>
+        <section class="schedule">
+			<div class="schedule-container">
+				<div class="schedule-info">
+					<h3 class="schedule-info-title">Weekly Schedule</h3>
+					<p class="schedule-info-message">Wonder where to find our food truck in Los Angeles? Check the schedule!
+					</p>
+					<br>
+					<div class="schedule-info-call">
+						<img class="schedule-info-phone-icon" src="img/phone.svg" alt="Phone Icon">
+						<div class="">
+							<h4 class="schedule-info-call-message">Or call us</h4>
+							<a class="schedule-info-phone-number" href="tel:+12345678901">+ 1 (234) 567 89 01</a>
+						</div>
+					</div>
+				</div>
+				<div class="schedule-daily-container">
+					<div class="schedule-daily-item">
+						<h2 class="schedule-daily-item-weekday">Monday</h2><br>
+						<p class="schedule-daily-item-date">July 09</p><br>
+						<p class="schedule-daily-itemt-time">11.30 AM - 4.30 PM</p><br>
+						<p class="schedule-daily-item-location">
+							<span>Port Jasen</span><br><span>7432 Kay Tunnel</span>
+						</p><br>
+						<a href="#" class="schedule-daily-item-directions">Get Directions</a>
+					</div>
+					<div class="schedule-daily-item">
+						<h2 class="schedule-daily-item-weekday">Tuesday</h2><br>
+						<p class="schedule-daily-item-date">July 10</p><br>
+						<p class="schedule-daily-itemt-time">1.30 PM - 6.30 PM</p><br>
+						<p class="schedule-daily-item-location">
+							<span>East Richard</span><br><span>383 Gibson Loaf</span>
+						</p><br>
+						<a href="#" class="schedule-daily-item-directions">Get Directions</a>
+					</div>
+					<div class="schedule-daily-item">
+						<h2 class="schedule-daily-item-weekday">Wednesday</h2><br>
+						<p class="schedule-daily-item-date">July 11</p><br>
+						<p class="schedule-daily-itemt-time">11.30 AM - 3.30 PM</p><br>
+						<p class="schedule-daily-item-location">
+							<span>West Darienport</span><br><span>195 Will Curve</span>
+						</p><br>
+						<a href="#" class="schedule-daily-item-directions">Get Directions</a>
+					</div>
+					<div class="schedule-daily-item">
+						<h2 class="schedule-daily-item-weekday">Thursday</h2><br>
+						<p class="schedule-daily-item-date">July 12</p><br>
+						<p class="schedule-daily-itemt-time">1.30 PM - 4.30 PM</p><br>
+						<p class="schedule-daily-item-location">
+							<span>Culver City</span><br><span>NPR 9909 Jefferson Blvd</span>
+						</p><br>
+						<a href="#" class="schedule-daily-item-directions">Get Directions</a>
+					</div>
+					<div class="schedule-daily-item">
+						<h2 class="schedule-daily-item-weekday">Friday</h2><br>
+						<p class="schedule-daily-item-date">July 13</p><br>
+						<p class="schedule-daily-itemt-time">11.30 AM - 6.30 PM</p><br>
+						<p class="schedule-daily-item-location">
+							<span>Universal</span><br><span>Lankershim Blvd. 91604</span>
+						</p><br>
+						<a href="#" class="schedule-daily-item-directions">Get Directions</a>
+					</div>
+				</div>
+			</div>	
         </section>
 
         <!--WEEKLY SCHEDULE BLOCK / BLOCK 6 FINISH-->
@@ -425,17 +421,16 @@
                     <h2 class="video__title">VIDEO</h2>
                     <h3 class="video__subtitle">We Prepare Burgers<br>Los Angeles Loves</h3>
                     <span class="video__slogan">
-                        See how we prepare our signature burgers for our beloved clients and
+                        See how we prepare our signature burgers for our beloved<br>clients and
                         what ingredients we use.
                     </span>
                 </div>
 
                 <div class="watch__video">
-                    <img class="icon__video" src="img/video_play_button.svg" alt="Play button" />
-                    <div class="watch__video__text">
-                        <p>Watch video</p>
-                    </div>
+                    <img class="icon__video" src="img/video_play_button.svg" alt="Play button">
+                    <p class="watch__video__text">Watch video</p>
                 </div>
+
             </div>
         </section>
 
@@ -444,102 +439,103 @@
 
         <!--OUR APP BLOCK START-->
 
-        <section class="download">
-            <div class="app__phone-screenshot">
-                <img src="img/phone-screen.png" alt="Phone Image" class="phone-img" />
-            </div>
-
-            <div class="download__app-info">
-                <h2 class="download__title">OUR APP</h2>
-                <h3 class="download__subtitle">Download Our App</h3>
-                <p class="download__slogan">Download our app and get a 10% discount!</p>
-                <p class="download__text">
-                    We offer fast delivery of our burgers in Los Angeles every day.
-                    Download our app to be able to order anything from our menu. Also, you
-                    can pre-order burgers via this app and grab them at a specified time.
-                </p>
-            </div>
-
-            <div class="app__features">
-                <div class="feature__block">
-                    <div class="feature__img">
-                        <img src="img/tracking_icon.svg" alt="Tracking icon" />
-                    </div>
-                    <div class="feature__descr">
-                        <h3 class="feature__title">Track your order</h3>
-                        <p class="feature__text">
-                            After placing an order, you can track its status and the current
-                            location of the courier.
-                        </p>
-                    </div>
+        <section class="our-app">
+            <div class="our-app__allscreen-info">
+                <div class="app__phone-screenshot">
+                    <img src="img/phone-screen.png" alt="Phone Image" class="phone-img">
                 </div>
 
-                <div class="feature__block">
-                    <div class="feature__img">
-                        <img src="img/personal_account_icon.svg" alt="Account icon" />
+                <div class="our-app__text-info">
+                    <h2 class="our-app__title">OUR APP</h2>
+                    <p class="our-app__subtitle">Download Our App</p>
+                    <p class="our-app__slogan">Download our app and get a 10% discount!</p>
+                    <div class="our-app__countdown-container">
+                        <div class="countdown-time">
+                            <p class="countdown-days">20</p>
+                            <span>days</span>
+                        </div>
+                        <div class="countdown-time">
+                            <p class="countdown-hours">10</p>
+                            <span>hours</span>
+                        </div>
+                        <div class="countdown-time">
+                            <p class="countdown-minutes">2</p>
+                            <span>minutes</span>
+                        </div>
+                        <div class="countdown-time">
+                            <p class="countdown-seconds">60</p>
+                            <span>seconds</span>
+                        </div>
                     </div>
-                    <div class="feature__descr">
-                        <h3 class="feature__title">Personal account</h3>
-                        <p class="feature__text">
-                            Get special offers, be the first to know about our new burgers,
-                            and manage your orders easier!
-                        </p>
+                    <p class="our-app__text">
+                        We offer fast delivery of our burgers in Los Angeles every day.
+                        Download our app to be able to order anything from our menu. Also, you
+                        can pre-order burgers via this app and grab them at a specified time.
+                    </p>
+
+                    <div class="app__features">
+                        <div class="feature__block">
+                            <div class="feature__img">
+                                <img src="img/tracking_icon.svg" alt="Tracking icon">
+                            </div>
+                            <div class="feature__descr">
+                                <h3 class="feature__title">Track your order</h3>
+                                <p class="feature__text">
+                                    After placing an order, you can track its status and the current
+                                    location of the courier.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="feature__block">
+                            <div class="feature__img">
+                                <img src="img/personal_account_icon.svg" alt="Account icon">
+                            </div>
+                            <div class="feature__descr">
+                                <h3 class="feature__title">Personal account</h3>
+                                <p class="feature__text">
+                                    Get special offers, be the first to know about our new burgers,
+                                    and manage your orders easier!
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="our-app__buttons">
+                            <a href="#" class="our-app__icons-item">
+                                <img src="img/google-play-market-button.svg" alt="Google Play"
+                                    class="play-market__button-img">
+                            </a>
+
+                            <a href="#" class="our-app__icons-item">
+                                <img src="img/app-store-button.svg" alt="App Store" class="app-store__button-img">
+                            </a>
+                        </div>
                     </div>
                 </div>
-            </div>
-
-            <div class="download__buttons">
-                <a href="#" class="download__icons-item">
-                    <img src="img/google-play-market.png" alt="Google Play" class="download__button-img" />
-                </a>
-
-                <a href="#" class="download__icons-item">
-                    <img src="img/app-store.png" alt="App Store" class="download__button-img" />
-                </a>
             </div>
         </section>
         <!--OUR APP FINISH-->
 
         <!--HIRE US BLOCK START-->
-
+        <div class="hire__us-background-top"></div>
         <section class="hire__us">
-            <div class="hire__us-frame">
-                <form class="hire__us-section" action="register" method="post">
-                    <div class="hire__us-title">
-                        <h2>hire us</h2>
-                    </div>
-                    <div class="hire__us-subtitle">
-                        <p>Quick Catering Request</p>
-                    </div>
-                    <div class="hire__us-info">
-                        <p>We will contact you soon to agree on details and throw a gastronomic party!</p>
-                    </div>
-                    <div class="hire__us-placeholder">
-                        <input class="hire__us-name" type="text" name="full name" placeholder="Enter your full name"
-                            required />
-                        <input class="hire__us-tel" type="tel" name="phone" placeholder="Enter your phone number"
-                            required />
-                        <input class="hire__us-email" type="email" name="email" placeholder="Enter your email"
-                            required />
-                    </div>
-                    <div>
-                        <input class="submit__button" type="submit" value="Send" />
-                    </div>
-
-                </form>
-            </div>
-
-            <div>
-                <img class="top__strip" src="img/hire-us-background-top.svg" alt="yellow strip">
-            </div>
-            <div>
-                <img class="hire__us-background" src="img/hire-us-background.jpg"
-                    alt="tasty burger on yellow background">
-            </div>
-            <div>
-                <img class="bottom__strip" src="img/hire-us-background-bottom.svg" alt="yellow strip">
-            </div>
+            <form class="hire__us-section" action="register" method="post">
+                <div class="hire__us-container">
+                    <h2 class="hire__us-title">hire us</h2>
+                    <p class="hire__us-subtitle">Quick Catering Request</p>
+                    <p class="hire__us-info">We will contact you soon to agree on details and throw a gastronomic party!
+                    </p>
+                </div>
+                <div class="hire__us-placeholder">
+                    <input class="hire__us-name" type="text" name="full name" placeholder="Enter your full name"
+                        required>
+                    <input class="hire__us-tel" type="tel" name="phone" placeholder="Enter your phone number" required>
+                    <input class="hire__us-email" type="email" name="email" placeholder="Enter your email" required>
+                </div>
+                <input class="submit__button" type="submit" value="Send">
+            </form>
         </section>
+        <div class="hire__us-background-bottom"></div>
 
         <!--HIRE US BLOCK FINISH-->
 
@@ -645,22 +641,22 @@
         <div class="swiper footer__swiper-container">
             <div class="swiper-wrapper footer__swiper-wrapper">
                 <div class="swiper-slide footer__swiper-slide">
-                    <img src="img/footer-carousel1.jpg" alt="carousel-img" />
+                    <img src="img/footer-carousel1.jpg" alt="carousel-img">
                 </div>
                 <div class="swiper-slide footer__swiper-slide">
                     <img src="img/footer-carousel2.jpg" alt="carousel-img">
                 </div>
                 <div class="swiper-slide footer__swiper-slide">
-                    <img src="img/footer-carousel3.jpg" alt="carousel-img" />
+                    <img src="img/footer-carousel3.jpg" alt="carousel-img">
                 </div>
                 <div class="swiper-slide footer__swiper-slide">
-                    <img src="img/footer-carousel4.jpg" alt="carousel-img" />
+                    <img src="img/footer-carousel4.jpg" alt="carousel-img">
                 </div>
                 <div class="swiper-slide footer__swiper-slide">
-                    <img src="img/footer-carousel5.jpg" alt="carousel-img" />
+                    <img src="img/footer-carousel5.jpg" alt="carousel-img">
                 </div>
                 <div class="swiper-slide footer__swiper-slide">
-                    <img src="img/footer-carousel6.jpg" alt="carousel-img" />
+                    <img src="img/footer-carousel6.jpg" alt="carousel-img">
                 </div>
             </div>
             <div class="swiper-button-prev"></div>
@@ -670,7 +666,7 @@
             <div class="footer__all-info">
                 <div class="footer__social-container">
                     <div>
-                        <img class="footer__social-logo" src="img/footer-freddy-burgers-icon.svg" alt="icon" />
+                        <img class="footer__social-logo" src="img/footer-freddy-burgers-icon.svg" alt="icon">
                     </div>
                     <p class="footer__social-text">
                         We prepare delicious burgers and offer side dishes, salads, and
@@ -710,9 +706,9 @@
                         Subscribe to get the latest news from us:
                     </p>
 
-                    <input class="footer__subscribe-email" type="email" name="email" placeholder="Email*" required />
+                    <input class="footer__subscribe-email" type="email" name="email" placeholder="Email*" required>
 
-                    <input class="footer__subscribe-btn" type="submit" value="Subscribe" />
+                    <input class="footer__subscribe-btn" type="submit" value="Subscribe">
                 </form>
             </div>
             <div class="footer__grey-line">
@@ -724,8 +720,13 @@
             </div>
         </div>
     </footer>
+    <script src="js/header__burger-menu.js"></script>
+    <script src="js/our-app__countdown-clock.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-    <script src="script.js"></script>
+    <script src="js/footer-carousel.js"></script>
+    <script src="js/our-burgers__title.js"></script>
+    <script src="js/main__burgers-carousel.js"></script>
+
 </body>
 
 </html>

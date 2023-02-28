@@ -1,12 +1,12 @@
 .header {
-	background-image: url(https://res2.weblium.site/res/621624150217f800226038e2/6230ec8b64585600230c17a0?nowebp);
+	background-image: url(../img/header--banner-cover.jpg);
 	background-position-x: 25%;
 	background-size: cover;
 	padding: 0 24px;
 }
 
 .header__background-bottom {
-	background-image: url(https://res2.weblium.site/res/621624150217f800226038e2/62307eb98db26b0023d47681?nowebp);
+	background-image: url(../img/header-banner-bottom.svg);
 	background-color: transparent;
 	background-position: center;
 	height: 10px;
@@ -24,6 +24,61 @@
 .header__nav {
 	height: 107px;
 	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.burger {
+	width: 30px;
+	height: 19px;
+	cursor: pointer;
+	position: relative;
+}
+
+.burger__line {
+	display: block;
+	width: 100%;
+	height: 2px;
+	background-color: black;
+	position: absolute;
+	left: 0;
+	transition: .3s all linear;
+}
+
+.burger__line_first {
+	top: 0;
+}
+
+.burger__line_second,
+.burger__line_third {
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.burger__line_fourth {
+	bottom: 0;
+}
+
+.burger_active .burger__line_first,
+.burger_active .burger__line_fourth {
+	opacity: 0;
+}
+
+.burger_active .burger__line_second {
+	transform: translateY(-50%) rotate(45deg);
+}
+
+.burger_active .burger__line_third {
+	transform: translateY(-50%) rotate(-45deg);
+}
+
+
+.header__burger {
+	width: 100%;
+	height: 107px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 	align-items: center;
 }
 
@@ -92,6 +147,12 @@
 	padding: 12px 24px;
 }
 
+.header__order-button:hover {
+	background-color: var(--header-phone-color);
+	transition: 0.6s;
+}
+
+
 .header__call-now {
 	width: 272px;
 	height: 81px;
@@ -141,9 +202,8 @@
 	}
 
 	.header {
-		background-image: url(https://res2.weblium.site/res/621624150217f800226038e2/6230ec8b64585600230c17a0?nowebp);
-		background-position-x: 45%;
-		background-position-y: 6rem;
+		background-position-x: 48%;
+		background-position-y: 4em;
 		background-size: cover;
 	}
 }
@@ -162,7 +222,7 @@
 	.header__order {
 		height: 91px;
 		flex-direction: row;
-		justify-content: flex-start;
+		justify-content: space-between;
 		align-items: center;
 	}
 
@@ -174,34 +234,52 @@
 		height: 422px;
 		text-align: left;
 	}
-
-	.header {
-		background-image: url(https://res2.weblium.site/res/621624150217f800226038e2/6230ec8b64585600230c17a0?nowebp);
-		background-position-x: 50%;
-		background-position-y: 5rem;
-		background-size: cover;
-	}
 }
 
 @media (min-width: 990px) {
 	.header {
-	padding: 0 24px;
+		background-color: var(--background-header-banner);
+		background-position-x: 35%;
+		background-position-y: 9em;
+		background-repeat: no-repeat;
+		background-size: 1300px;
+		padding: 0;
+		height: 974px;
 	}
-	
+
+	.burger {
+		display: none;
+	}
+
 	.header__contacts {
+		padding: 0 40px;
+		background-color: var(--background-header-color);
 		height: 51px;
+		font-family: 'Lato', sans-serif;
+		font-size: 15px;
+		color: var(--button-text-color);
+		font-weight: 700;
 		display: flex;
 		flex-direction: row;
-		justify-content: space-around;
+		justify-content: space-between;
 		align-items: center;
 	}
 
+	.header__email {
+		color: var(--button-text-color);
+	}
+
 	.header__nav {
+		padding: 0 40px;
 		height: 93px;
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
 		align-items: center;
+	}
+
+	.header__logo {
+		width: 173px;
 	}
 
 	.header__icons {
@@ -213,8 +291,75 @@
 
 	.header__menu {
 		width: 386px;
+		color: var(--subtext-color);
+		font-size: 17px;
 		display: flex;
 		flex-direction: row;
 		justify-content: space-around;
+	}
+
+	.header__menu-item {
+		color: var(--subtext-color);
+	}
+
+	.header__title {
+		font-size: 20px;
+	}
+
+	.header__slogan {
+		width: 519px;
+		font-size: 70px;
+		font-weight: 700;
+		line-height: 70px;
+	}
+
+	.header__banner {
+		padding: 150px 0px 130px 40px;
+		height: 874px;
+		width: 600px;
+	}
+
+	.header__banner-text {
+		height: 450px;
+		width: 600px;
+	}
+
+	.header__order-button {
+		margin-right: 20px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.header__logo {
+		width: 215px;
+		height: 40px;
+	}
+
+	.header__banner,
+	.header__banner-text {
+		width: 75%;
+	}
+
+	.header__banner {
+		height: 760px;
+	}
+
+	.header__text {
+		padding-top: 20px;
+	}
+
+	.header__slogan {
+		width: 97%;
+	}
+
+	.header__order {
+		width: 470px;
+		height: 150px;
+		align-items: flex-end;
+	}
+
+	.header {
+		background-position-x: 50%;
+		background-position-y: 7em;
 	}
 }

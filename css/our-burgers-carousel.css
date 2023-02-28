@@ -1,0 +1,21 @@
+
+.our__burgers-carousel-slides {
+    min-height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+
+}
+.our__burgers-carousel{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70px;
+}
+.our__burgers-carousel-prev,
+.our__burgers-carousel-next {
+    color: #fbd47c;
+    background-color:#fbf7ec;
+    border:none;
+    
+}
