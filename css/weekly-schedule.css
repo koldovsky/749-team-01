@@ -80,6 +80,7 @@
   display: flex;
   align-items: center;
   justify-content:center;
+  flex-direction: row;
   flex: none;
   height: 345px;
   width: 345px;
