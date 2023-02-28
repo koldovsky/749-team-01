@@ -1,5 +1,6 @@
 .blog {
     background: url(../img/blog-background.jpg);
+    box-sizing: border-box;
     background-size: cover;
     padding-bottom: 10px;
 }

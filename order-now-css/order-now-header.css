@@ -1,0 +1,75 @@
+.header {
+    background-color: var(--icon-color);
+}
+.header__logo {
+	width: 235px;
+	height: 44px;
+}
+.header__nav {
+    padding: 24px 20px;
+    position: relative; 
+    display: flex;
+    justify-content: space-between;   
+}
+.header__menu {
+    position: absolute;
+    top: -100%;
+}
+.header__contacts {
+    position: absolute;
+    background-color: var(--background-header-color);
+    padding: 15px 40px;
+    top: -100%;
+}
+.header__icons {
+    position: absolute;
+    top: -100%;
+}
+.header__burger {
+    top: 10px;
+    position: relative;
+    cursor: pointer;
+    width: 24px;
+    height: 16px;
+    padding: 12px 8px;
+}
+.header__burger span,
+.header__burger::before,
+.header__burger::after {
+    position: absolute;
+    left: 0px;
+    height: 2px;
+    background-color: var(--animation-button-color);
+    transition: all 0.5s ease-in-out;
+    width: 100%;
+}
+.header__burger::before,
+.header__burger::after {
+    content: ' ';
+}
+.header__burger::before {
+    top: 0;
+}
+.header__burger::after {
+    bottom: 0;
+}
+.header__burger span {
+    transform: scale(1);
+}
+.header__burger.active span {
+    transform: scale(0);
+}
+.header__burger.active::before {
+    top: 50%;
+    transform: rotate(-45deg);
+}
+.header__burger.active::after {
+    bottom: 40%;
+    transform: rotate(45deg);
+}
+.header__name {
+    font-family: "Permanent Marker", cursive;
+	font-size: 16px;
+	font-weight: 400;
+	color: var(--title-color);
+}
