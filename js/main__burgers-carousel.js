@@ -14,13 +14,14 @@
     function renderSlides(slides) {
         const slidesContainer = document.querySelector('.burgers__carousel-slide');
         slidesContainer.innerHTML = slides[currentSlide];  
-        if (window.innerWidth > 1500) {
-            const secondSlide = currentSlide + 1 >= slides.length ? 0 : currentSlide + 1;
+        if (window.innerWidth > 800) {
+            const secondSlide = currentSlide + 1 >= slides.length ? 0 : currentSlide + 4;
             slidesContainer.innerHTML += slides[secondSlide];
             if (window.innerWidth > 900) {
                 const thirdSlide = secondSlide + 1 >= slides.length ? 0 : secondSlide + 1;
                 slidesContainer.innerHTML += slides[thirdSlide];
-            }  
+            } 
+            
             
         }    
     }
