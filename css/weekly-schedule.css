@@ -68,13 +68,12 @@
 .schedule-container-slider {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content:flex-start;
   gap: 36px;
   overflow-x: hidden;
   overflow-y: hidden;
   max-width: 410px;
   flex-wrap: nowrap;
-  flex-direction: row;
 }
 
 .schedule-daily-item {
