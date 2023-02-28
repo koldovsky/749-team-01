@@ -65,7 +65,7 @@
 }
 
 
-.schedule-daily-container {
+.schedule-container-slider {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -79,8 +79,9 @@
 
 .schedule-daily-item {
   flex: none;
-  text-align: center;
-  vertical-align: baseline;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 345px;
   width: 345px;
   border-radius: 8px;
@@ -119,7 +120,7 @@
     column-gap: 36px;
   }
 
-  .schedule-daily-container {
+  .schedule-container-slider {
     max-width: 800px;
   }
 }
