@@ -109,6 +109,10 @@
 }
 
 @media only screen and (min-width: 1200px) {
+  .schedule-container {
+    column-gap: 36px;
+  }
+
   .schedule-daily-container {
     max-width: 800px;
   }
