@@ -79,9 +79,6 @@
 
 .schedule-daily-item {
   flex: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   height: 345px;
   width: 345px;
   border-radius: 8px;
