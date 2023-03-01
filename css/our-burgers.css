@@ -4,7 +4,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    min-height: 1000px;    
+    min-height: 500px;    
 }
 
 .main__burgers-text-title {
@@ -29,18 +29,24 @@
 }
 .our__burgers-carusel-container{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    
     
 }
 
 .burgers__carousel-slide {
-    max-width: 180px;    
+    height: 419px; 
+    width: 290px;
     object-fit: cover;
     box-sizing: border-box;
     cursor: pointer;
     text-align: center;
     line-height: 25.5px;
-    justify-content: space-between;       
+    justify-content: space-between;
+    padding: 15px;
+    margin-left: 15px;
+    margin-bottom: 100px;
+
 }    
 
 .main__burgers-carousel {
@@ -63,7 +69,7 @@
     color: var(--text-color);
     font-family: sans-serif;
     font-weight: 400;
-    font-size: 17px;
+    font-size: 16px;
     text-align: center;
     margin-top: 20px;
 }
@@ -197,31 +203,45 @@
  }
  
  .grab__your-discount-text {
-    text-align: center;
+    text-align: justify;
     font-size: 15px;
     font-weight: 700;
     font-family: 'Lato', sans-serif;
+    
  }
  .actual__discount-star {
     color: #e7272d;
+    
  }
  @media (min-width: 900px) {
-    .main__burgers {
-        
+    .main__burgers {        
         display: flex;
         flex-direction: column;
         justify-content: space-between;
            
-    }
-    .our__burgers-carusel-container{
+    } 
+    .main__burgers-carousel{
         display: flex;
-    flex-wrap: nowrap;       
-        
+        flex-direction: row;
     }
-    .burgers__carouel-slide {       
-            flex: 1;
-            
+
+    .our__burgers-carusel-container{
+       align-items: center;
+        flex-direction: row;
+               
     }
+    
+    .burgers__carousel-title{
+        justify-content: space-between;
+    }
+
+    .our__burgers-carousel-prev,
+    .our__burgers-carousel-next {
+    color: #fbd47c;
+    background-color:#fbf7ec;
+    border:none;   
+    
+}
     
     .discount__and-salads {
         display: flex;
@@ -250,11 +270,8 @@
     .discount__and-salads {
         flex-direction: column;
     }
-    .main__burgers-carousel {
-        flex-direction: column;
-    }
     
- }
+}
  
     
 
