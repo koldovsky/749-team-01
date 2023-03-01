@@ -26,43 +26,47 @@
     <!-- Oleg Lastochkin (INGREDIENTS BLOCK)-->
 
     <header class="header">
-        <div class="header__contacts">
+        <div class="header__contacts header__contacts-info header__container">
             <p class="header__address">Los Angeles Gournadi, 1230 Barias</p>
             <a class="header__email" href="mailto:freddy.burgers@email.com">freddy.burgers@email.com</a>
             <p class="header__hours">Hours: 9:00 AM - 5:00 PM</p>
         </div>
 
-        <nav class="header__nav">
-            <a href="index.html" class="header__logo-container">
-                <img class="header__logo" src="img/burger-logo.svg" alt="Burger Logo">
-            </a>
-            <div class="burger">
-                <span class="burger__line burger__line_first"></span>
-                <span class="burger__line burger__line_second"></span>
-                <span class="burger__line burger__line_third"></span>
-                <span class="burger__line burger__line_fourth"></span>
+        <nav class="header__nav header__container">
+            <div class="header__nav-burger">
+                <a href="index.html" class="header__logo-container">
+                    <img class="header__logo" src="img/burger-logo.svg" alt="Burger Logo">
+                </a>
+                <div class="header__burger">
+                    <span></span>
+                </div>
             </div>
-
-            <div class="header__menu">
-                <a href="#" class="header__menu-item">About Us</a>
-                <a href="#" class="header__menu-item">Menu</a>
-                <a href="order-now-page.html" class="header__menu-item">Catering</a>
-                <a href="#" class="header__menu-item">Contacts</a>
-            </div>
-
-            <div class="header__icons">
-                <a class="header__icons-items" href="https://www.facebook.com" target="_blank">
-                    <img src="img/header--facebook-icons.svg" alt="Facebook Logo">
-                </a>
-                <a class="header__icons-items" href="https://www.instagram.com" target="_blank">
-                    <img src="img/header-instagram-icons.svg" alt="Instagram Logo">
-                </a>
-                <a class="header__icons-items" href="https://www.youtube.com" target="_blank">
-                    <img src="img/header-youtube-icons.svg" alt="Youtube Logo">
-                </a>
+            <div class="header__wrapper">
+                <div class="header__menu">
+                    <a href="#" class="header__menu-item">About Us</a>
+                    <a href="#" class="header__menu-item">Menu</a>
+                    <a href="order-now-page.html" class="header__menu-item">Catering</a>
+                    <a href="#" class="header__menu-item">Contacts</a>
+                </div>
+                <div class="header__wrapper-contacts header__contacts-info">
+                    <p class="header__address">Los Angeles Gournadi, 1230 Barias</p>
+                    <a class="header__email" href="mailto:freddy.burgers@email.com">freddy.burgers@email.com</a>
+                    <p class="header__hours">Hours: 9:00 AM - 5:00 PM</p>
+                </div>
+                <div class="header__icons">
+                    <a class="header__icons-items" href="https://www.facebook.com" target="_blank">
+                        <img src="img/header--facebook-icons.svg" alt="Facebook Logo">
+                    </a>
+                    <a class="header__icons-items" href="https://www.instagram.com" target="_blank">
+                        <img src="img/header-instagram-icons.svg" alt="Instagram Logo">
+                    </a>
+                    <a class="header__icons-items" href="https://www.youtube.com" target="_blank">
+                        <img src="img/header-youtube-icons.svg" alt="Youtube Logo">
+                    </a>
+                </div>
             </div>
         </nav>
-        <div class="header__banner">
+        <div class="header__banner header__container">
             <div class="header__banner-text">
                 <h1 class="header__title">FREDDY BURGERS</h1>
                 <p class="header__slogan">YOU HAVE A PARTY — WE HAVE TASTY BURGERS !</p>
@@ -72,7 +76,9 @@
                 </p>
             </div>
             <div class="header__order">
-                <a class="header__order-button button" href="order-now-page.html">Order Now</a>
+                <div class="header__order-btn">
+                    <a class="header__order-button button" href="order-now-page.html">Order Now</a>
+                </div>
                 <div class="header__call-now">
                     <img class="header__call-icon" src="img/phone.svg" alt="Phone Icon">
                     <div class="header__phone">
@@ -130,7 +136,7 @@
         <!-- OUR BURGERS block start -->
         <div class="main__burgers">
             <div class="main__burgers-text-title">
-                <h2 class="main__burgers-title">OUR BURGERS</h2>
+                <h2 class="main__burgers-title"></h2>
                 <p class="main__burgers-subtitle">Our Delicious Burgers</p>
                 <p class="main__burgers-text">
                     Hungry? Don't miss our selection of juicy burgers prepared just for
@@ -140,59 +146,16 @@
             <div class="main__burgers-carousel">
                 <div class="our__burgers-carousel">
                     <button class="our__burgers-carousel-prev"> &#10094;</button>
-                    <div class="our__burgers-carousel-slides"></div>
+                    <button class="our__burgers-carousel-next"> &#10095;</button>
                 </div>
-                <div class="burgers__carousel-slide">
-                    <img width="150" src="img/double-beef.png" alt="Double Beef">
-                    <h4 class="burgers__carousel-title">Double Beef</h4>
-                    <p class="burgers__carousel-text">
-                        2 patties, home-made sauce, tomato, and cheddar cheese
-                    </p>
-                    <p class="burgers__carousel-price">$12.00</p>
+                <div class="our__burgers-carusel-container">
+                    <div class="burgers__carousel-slide"></div>
+                    <div class="burgers__carousel-slide"></div>
+                    <div class="burgers__carousel-slide"></div>
+                    <div class="burgers__carousel-slide"></div>
+                    <div class="burgers__carousel-slide"></div>
+                    <div class="burgers__carousel-slide"></div>
                 </div>
-                <div class="burgers__carousel-slide">
-                    <img width="150" src="img/freshburger.png" alt="Freshburger">
-                    <h4 class="burgers__carousel-title">Freshburger</h4>
-                    <p class="burgers__carousel-text">
-                        Beef, red onion relish, lettuce, two kinds of pepper & classic
-                        sauce
-                    </p>
-                    <p class="burgers__carousel-price">$13.00</p>
-                </div>
-                <div class="burgers__carousel-slide">
-                    <img width="150" src="img/black-hamburger.png" alt="Black Hamburger">
-                    <h4 class="burgers__carousel-title">Black Hamburger</h4>
-                    <p class="burgers__carousel-text">
-                        Fresh bun with squid ink, beef patty, red onion, and cheese
-                    </p>
-                    <p class="burgers__carousel-price">$23.00</p>
-                </div>
-                <div class="burgers__carousel-slide">
-                    <img width="150" src="img/egg-freshburger.png" alt="Egg Freshburger">
-                    <h4 class="burgers__carousel-title">Egg Freshburger</h4>
-                    <p class="burgers__carousel-text">
-                        Beef, fried egg, red onion, lettuce, pepper, cheese, and classic
-                        sauce
-                    </p>
-                    <p class="burgers__carousel-price">$17.00</p>
-                </div>
-                <div class="burgers__carousel-slide">
-                    <img width="150" src="img/chicken-burger.png" alt="Chicken burger">
-                    <h4 class="burgers__carousel-title">Chicken burger</h4>
-                    <p class="burgers__carousel-text">
-                        Chicken breast, basil pesto, mustard mayo, tomato, and lettuce
-                    </p>
-                    <p class="burgers__carousel-price">$12.00</p>
-                </div>
-                <div class="burgers__carousel-slide">
-                    <img width="150" src="img/buffalo-ranch.png" alt="Buffalo Ranch">
-                    <h4 class="burgers__carousel-title">Buffalo Ranch</h4>
-                    <p class="burgers__carousel-text">
-                        Beef patty, crispy bacon, lettuce, tomato, and home-made sauce
-                    </p>
-                    <p class="burgers__carousel-price">$20.00</p>
-                </div>
-                <button class="our__burgers-carousel-next"> &#10095;</button>
             </div>
             <div class="disconts__salads-actual-discount">
                 <div class="discount__and-salads">
@@ -206,7 +169,7 @@
                             Fresh bun, tuna patty, cheese, tomatoes, and our <br />
                             special oishi sauce
                         </p>
-                        <a href="#" class="discount_order-button button">Order Now</a>
+                        <a href="order-now-page.html" class="discount_order-button button">Order Now</a>
                     </div>
                     <div class="salads">
                         <h2 class="salads__title">Salads</h2>
@@ -218,7 +181,7 @@
                             Spinach, walnuts, feta cheese, chopped <br />
                             strawberries, and signature sauce
                         </p>
-                        <a href="#" class="salads_order-button button">Order Now</a>
+                        <a href="order-now-page.html" class="salads_order-button button">Order Now</a>
                     </div>
                 </div>
                 <div class="actual__discount">
@@ -347,68 +310,71 @@
 
         <!--WEEKLY SCHEDULE BLOCK / BLOCK 6 START -->
         <section class="schedule">
-			<div class="schedule-container">
-				<div class="schedule-info">
-					<h3 class="schedule-info-title">Weekly Schedule</h3>
-					<p class="schedule-info-message">Wonder where to find our food truck in Los Angeles? Check the schedule!
-					</p>
-					<br>
-					<div class="schedule-info-call">
-						<img class="schedule-info-phone-icon" src="img/phone.svg" alt="Phone Icon">
-						<div class="">
-							<h4 class="schedule-info-call-message">Or call us</h4>
-							<a class="schedule-info-phone-number" href="tel:+12345678901">+ 1 (234) 567 89 01</a>
-						</div>
-					</div>
-				</div>
-				<div class="schedule-daily-container">
-					<div class="schedule-daily-item">
-						<h2 class="schedule-daily-item-weekday">Monday</h2><br>
-						<p class="schedule-daily-item-date">July 09</p><br>
-						<p class="schedule-daily-itemt-time">11.30 AM - 4.30 PM</p><br>
-						<p class="schedule-daily-item-location">
-							<span>Port Jasen</span><br><span>7432 Kay Tunnel</span>
-						</p><br>
-						<a href="#" class="schedule-daily-item-directions">Get Directions</a>
-					</div>
-					<div class="schedule-daily-item">
-						<h2 class="schedule-daily-item-weekday">Tuesday</h2><br>
-						<p class="schedule-daily-item-date">July 10</p><br>
-						<p class="schedule-daily-itemt-time">1.30 PM - 6.30 PM</p><br>
-						<p class="schedule-daily-item-location">
-							<span>East Richard</span><br><span>383 Gibson Loaf</span>
-						</p><br>
-						<a href="#" class="schedule-daily-item-directions">Get Directions</a>
-					</div>
-					<div class="schedule-daily-item">
-						<h2 class="schedule-daily-item-weekday">Wednesday</h2><br>
-						<p class="schedule-daily-item-date">July 11</p><br>
-						<p class="schedule-daily-itemt-time">11.30 AM - 3.30 PM</p><br>
-						<p class="schedule-daily-item-location">
-							<span>West Darienport</span><br><span>195 Will Curve</span>
-						</p><br>
-						<a href="#" class="schedule-daily-item-directions">Get Directions</a>
-					</div>
-					<div class="schedule-daily-item">
-						<h2 class="schedule-daily-item-weekday">Thursday</h2><br>
-						<p class="schedule-daily-item-date">July 12</p><br>
-						<p class="schedule-daily-itemt-time">1.30 PM - 4.30 PM</p><br>
-						<p class="schedule-daily-item-location">
-							<span>Culver City</span><br><span>NPR 9909 Jefferson Blvd</span>
-						</p><br>
-						<a href="#" class="schedule-daily-item-directions">Get Directions</a>
-					</div>
-					<div class="schedule-daily-item">
-						<h2 class="schedule-daily-item-weekday">Friday</h2><br>
-						<p class="schedule-daily-item-date">July 13</p><br>
-						<p class="schedule-daily-itemt-time">11.30 AM - 6.30 PM</p><br>
-						<p class="schedule-daily-item-location">
-							<span>Universal</span><br><span>Lankershim Blvd. 91604</span>
-						</p><br>
-						<a href="#" class="schedule-daily-item-directions">Get Directions</a>
-					</div>
-				</div>
-			</div>	
+            <div class="schedule-container">
+                <div class="schedule-info">
+                    <h3 class="schedule-info-title">Weekly Schedule</h3>
+                    <span class="schedule-info-message">Wonder where to find our food truck in Los Angeles? Check the
+                        schedule!</span>
+                    <br>
+                    <div class="schedule-info-call">
+                        <img class="schedule-info-phone-icon" src="img/phone.svg" alt="Phone Icon">
+                        <div class="">
+                            <h4 class="schedule-info-call-message">Call us</h4>
+                            <a class="schedule-info-phone-number" href="tel:+12345678900">+ 1 (234) 567 89 00</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="schedule-container-slider">
+                    <div class="schedule-daily-item">
+                        <h2 class="schedule-daily-item-weekday">Monday</h2><br>
+                        <p class="schedule-daily-item-date">July 09</p><br>
+                        <p class="schedule-daily-itemt-time">11.30 AM - 4.30 PM</p><br>
+                        <p class="schedule-daily-item-location">
+                            <span>Port Jasen</span><br><span>7432 Kay Tunnel</span>
+                        </p><br>
+                        <a href="#" class="schedule-daily-item-directions">Get Directions</a>
+                    </div>
+                    <div class="schedule-daily-item">
+                        <h2 class="schedule-daily-item-weekday">Tuesday</h2><br>
+                        <p class="schedule-daily-item-date">July 10</p><br>
+                        <p class="schedule-daily-itemt-time">1.30 PM - 6.30 PM</p><br>
+                        <p class="schedule-daily-item-location">
+                            <span>East Richard</span><br><span>383 Gibson Loaf</span>
+                        </p><br>
+                        <a href="#" class="schedule-daily-item-directions">Get Directions</a>
+                    </div>
+                    <div class="schedule-daily-item hidden-item">
+                        <h2 class="schedule-daily-item-weekday">Wednesday</h2><br>
+                        <p class="schedule-daily-item-date">July 11</p><br>
+                        <p class="schedule-daily-itemt-time">11.30 AM - 3.30 PM</p><br>
+                        <p class="schedule-daily-item-location">
+                            <span>West Darienport</span><br><span>195 Will Curve</span>
+                        </p><br>
+                        <a href="#" class="schedule-daily-item-directions">Get Directions</a>
+                    </div>
+                    <div class="schedule-daily-item hidden-item">
+                        <h2 class="schedule-daily-item-weekday">Thursday</h2><br>
+                        <p class="schedule-daily-item-date">July 12</p><br>
+                        <p class="schedule-daily-itemt-time">1.30 PM - 4.30 PM</p><br>
+                        <p class="schedule-daily-item-location">
+                            <span>Culver City</span><br><span>NPR 9909 Jefferson Blvd</span>
+                        </p><br>
+                        <a href="#" class="schedule-daily-item-directions">Get Directions</a>
+                    </div>
+                    <div class="schedule-daily-item hidden-item">
+                        <h2 class="schedule-daily-item-weekday">Friday</h2><br>
+                        <p class="schedule-daily-item-date">July 13</p><br>
+                        <p class="schedule-daily-itemt-time">11.30 AM - 6.30 PM</p><br>
+                        <p class="schedule-daily-item-location">
+                            <span>Universal</span><br><span>Lankershim Blvd. 91604</span>
+                        </p><br>
+                        <a href="#" class="schedule-daily-item-directions">Get Directions</a>
+                    </div>
+                </div>
+
+                <div class="schedule-slider-prev hidden-item"></div>
+                <div class="schedule-slider-next hidden-item"></div>
+            </div>
         </section>
 
         <!--WEEKLY SCHEDULE BLOCK / BLOCK 6 FINISH-->

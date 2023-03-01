@@ -33,7 +33,7 @@ h3 {
   --icon-color: rgb(251, 190, 54);
   --animation-button-color: rgb(0, 0, 0);
   --form-background-color: rgb(251 247 237);
-  font-family: "Lato", sans-serif;
+  --font-family: "Lato", sans-serif;
   --subtitle-font: 'Rubik', sans-serif;
   --subtitle-color: rgb(105, 105, 105);
   --subtitle-header-color: #ffffff;
