@@ -33,13 +33,14 @@ h3 {
   --icon-color: rgb(251, 190, 54);
   --animation-button-color: rgb(0, 0, 0);
   --form-background-color: rgb(251 247 237);
-  font-family: "Lato", sans-serif;
+  --font-family: "Lato", sans-serif;
   --subtitle-font: 'Rubik', sans-serif;
   --subtitle-color: rgb(105, 105, 105);
   --subtitle-header-color: #ffffff;
   --header-phone-color: #282623;
   --background-header-color: #efad18;
   --background-header-banner: #fcbe37;
+  --header-menu-item-color: #4F5047;
   --email-footer-background: rgba(255, 255, 255, 0.11);
   --footer-carousel-button-color: rgba(0, 0, 0, 0.5);
   --font-color-checkboxtext: rgb(69, 69, 69);

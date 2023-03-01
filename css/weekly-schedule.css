@@ -65,24 +65,27 @@
 }
 
 
-.schedule-daily-container {
+.schedule-container-slider {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content:flex-start;
   gap: 36px;
   overflow-x: hidden;
   overflow-y: hidden;
-  max-width: 410px;
+  max-width: 380px;
   flex-wrap: nowrap;
-  flex-direction: row;
 }
 
 .schedule-daily-item {
+  display: flex;
+  align-items:center;
+  justify-content:space-around;
+  flex-direction: column;
   flex: none;
-  text-align: center;
-  vertical-align: baseline;
   height: 345px;
   width: 345px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   border-radius: 8px;
   background-color: #fff;
   margin-bottom: 32px;
@@ -119,7 +122,7 @@
     column-gap: 36px;
   }
 
-  .schedule-daily-container {
+  .schedule-container-slider {
     max-width: 800px;
   }
 }
