@@ -1,6 +1,6 @@
 (function () {
-	const burger = document.querySelector('.burger');
-	burger.addEventListener('click', () => {
-		burger.classList.toggle('burger_active')
+	const header__burger = document.querySelector('.header__burger');
+	header__burger.addEventListener('click', () => {
+		header__burger.classList.toggle('active')
 	});
 }());
