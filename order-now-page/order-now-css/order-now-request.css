@@ -20,29 +20,55 @@
 .request__form-subtitle {
 	font-size: 30px;
 	font-weight: 700;
+}
 
+.request__submit-icon {
+	width: 40px;
+	height: 40px;
+}
+
+.request__popup {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(255, 255, 255, 0.6);
+	top: 0;
+	left: 0;
+	opacity: 0;
+	visibility: hidden;
+	transition: all 0.5s ease 0s;
+}
+
+.request__popup:target {
+	opacity: 1;
+	visibility: visible;
+}
+
+.request__submit-container {
+	min-height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .request__submit-form {
-	position: fixed;
-	top: -100%;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background-color: var(--background-header-banner);
-	z-index: 2;
-	transition: top 0.3s ease-in;
-	padding: 15px 24px 50px 24px;
-	transition: top 0.3s ease-in 0.1s;
-	overflow: hidden;
-	margin: auto;
+	position: relative;
+	width: 344px;
+	height: 305px;
+	background-color: var(--form-background-color);
+	padding: 43px 32px 65px 32px;
 	display: flex;
 	flex-direction: column;
+	justify-content: space-between;
 	align-items: center;
+	box-shadow: 1px 1px 50px var(--request-inp-text-color);
 }
 
-.request__submit-form.active {
-	top: 0;
+.request__popup-close {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	font-size: 20px;
 }
 
 .request__form-item,
@@ -58,6 +84,23 @@
 	font-weight: 400;
 	line-height: 18px;
 	text-align: start;
+}
+
+.request__submit-btn {
+	background-color: var(--icon-color);
+	color: var(--button-text-color);
+	text-align: center;
+	font-family: var(--font-family);
+	font-size: 15px;
+	font-weight: 700;
+	border-radius: 50px;
+	border: 0px;
+	padding: 11px 22px;
+	width: 210px;
+}
+
+.request__submit-btn:hover {
+background-color: var(--title-color);
 }
 
 .request__form-btn {

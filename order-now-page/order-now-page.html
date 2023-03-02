@@ -92,21 +92,28 @@
 					placeholder="Number of people">
 				<textarea class="request__form-item request__form-textarea" name="request__question" id="request__question"
 					placeholder="Leave any questions or specific notes"></textarea>
-				<button class="request__form-btn" type="submit">Submit</button>
-			</div>
-			<div class="request__submit-form">
-				<img src="../img/order-now-page-request-icon.svg" alt="'Done' icon">
-				<h4 class="request__submit-title">Thank you</h4>
-				<p class="request__submit-subtitle">We will contact you shortly.</p>
-				<button class="request__submit-btn" type="submit">Ok</button>
+				<a href="#request__popup" class="request__form-btn">Submit</a>
 			</div>
 		</section>
-		<div class="request__bg-bottom"><img src="../img/order-now-page-request-bottom-bg.svg" alt="Yellow-black Line"></div>
+		<div class="request__bg-bottom"><img src="../img/order-now-page-request-bottom-bg.svg" alt="Yellow-black Line">
+		</div>
 	</main>
 	<footer class="footer">
 
 	</footer>
+	<div id="request__popup" class="request__popup">
+		<div id="request__popup-close__btn" class="request__submit-container">
+			<div class="request__submit-form">
+				<a href="#request__popup-close__btn" class="request__popup-close">✖</a>
+				<img class="request__submit-icon" src="../img/order-now-page-request-icon.svg" alt="'Done' icon">
+				<h4 class="request__submit-title">Thank you</h4>
+				<p class="request__submit-subtitle">We will contact you shortly.</p>
+				<a href="#" class="request__submit-btn">Ok</a>
+			</div>
+		</div>
+	</div>
 	<script src="order-now-js/header.js"></script>
+	<script src="order-now-js/request-form.js"></script>
 </body>
 
 </html>
