@@ -20,7 +20,7 @@
             if (window.innerWidth > 700) {
                 const thirdSlide = secondSlide + 1 >= slides.length ? 0 : secondSlide + 1;
                 slidesContainer.innerHTML += slides[thirdSlide];                        
-            if (window.innerWidth > 900) {
+            if (window.innerWidth > 1300) {
                 const fourSlide = thirdSlide + 1 >= slides.length ? 0 : thirdSlide + 1;
                 slidesContainer.innerHTML += slides[fourSlide];
            
