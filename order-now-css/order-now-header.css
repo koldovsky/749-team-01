@@ -6,32 +6,27 @@
 	height: 44px;
 }
 .header__nav {
-    padding: 24px 20px;
+    padding: 30px 20px;
     position: relative; 
     display: flex;
     justify-content: space-between;   
-}
-.header__menu {
-    position: absolute;
-    top: -100%;
+    z-index: 10;
 }
 .header__contacts {
     position: absolute;
-    background-color: var(--background-header-color);
-    padding: 15px 40px;
     top: -100%;
 }
-.header__icons {
+.header__wrapper {
     position: absolute;
     top: -100%;
 }
 .header__burger {
-    top: 10px;
     position: relative;
+    top: 10px;
     cursor: pointer;
     width: 24px;
-    height: 16px;
-    padding: 12px 8px;
+	height: 16px;
+	padding: 6.5px;
 }
 .header__burger span,
 .header__burger::before,
@@ -72,4 +67,72 @@
 	font-size: 16px;
 	font-weight: 400;
 	color: var(--title-color);
+}
+.header__wrapper {
+    position: fixed;
+    top: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: var(--icon-color);
+    transition: top 0.3s ease-in-out;
+    z-index: 5;
+}
+.header__wrapper.active {
+    top: 0;
+    margin: auto;
+}
+.body.lock {
+    overflow: hidden;
+}
+.header__menu {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 90px;
+}
+.header__menu-item {
+    margin: 10px 0;
+    color: var(--font-color-checkboxtext);
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+}
+.header__burger-contacts {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 30px;
+    margin-top: 30px;
+}
+.header__contacts-item {
+    color: var(--button-text-color);
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 15px 0;
+}
+.header__icons {
+	display:flex;
+	justify-content: center;
+}
+.header__icons-items {
+    padding: 0 5px;
+}
+.header__banner {
+    padding: 80px 24px;
+}
+.header__subtitle {
+    margin-top: 20px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+    color: var(--button-text-color);
+}
+.header__info {
+    margin-top: 50px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--button-text-color);
+    line-height: 30px;
 }
