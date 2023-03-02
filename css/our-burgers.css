@@ -29,14 +29,13 @@
 }
 .our__burgers-carusel-container{
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: row;   
     
 }
 
 .burgers__carousel-slide {
     height: 419px; 
-    width: 290px;
+    width: 280px;
     object-fit: cover;
     box-sizing: border-box;
     cursor: pointer;
@@ -51,11 +50,18 @@
 
 .main__burgers-carousel {
     display: flex;
-   flex-direction: row;
+   flex-direction: column;
    align-items: center;
    justify-content: space-between;
    margin: auto;
-   
+   width: 100%;
+     
+}
+.our__burgers-carousel-prev,
+    .our__burgers-carousel-next {
+    color: #fbd47c;
+    background-color:#fbf7ec;
+    border:none;     
 }
 
 .burgers__carousel-title {
@@ -233,14 +239,14 @@
     
     .burgers__carousel-title{
         justify-content: space-between;
+        
     }
 
     .our__burgers-carousel-prev,
     .our__burgers-carousel-next {
     color: #fbd47c;
     background-color:#fbf7ec;
-    border:none;   
-    
+    border:none;     
 }
     
     .discount__and-salads {
@@ -267,6 +273,9 @@
 
 
 @media (min-width: 768px) {
+    .main__burgers-carousel{
+        flex-direction: row;
+    }
     .discount__and-salads {
         flex-direction: column;
     }
@@ -275,7 +284,11 @@
  
     
 
- @media (min-width: 560px) {    
+ @media (min-width: 560px) {  
+    .main__burgers-carousel{
+        flex-direction: row;
+       
+    }  
     
     .discount__and-salads {
         display: flex;
