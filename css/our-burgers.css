@@ -54,6 +54,7 @@
    align-items: center;
    justify-content: space-between;
    margin: auto;
+   min-width: 20px;
    
 }
 .our__burgers-carousel-prev,
