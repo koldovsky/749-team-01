@@ -1,3 +1,121 @@
-.reguest {
-background-image: url(../img/order-now-page-request-banner.jpg);
+.request {
+	background-image: url(../img/order-now-page-request-banner.jpg);
+	background-size: cover;
+	background-position: 90%;
+	padding: 90px 24px;
+}
+
+.request__form {
+	height: 815px;
+	padding: 31px;
+	background-color: var(--form-background-color);
+	border-radius: 10px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.request__form-subtitle {
+	font-size: 30px;
+	font-weight: 700;
+
+}
+
+.request__submit-form {
+	position: fixed;
+	top: -100%;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: var(--background-header-banner);
+	z-index: 2;
+	transition: top 0.3s ease-in;
+	padding: 15px 24px 50px 24px;
+	transition: top 0.3s ease-in 0.1s;
+	overflow: hidden;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.request__submit-form.active {
+	top: 0;
+}
+
+.request__form-item,
+.request__form-btn {
+	width: 100%;
+	border-radius: 50px;
+	border: 0px;
+	padding: 11px 22px;
+	background-color: var(--request-inputs-color);
+	color: var(--request-inp-text-color);
+	font-family: var(--font-family);
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 18px;
+	text-align: start;
+}
+
+.request__form-btn {
+	background-color: var(--title-color);
+	color: var(--button-text-color);
+	text-align: center;
+	font-family: var(--font-family);
+	font-size: 15px;
+	font-weight: 700;
+}
+
+.request__form-textarea {
+	height: 20%;
+	border-radius: 25px;
+	margin-bottom: 30px;
+}
+
+@media (min-width: 768px) {
+	.request {
+		display: flex;
+		justify-content: flex-end;
+		height: 1005px;
+		background-position: 30%;
+		padding: 110px 32px;
+	}
+
+	.request__form {
+		width: 48%;
+		height: 100%;
+	}
+
+	.request__form-subtitle {
+		font-size: 33px;
+	}
+
+	.request__form-title {
+		font-size: 18px;
+	}
+}
+
+@media (min-width: 992px) {
+	.request {
+		padding: 90px 40px;
+	}
+
+	.request__form-title {
+		font-size: 20px;
+		line-height: 28px;
+	}
+
+	.request__form-subtitle {
+		font-size: 36px;
+		width: 80%;
+	}
+}
+
+@media (min-width: 1200px) {
+	.request__form {
+		height: 817px;
+	}
 }

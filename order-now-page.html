@@ -74,16 +74,20 @@
 		</section>
 		<section class="request">
 			<div class="request__form">
-				<h2 class="request__form-title">Request</h2>
-				<p class="request__form-subtitle">Fill in a Catering Inquiry</p>
-				<input type="text" name="request__name" id="request__name" placeholder="Full name*" required>
-				<input type="tel" name="request__phone" id="request__phone" placeholder="Phone number*" required>
-				<input type="email" name="request__email" id="request__email" placeholder="E-mail*" required>
-				<input type="text" name="request__date" id="request__date" placeholder="Event date">
-				<input type="text" name="request__people" id="request__people" placeholder="Number of people">
-				<textarea name="request__question" id="request__question" cols="30" rows="10"
+				<h2 class="request__form-title">REQUEST</h2>
+				<h3 class="request__form-subtitle">Fill in a Catering Inquiry</h3>
+				<input class="request__form-item" type="text" name="request__name" id="request__name" placeholder="Full name*"
+					required>
+				<input class="request__form-item" type="tel" name="request__phone" id="request__phone"
+					placeholder="Phone number*" required>
+				<input class="request__form-item" type="email" name="request__email" id="request__email" placeholder="E-mail*"
+					required>
+				<input class="request__form-item" type="text" name="request__date" id="request__date" placeholder="Event date">
+				<input class="request__form-item" type="text" name="request__people" id="request__people"
+					placeholder="Number of people">
+				<textarea class="request__form-item request__form-textarea" name="request__question" id="request__question"
 					placeholder="Leave any questions or specific notes"></textarea>
-				<button type="submit"></button>
+				<button class="request__form-btn" type="submit">Submit</button>
 			</div>
 			<div class="request__submit-form">
 				<img src="img/order-now-page-request-icon.svg" alt="'Done' icon">
@@ -92,6 +96,7 @@
 				<button class="request__submit-btn" type="submit">Ok</button>
 			</div>
 		</section>
+		<div class="request__bg-bottom"><img src="img/order-now-page-request-bottom-bg.svg" alt="Yellow-black Line"></div>
 	</main>
 	<footer class="footer">
 
