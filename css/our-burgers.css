@@ -29,13 +29,16 @@
 }
 .our__burgers-carusel-container{
     display: flex;
-    flex-direction: row;   
+    flex-direction: row;
+   
     
 }
 
 .burgers__carousel-slide {
-    height: 419px; 
-    width: 280px;
+    max-height: 419px;
+    min-height: 410px; 
+    max-width: 290px;
+    min-width: 230px;
     object-fit: cover;
     box-sizing: border-box;
     cursor: pointer;
@@ -78,6 +81,7 @@
     font-size: 16px;
     text-align: center;
     margin-top: 20px;
+   
 }
 
 .burgers__carousel-price {
@@ -236,9 +240,13 @@
         flex-direction: row;
                
     }
-    
+    .burgers__carousel-slide {
+        height: 419px; 
+        width: 290px;
+    }
     .burgers__carousel-title{
         justify-content: space-between;
+        font-size: 26px;
         
     }
 
