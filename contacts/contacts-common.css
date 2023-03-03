@@ -44,6 +44,7 @@ h3 {
     --email-footer-background: rgba(255, 255, 255, 0.11);
     --footer-carousel-button-color: rgba(0, 0, 0, 0.5);
     --font-color-checkboxtext: rgb(69, 69, 69);
+    --header-background:#fbbe36;
     scroll-behavior: smooth;
 }
 
