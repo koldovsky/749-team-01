@@ -45,6 +45,7 @@ h3 {
   --form-background-color: #ffffff;
   --request-inputs-color: #fbf7ed;
   --request-inp-text-color: rgb(98, 89, 97);
+  --popup-shadow: rgba(0, 0, 0, 0.3);
   scroll-behavior: smooth;
 }
 
