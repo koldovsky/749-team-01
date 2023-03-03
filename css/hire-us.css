@@ -51,7 +51,7 @@
    width: 95%;
    display: block;
    text-align: center;
-   margin-top: 40px;
+   margin-top: 20px;
    text-transform: capitalize;
  }
 
@@ -62,7 +62,7 @@
    text-align: center;
    width: 80%;
    height: auto;
-   margin-top: 5%;
+   margin-top: 3%;
  }
 
  .hire__us-info {
@@ -210,5 +210,11 @@
    .hire__us-title {
      font-size: 20px;
    }
+ }
 
+ .clock {
+   font-size: 20px;
+   font-family: var(--title-color);
+   font-weight: bold;
+   color: var(--clock-color);
  }
