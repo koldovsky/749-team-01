@@ -136,6 +136,10 @@
 	font-weight: 700;
 }
 
+.header__menu-item:hover {
+color: var(--title-color);
+}
+
 .header__wrapper-contacts {
 	height: 130px;
 	display: flex;
