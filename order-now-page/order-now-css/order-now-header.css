@@ -107,6 +107,9 @@
     font-weight: 700;
     padding: 15px 0;
 }
+.header__menu-item:hover {
+    color: var(--title-color);
+}
 .header__icons {
 	display:flex;
 	justify-content: center;
