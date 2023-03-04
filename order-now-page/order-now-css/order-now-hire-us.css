@@ -60,3 +60,14 @@
         font-size: 20px;
     }
 }
+@media (min-width: 770px) {
+    .hire__title {
+        font-size: 20px;
+    }
+    .hire__slogan {
+        font-size: 56px;
+    }
+    .header__table-text {
+        line-height: 25.5px;
+    }
+}
