@@ -1,5 +1,5 @@
 .blog {
-    background: url(../img/blog-background.jpg);
+    background: url(../img/blog-background.jfif);
     box-sizing: border-box;
     background-size: cover;
     padding-bottom: 10px;
@@ -67,6 +67,9 @@
     font-family: 'Rubik', sans-serif;
     font-size: 24px;
     color: var(--subtext-color);
+}
+.blog__change {
+    letter-spacing: -1.5px;
 }
 .blog__news {
     margin-top: 20px;
