@@ -233,11 +233,13 @@
     .main__burgers-carousel{
         display: flex;
         flex-direction: row;
+        width: 100%;
     }
 
     .our__burgers-carusel-container{
        align-items: center;
         flex-direction: row;
+        width: 100%;
                
     }
     .burgers__carousel-slide {
