@@ -1,10 +1,10 @@
  .hire__us {
    background-image: url(../img/hire-us-background.jpg);
    background-size: cover;
-   background-position: left;
+   background-position: center;
    height: 846px;
    padding: 0;
-   margin: 0;
+   margin: auto;
    display: flex;
    align-items: center;
  }
@@ -51,8 +51,8 @@
    width: 95%;
    display: block;
    text-align: center;
-   margin-top: 40px;
-  text-transform: capitalize;
+   margin-top: 20px;
+   text-transform: capitalize;
  }
 
  .hire__us-subtitle {
@@ -62,7 +62,7 @@
    text-align: center;
    width: 80%;
    height: auto;
-   margin-top: 5%;
+   margin-top: 3%;
  }
 
  .hire__us-info {
@@ -204,9 +204,17 @@
    .hire__us-section {
      width: 469px;
      height: 620px;
-     margin-left: 21%;
-   }   
-   .hire__us-title {
-    font-size: 20px;
+     margin: auto;
    }
+
+   .hire__us-title {
+     font-size: 20px;
+   }
+ }
+
+ .clock {
+   font-size: 20px;
+   font-family: var(--title-color);
+   font-weight: bold;
+   color: var(--clock-color);
  }

@@ -1,5 +1,5 @@
 .request {
-	background-image: url(/img/order-now-page-request-banner.jpg);
+	background-image: url(../order-now-page-request-banner.jpg);
 	background-size: cover;
 	background-position: 90%;
 	padding: 90px 24px;
@@ -23,8 +23,9 @@
 }
 
 .request__submit-icon {
-	width: 40px;
-	height: 40px;
+	width: 34px;
+	height: 34px;
+	margin-bottom: 20px;
 }
 
 .request__popup {
@@ -36,7 +37,7 @@
 	left: 0;
 	opacity: 0;
 	visibility: hidden;
-	transition: all 0.5s ease 0s;
+	z-index: 8;
 }
 
 .request__popup:target {
@@ -61,7 +62,15 @@
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
-	box-shadow: 1px 1px 50px var(--request-inp-text-color);
+	box-shadow: 1px 1px 50px var(--popup-shadow);
+}
+
+.request__submit-subtitle {
+font-family: var(--font-family);
+font-size: 14px;
+line-height: 20px;
+font-weight: 400;
+color: var(--request-inp-text-color);
 }
 
 .request__popup-close {
@@ -95,12 +104,20 @@
 	font-weight: 700;
 	border-radius: 50px;
 	border: 0px;
-	padding: 11px 22px;
+	padding: 8px 22px;
 	width: 210px;
+	margin-top: 30px;
 }
 
 .request__submit-btn:hover {
 background-color: var(--title-color);
+}
+
+.request__submit-title {
+font-family: var(--subtitle-font);
+font-size: 16px;
+font-weight: 700;
+color: var(--request-inp-text-color);
 }
 
 .request__form-btn {
@@ -122,6 +139,8 @@ background-color: var(--title-color);
 	border-radius: 25px;
 	margin-bottom: 30px;
 }
+
+
 
 @media (min-width: 768px) {
 	.request {
