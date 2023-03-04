@@ -6,50 +6,54 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Catering Page: Burgers Food Truck Template</title>
-	<link rel="shortcut icon" href="/img/burger-icon.png" type="image/png">
+	<link rel="shortcut icon" href="../img/burger-icon.png" type="image/png">
 	<link rel="stylesheet" href="order-now-css/order-now-index.css">
+	<base href="https://koldovsky.github.io/749-team-01/order-now-page/order-now-page.html" target="_blank">
+	
 </head>
 <!-- Andriy Krynytskiy (options and areas blocks)-->
 <!-- Anastasia Ivanova (header and hire us blocks)-->
 <!-- Alina Filippova (request and footer blocks)-->
 
 <body>
-	<header class="header">
+	<header class="header container">
 		<div class="header__contacts">
 			<p class="header__contacts-item">Los Angeles Gournadi, 1230 Barias</p>
 			<a class="header__contacts-item" href="mailto:freddy.burgers@email.com">freddy.burgers@email.com</a>
 			<p class="header__contacts-item">Hours: 9:00 AM - 5:00 PM</p>
 		</div>
-		<nav class="header__nav">
-			<a href="/index.html"><img class="header__logo" src="../img/burger-logo.svg" alt="Burger Logo"></a>
-			<div class="header__burger">
-				<span></span>
+		<nav class="header__navigation">
+			<nav class="header__nav">
+				<a href="../index.html"><img class="header__logo" src="../img/burger-logo.svg" alt="Burger Logo"></a>
+				<div class="header__burger">
+					<span></span>
+				</div>
+			</nav>
+			<div class="header__wrapper">
+				<div class="header__menu">
+					<a href="#" class="header__menu-item">About Us</a>
+					<a href="../menu.html" class="header__menu-item">Menu</a>
+					<a href="../order-now-page/order-now-page.html" class="header__menu-item">Catering</a>
+					<a href="../contacts.html" class="header__menu-item">Contacts</a>
+				</div>
+				<div class="header__burger-contacts">
+					<p class="header__contacts-item">Los Angeles Gournadi, 1230 Barias</p>
+					<a class="header__contacts-item" href="mailto:freddy.burgers@email.com">freddy.burgers@email.com</a>
+					<p class="header__contacts-item">Hours: 9:00 AM - 5:00 PM</p>
+				</div>
+				<div class="header__icons">
+					<a class="header__icons-items" href="https://www.facebook.com" target="_blank">
+						<img src="../img/header--facebook-icons.svg" alt="Facebook Logo">
+					</a>
+					<a class="header__icons-items" href="https://www.instagram.com" target="_blank">
+						<img src="../img/header-instagram-icons.svg" alt="Instagram Logo">
+					</a>
+					<a class="header__icons-items" href="https://www.youtube.com" target="_blank">
+						<img src="../img/header-youtube-icons.svg" alt="Youtube Logo">
+					</a>
+				</div>
 			</div>
 		</nav>
-		<div class="header__wrapper">
-			<div class="header__menu">
-				<a href="#" class="header__menu-item">About Us</a>
-				<a href="#" class="header__menu-item">Menu</a>
-				<a href="#" class="header__menu-item">Catering</a>
-				<a href="#" class="header__menu-item">Contacts</a>
-			</div>
-			<div class="header__burger-contacts">
-				<p class="header__contacts-item">Los Angeles Gournadi, 1230 Barias</p>
-				<a class="header__contacts-item" href="mailto:freddy.burgers@email.com">freddy.burgers@email.com</a>
-				<p class="header__contacts-item">Hours: 9:00 AM - 5:00 PM</p>
-			</div>
-			<div class="header__icons">
-				<a class="header__icons-items" href="https://www.facebook.com" target="_blank">
-					<img src="../img/header--facebook-icons.svg" alt="Facebook Logo">
-				</a>
-				<a class="header__icons-items" href="https://www.instagram.com" target="_blank">
-					<img src="../img/header-instagram-icons.svg" alt="Instagram Logo">
-				</a>
-				<a class="header__icons-items" href="https://www.youtube.com" target="_blank">
-					<img src="../img/header-youtube-icons.svg" alt="Youtube Logo">
-				</a>
-			</div>
-		</div>
 		<div class="header__banner">
 			<div class="header__title">
 				<h1 class="header__name">FREDDY BURGERS</h1>
@@ -60,7 +64,7 @@
 		</div>
 	</header>
 	<main>
-		<section class="hire">
+		<section class="hire container">
 			<img src="../img/catering-foto-burger.jfif" alt="foto burger" class="hire__img">
 			<div class="hire__txt">
 				<h2 class="hire__title">HIRE US</h2>
@@ -120,18 +124,19 @@
 						<h2 class="areas__title">AREAS</h2>
 						<p class="areas__subtitle">Delivery Zone</p>
 						<p class="delivery__list-title">We deliver to:</p>
-						<ul class="delivery__list">
-							<li>Long Beach;</li>
-							<li>Pasadena;</li>
-							<li>Santa Clarita;</li>
-							<li>Edgar Mitchell</li>
-							<li>Anaheim.</li>
+					
+					<ul class="delivery__list">
+							<li class="list__text"><img class="check__mark" src="../img/galka.svg" alt="checkbox"> Long Beach;</li>
+							<li class="list__text"><img class="check__mark" src="../img/galka.svg" alt="checkbox"> Pasadena;</li>
+							<li class="list__text"><img class="check__mark" src="../img/galka.svg" alt="checkbox"> Santa Clarita;</li>
+							<li class="list__text"><img class="check__mark" src="../img/galka.svg" alt="checkbox"> Edgar Mitchell</li>
+							<li class="list__text"><img class="check__mark" src="../img/galka.svg" alt="checkbox"> Anaheim.</li>
 						</ul>
 						<p class="delivery__list-text">Delivery to more remote areas is also possible in<br>individual
 							cases</p>
-					</div>
+						</div>
 					<div class="delivery__map">
-						<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d413.2094627465375!2d-118.24377953009414!3d34.05218898781201!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c738053aaaa3%3A0x1d25fd128af332e2!2s59%20S%20Main%20St%2C%20Los%20Angeles%2C%20CA%2090012!5e0!3m2!1suk!2sus!4v1677858674291!5m2!1suk!2sus" style="border:0;" allowfullscreen="" referrerpolicy="no-referrer-when-downgrade"></iframe>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d413.2094627465375!2d-118.24377953009414!3d34.05218898781201!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c738053aaaa3%3A0x1d25fd128af332e2!2s59%20S%20Main%20St%2C%20Los%20Angeles%2C%20CA%2090012!5e0!3m2!1suk!2sus!4v1677858674291!5m2!1suk!2sus"  style="border:0;" allowfullscreen="" referrerpolicy="no-referrer-when-downgrade"></iframe>
 					</div>
 				</div>
 			</div>
@@ -187,9 +192,9 @@
 				<h3 class="footer__navigator-title">Navigation</h3>
 				<span class="footer_yellow-line"></span>
 				<a class="footer__navigator-item" href="#">About us</a>
-				<a class="footer__navigator-item" href="#">Menu</a>
+				<a class="footer__navigator-item" href="../menu.html">Menu</a>
 				<a class="footer__navigator-item" href="order-now-page.html">Catering</a>
-				<a class="footer__navigator-item" href="/contacts.html">Contacts</a>
+				<a class="footer__navigator-item" href="../contacts.html">Contacts</a>
 			</div>
 
 			<div class="footer__customers">
