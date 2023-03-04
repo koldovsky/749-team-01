@@ -176,7 +176,7 @@
     border: 2px solid;
     border-color: white;
     border-radius: 50px;
-    padding-top: 13px;   
+    padding-top: 23px;   
  }
 
  .salads_order-button, button {
@@ -240,11 +240,14 @@
        align-items: center;
         flex-direction: row;
         width: 100%;
+       
                
     }
     .burgers__carousel-slide {
         height: 419px; 
         width: 290px;
+        align-items: center;
+        
     }
     .burgers__carousel-title{
         justify-content: space-between;
@@ -261,10 +264,11 @@
     
     .discount__and-salads {
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
         margin: 15px;
         flex-direction: row;
         gap: 30px;
+        
         
     }
     .discount {
@@ -284,11 +288,13 @@
 
 @media (min-width: 768px) {
     .main__burgers-carousel{
-        flex-direction: row;
+        flex-direction: column;
     }
     .discount__and-salads {
         flex-direction: column;
+        justify-content: space-around;
     }
+    
     
 }
  
@@ -302,12 +308,13 @@
     
     .discount__and-salads {
         display: flex;
-        justify-content: center;
-        margin: 15px;
         flex-direction: row;
-        gap: 30px;
+        justify-content: space-around;
+        margin: 15px;
+            
+        
     }
-
+    
     .actual__discount {
         padding: 30px;
         flex-direction: row;
