@@ -16,9 +16,6 @@
     position: absolute;
     top: -100%;
 }
-.header__wrapper {
-    display: none;
-}
 .header__burger {
     position: relative;
     top: 10px;
@@ -161,19 +158,48 @@
 }
 @media (min-width: 992px) {
     .header__contacts {
-        position: absolute;
+        position: relative;
         top: 0;
         display: flex;
         justify-content: space-between;
-		align-items: center;
+        align-items: center;
+        font-weight: 400;
+		padding: 15px 40px;
         font-size: 15px;
-		line-height: 21px;
 		height: 51px;
 		background-color: var(--background-header-color);
     }
+    .header__burger, .header__burger-contacts{
+        position: fixed;
+        top: -100%;
+    }
+    header__navigation {
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .header__nav {
+        padding: 0;
+    }
+    .header__wrapper {
+        position: relative;
+        top: 0;
+    }
+    .header__menu {
+        margin-top: 0;
+        max-width: 400px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-right: 100px;
+    }
+    .header__menu-item {
+        margin: 10px 17.5px;
+    }
     .header__logo {
-        width: 252px;
-        height: 47px;
+        width: 173px;
+		height: 72px;
     }
     .header__banner {
 		padding: 80px 40px;
