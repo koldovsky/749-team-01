@@ -55,7 +55,10 @@
 .team__bt {
     width: 20px;
     height: 20px;
-    fill: var(--background-header-color);
+    border-radius: 50%;
+    background-color: var(--background-header-color);
+    cursor: pointer;
+    color: var(--form-background-color);
 }
 @media (min-width: 770px) {
     .team__title {
