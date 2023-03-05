@@ -33,13 +33,13 @@
     object-fit: cover;
     border-radius: 5%;
 }
-.team__name{
+.team__name {
     font-family: var(--font-family);
     font-size: 22px;
     font-weight: 700;
     color: var(--subtext-color);
 }
-.team__proffesion{
+.team__proffesion {
     font-family: var(--font-family);
     font-size: 17px;
     font-weight: 400;
