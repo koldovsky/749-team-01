@@ -34,16 +34,23 @@
     border-radius: 5%;
 }
 .team__name {
+    margin-top: 20px;
     font-family: var(--font-family);
     font-size: 22px;
     font-weight: 700;
     color: var(--subtext-color);
 }
 .team__proffesion {
+    margin-top: 25px;
     font-family: var(--font-family);
     font-size: 17px;
     font-weight: 400;
     color: var(--text-color);
+}
+.team__container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
 }
 @media (min-width: 770px) {
     .team__title {
