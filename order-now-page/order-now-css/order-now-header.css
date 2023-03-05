@@ -178,11 +178,6 @@
     .header__burger, .header__burger-contacts{
         display: none;
     }
-    .header__nav {
-        display: block;
-        width: 173px;
-		height: 72px;
-    }
     .header__wrapper {
         position: relative;
         top: 0;
@@ -206,10 +201,10 @@
     .header__menu-item {
         margin: 10px 17.5px;
     }
-    /* .header__logo {
-        width: 173px;
-		height: 72px;
-    } */
+    .header__logo {
+        width: 172px;
+        height: 32px;
+    }
     .header__banner {
 		padding: 80px 40px;
         display: grid;
