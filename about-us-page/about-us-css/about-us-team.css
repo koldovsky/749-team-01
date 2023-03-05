@@ -1,5 +1,6 @@
 .team {
     background-image: url(about-us-team-bg.jpg);
+    object-fit: cover;
 }
 .team__txt {
     margin: 90px 30px;
