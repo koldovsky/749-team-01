@@ -52,6 +52,11 @@
     flex-direction: column;
     padding: 0 15px;
 }
+.team__bt {
+    width: 20px;
+    height: 20px;
+    fill: var(--background-header-color);
+}
 @media (min-width: 770px) {
     .team__title {
         font-size: 18px;
