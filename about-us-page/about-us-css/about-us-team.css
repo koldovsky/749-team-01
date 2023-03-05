@@ -52,7 +52,7 @@
     flex-direction: column;
     padding: 0 15px;
 }
-.team__bt {
+.team__bt-left, .team__bt-right {
     width: 20px;
     height: 20px;
     border-radius: 50%;
