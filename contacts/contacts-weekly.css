@@ -99,7 +99,7 @@
     padding: 20px;
     box-shadow: 0px 0px 20px rgb(211, 209, 209);
     border: 1px solid #11ffee00;
-    width: 25%; 
+    width: 80%; 
   }
   
   .close {
@@ -152,6 +152,14 @@
         padding: 20% 40px 0 10px;
         margin: auto;
     }
+    .modal-content {
+        background-color: #fefefe;
+        margin: 15% auto; 
+        padding: 20px;
+        box-shadow: 0px 0px 20px rgb(211, 209, 209);
+        border: 1px solid #11ffee00;
+        width: 25%; 
+      }
 }
 @media (min-width: 1200px) {
     .contacts__weekly {
