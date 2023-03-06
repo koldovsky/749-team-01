@@ -131,6 +131,9 @@
     .footer__offer-to-contact {
         min-width: 66.666%;
     }
+
+    .footer__contacts-title {
+        font-size: 27px;
 }
 
 .footer__order_form-btn:hover {
@@ -143,5 +146,8 @@
     .footer__title {
         font-size: 56px;
     }
-
+    .footer__contacts-title {
+        font-size: 30px;
+    }
 }
+
