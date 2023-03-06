@@ -49,6 +49,8 @@
   width: 20px !important;
   height: 20px !important;
   color: var(--footer-carousel-button-color) !important;
+  font-size: 12px !important;
+  font-weight: 800 !important;
 }
 .swiper-button-next:hover,
 .swiper-button-prev:hover {
