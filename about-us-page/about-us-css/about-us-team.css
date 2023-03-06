@@ -51,6 +51,8 @@
   color: var(--footer-carousel-button-color) !important;
   font-size: 12px !important;
   font-weight: 800 !important;
+  text-align: center;
+  padding-top: 3px;
 }
 .swiper-button-next:hover,
 .swiper-button-prev:hover {
@@ -59,7 +61,6 @@
 .team__foto {
     border-radius: 5px;
 }
-
 @media (min-width: 770px) {
     .team__title {
         font-size: 18px;
