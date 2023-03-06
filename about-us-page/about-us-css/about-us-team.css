@@ -80,7 +80,4 @@
         display: flex;
         min-width: 0;
     }
-    .team__txt {
-        width: calc(max-width - 30%);
-    }
 }
