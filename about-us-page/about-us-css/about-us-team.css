@@ -1,9 +1,7 @@
 .team {
     background-image: url(../about-us-team-bg.jpg);
     object-fit: cover;
-}
-.team__txt {
-    margin: 90px 30px;
+    padding: 90px 30px;
 }
 .team__slogan {
     margin-top: 20px;
@@ -26,6 +24,9 @@
     font-size: 17px;
     font-weight: 400;
     line-height: 25.5px;
+}
+.swiper-wrapper {
+    margin-top: 30px;
 }
 .team__name {
     margin-top: 20px;
@@ -71,5 +72,9 @@
     }
     .team__slogan {
         font-size: 56px;
+    }
+    .team {
+        display: grid;
+        grid-template-columns: 1.3fr 1.7fr;
     }
 }
