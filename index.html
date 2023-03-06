@@ -484,7 +484,7 @@
         <!--HIRE US BLOCK START-->
         <div class="hire__us-background-top"></div>
         <section class="hire__us">
-            <form class="hire__us-section" action="register" method="post">
+            <form class="hire__us-section" action="register" method="POST">
                 <div class="hire__us-container">
                     <h2 class="hire__us-title">Andrii Nasadiuk</h2>
                     <h2 class="hire__us-title clock"></h2>
@@ -499,7 +499,15 @@
                     <input class="hire__us-tel" type="tel" name="phone" placeholder="Enter your phone number" required>
                     <input class="hire__us-email" type="email" name="email" placeholder="Enter your email" required>
                 </div>
-                <input class="submit__button" type="submit" value="Send">
+                <button onclick="openModal()" class="submit__button" type="submit">Send</button>
+                <div id="modal" class="modal">
+                    <div class="modal-content">
+                        <span class="close" onclick="closeModal()">&times;</span>
+                        <p>Thank you!</p>
+                        <p>We will contact you shortly</p>
+                        <button onclick="closeModal()">OK</button>
+                    </div>
+                </div>
             </form>
         </section>
         <div class="hire__us-background-bottom"></div>
