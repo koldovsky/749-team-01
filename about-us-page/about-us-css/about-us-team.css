@@ -45,11 +45,10 @@
 .swiper-button-prev::after {
   background-color: var(--icon-color);
   border-radius: 50%;
-  width: 24px !important;
-  height: 24px !important;
+  width: 20px !important;
+  height: 20px !important;
   color: var(--footer-carousel-button-color) !important;
 }
-
 .swiper-button-next:hover,
 .swiper-button-prev:hover {
   filter: brightness(90%);
