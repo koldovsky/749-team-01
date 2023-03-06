@@ -1,5 +1,5 @@
 .team {
-    background-image: url(about-us-team-bg.jpg);
+    background-image: url(../about-us-team-bg.jpg);
     object-fit: cover;
 }
 .team__txt {
