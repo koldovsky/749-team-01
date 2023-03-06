@@ -48,7 +48,6 @@
 
 .footer__subtitle {
     font-size: 20px;
-    height: 60px;
     font-weight: 700;
     line-height: 30px;
     margin-top: 25px;
@@ -150,4 +149,4 @@
         font-size: 30px;
     }
 }
-
+}
