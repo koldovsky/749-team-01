@@ -1,9 +1,11 @@
 (function () {
 const swiperProject = new Swiper('.swiper', {
-  naviation: {
-    nextEL: '.swiper-button-next',
-    prevEl: '.swiper-button-prev'
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev"
   },
+  observer: true, 
+  observeParents: true,
   simulateTouch: true,
       touchRadio: 1,
       touchAngle: 45,
