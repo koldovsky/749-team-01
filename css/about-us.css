@@ -76,6 +76,7 @@
     padding: 15px 30px;
     border-radius: 35px;
     margin-bottom: 20px;
+    font-family: var(--font-family);
 }
 
 .aboutus__button:hover {
