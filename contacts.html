@@ -95,53 +95,56 @@
 
     </header>
     <main>
-        <div class="contacts__map"><iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3306.1362620073883!2d-118.259948!3d34.0403756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c7c974845c17%3A0x3f86fe47faf22c62!2zMTA0OSBTIEhpbGwgU3QsIExvcyBBbmdlbGVzLCBDQSA5MDAxNSwg0KHQv9C-0LvRg9GH0LXQvdGWINCo0YLQsNGC0Lgg0JDQvNC10YDQuNC60Lg!5e0!3m2!1suk!2sde!4v1678110579326!5m2!1suk!2sde"
-                allowfullscreen="" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-        <div class="contacts__weekly">
-            <div class="contacts__weekly__left">
-                <h2 class="contacts__weekly-title">WHERE TO FIND US</h2>
-                <h3 class="contacts__weekly-subtitle">Weekly Schedule</h3>
-                <p class="contacts__weekly-dates">July 09</p>
-                <p class="contacts__weekly-time">1.30 PM - 4.30 PM</p>
-                <p class="contacts__weekly-place">Port Jasen, 7432 Kay Tunnel</p>
-                <p class="contacts__weekly-dates">July 10</p>
-                <p class="contacts__weekly-time">1.30 PM - 6.30 PM</p>
-                <p class="contacts__weekly-place">East Richard ,383 Gibson Loaf</p>
-                <p class="contacts__weekly-dates">July 11</p>
-                <p class="contacts__weekly-time">11.30 AM - 3.30 PM</p>
-                <p class="contacts__weekly-place">West Darienport, 195 Will Curve</p>
+        <div class="contacts__weekly-container">
+            <div class="contacts__map-container">
+                <iframe class="contacts__map"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3306.1362620073883!2d-118.259948!3d34.0403756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c7c974845c17%3A0x3f86fe47faf22c62!2zMTA0OSBTIEhpbGwgU3QsIExvcyBBbmdlbGVzLCBDQSA5MDAxNSwg0KHQv9C-0LvRg9GH0LXQvdGWINCo0YLQsNGC0Lgg0JDQvNC10YDQuNC60Lg!5e0!3m2!1suk!2sde!4v1678110579326!5m2!1suk!2sde"
+                    allowfullscreen="" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
             </div>
-            <div class="contacts__weekly__center">
-                <p class="contacts__weekly-dates">July 12</p>
-                <p class="contacts__weekly-time">1.30 PM - 4.30 PM</p>
-                <p class="contacts__weekly-place">Culver City, NPR 9909 Jeff Blvd</p>
-                <p class="contacts__weekly-dates">July 13</p>
-                <p class="contacts__weekly-time">11.30 PM - 6.30 PM</p>
-                <p class="contacts__weekly-place">Universal, Lankershim Blvd. 91604</p>
-                <p class="contacts__weekly-dates">July 14-15</p>
-                <p class="contacts__weekly-place only">Catering only</p>
-            </div>
-            <form class="contacts__weekly__form" action="https://formspree.io/f/xknaoaby" method="post">
-                <h3 class="contacts__weekly-form__title">Want to Become Our Franchisee?</h3>
-                <input class="contacts__weekly-form__name" type="text" name="name" placeholder="Enter your full name"
-                    required>
-                <input class="contacts__weekly-form__name" type="text" name="phone"
-                    placeholder="Enter your phone number" required>
-                <input class="contacts__weekly-form__name" type="text" name="email" placeholder="Enter your e-mail"
-                    required>
-                <button id="form__button" type="submit">Send</button>
-                <div id="myModal" class="modal">
-                    <div class="modal-content">
-                        <span class="close">&times;</span>
-                        <img class="modal__pic" src="img/galka.svg" alt="YEY">
-                        <p class="modal__title">Thank you!</p>
-                        <p class="modal__text">We will contact you shortly.</p>
-                    </div>
+            <div class="contacts__weekly">
+                <div class="contacts__weekly__left">
+                    <h2 class="contacts__weekly-title">WHERE TO FIND US</h2>
+                    <h3 class="contacts__weekly-subtitle">Weekly Schedule</h3>
+                    <p class="contacts__weekly-dates">July 09</p>
+                    <p class="contacts__weekly-time">1.30 PM - 4.30 PM</p>
+                    <p class="contacts__weekly-place">Port Jasen, 7432 Kay Tunnel</p>
+                    <p class="contacts__weekly-dates">July 10</p>
+                    <p class="contacts__weekly-time">1.30 PM - 6.30 PM</p>
+                    <p class="contacts__weekly-place">East Richard ,383 Gibson Loaf</p>
+                    <p class="contacts__weekly-dates">July 11</p>
+                    <p class="contacts__weekly-time">11.30 AM - 3.30 PM</p>
+                    <p class="contacts__weekly-place">West Darienport, 195 Will Curve</p>
                 </div>
-            </form>
-        </div>
+                <div class="contacts__weekly__center">
+                    <p class="contacts__weekly-dates">July 12</p>
+                    <p class="contacts__weekly-time">1.30 PM - 4.30 PM</p>
+                    <p class="contacts__weekly-place">Culver City, NPR 9909 Jeff Blvd</p>
+                    <p class="contacts__weekly-dates">July 13</p>
+                    <p class="contacts__weekly-time">11.30 PM - 6.30 PM</p>
+                    <p class="contacts__weekly-place">Universal, Lankershim Blvd. 91604</p>
+                    <p class="contacts__weekly-dates">July 14-15</p>
+                    <p class="contacts__weekly-place only">Catering only</p>
+                </div>
+                <form class="contacts__weekly__form" action="https://formspree.io/f/xknaoaby" method="post">
+                    <h3 class="contacts__weekly-form__title">Want to Become Our Franchisee?</h3>
+                    <input class="contacts__weekly-form__name" type="text" name="name"
+                        placeholder="Enter your full name" required>
+                    <input class="contacts__weekly-form__name" type="text" name="phone"
+                        placeholder="Enter your phone number" required>
+                    <input class="contacts__weekly-form__name" type="text" name="email" placeholder="Enter your e-mail"
+                        required>
+                    <button id="form__button" type="submit">Send</button>
+                    <div id="myModal" class="modal">
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <img class="modal__pic" src="img/galka.svg" alt="YEY">
+                            <p class="modal__title">Thank you!</p>
+                            <p class="modal__text">We will contact you shortly.</p>
+                        </div>
+                    </div>
+                </form>
+            </div>
     </main>
     <footer>
         <div class="footer__background-line"></div>
