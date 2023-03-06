@@ -1,3 +1,8 @@
 (function () {
-new Swiper('.team__carousel');
+new Swiper('.swiper', {
+  naviation: {
+    nextEL: '.swiper-button-next',
+    prevEl: '.swiper-button-prev'
+  },
+});
 })();
