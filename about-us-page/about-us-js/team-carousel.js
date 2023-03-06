@@ -1,5 +1,5 @@
 (function () {
-new Swiper('.swiper', {
+const swiperProject = new Swiper('.swiper', {
   naviation: {
     nextEL: '.swiper-button-next',
     prevEl: '.swiper-button-prev'
@@ -16,7 +16,7 @@ new Swiper('.swiper', {
             slidesPerView: 2,
         },
         996:{
-            slidesPerView:6
+            slidesPerView:3
         },
       }
 });
