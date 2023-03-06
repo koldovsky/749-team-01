@@ -54,6 +54,9 @@
 .swiper-button-prev:hover {
   filter: brightness(90%);
 }
+.team__foto {
+    border-radius: 5px;
+}
 
 @media (min-width: 770px) {
     .team__title {
