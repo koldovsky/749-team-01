@@ -134,6 +134,7 @@
     .footer__contacts-title {
         font-size: 27px;
 }
+}
 
 .footer__order_form-btn:hover {
     background-color: var(--button-text-color);
@@ -148,5 +149,4 @@
     .footer__contacts-title {
         font-size: 30px;
     }
-}
 }
