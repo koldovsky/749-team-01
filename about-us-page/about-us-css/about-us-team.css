@@ -41,6 +41,20 @@
     font-weight: 400;
     color: var(--text-color);
 }
+.swiper-button-next,
+.swiper-button-prev {
+  background-color: var(--icon-color);
+  border-radius: 50%;
+  width: 24px !important;
+  height: 24px !important;
+  color: var(--footer-carousel-button-color) !important;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  filter: brightness(90%);
+}
+
 @media (min-width: 770px) {
     .team__title {
         font-size: 18px;
