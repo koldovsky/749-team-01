@@ -110,9 +110,6 @@
 }
 .discount{    
     justify-content: space-around;
-    max-width: 670px;
-    min-width: 250px;
-    max-height: 380px;
     min-height: 350px;
     background: url(../img/discount-background.jpg);
     background-size:cover;
@@ -122,9 +119,6 @@
 
 .salads{      
     justify-content: space-around;
-    max-width: 460px;
-    min-width: 50px;
-    max-height: 380px;
     min-height: 350px;
     background: url(../img/salads-background.jpg);
     background-size: cover;
@@ -331,9 +325,7 @@
     .discount__and-salads {
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
         margin: 15px;
-        padding: 50px; 
         gap: 30px;
         
     }
