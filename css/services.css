@@ -2,6 +2,9 @@
     padding: 90px 25px 90px 25px;
     background-color: rgb(255, 246, 240);
 }
+.text__width {
+    width: 100%;
+}
 .services__title {
     font-size: 19px;
     margin: 0;
@@ -158,4 +161,10 @@
 @media (min-width: 992px) {
     .catering, .franchising {
     margin: 30px 40px;}
+}
+@media (min-width: 1200px) {
+    .services {
+        margin: 0;
+        padding: 0;
+    }
 }
