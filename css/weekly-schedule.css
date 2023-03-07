@@ -87,13 +87,21 @@
   flex-direction: column;
   flex: none;
   height: 310px;
-  width: 290px;
   padding-top: 20px;
   padding-bottom: 20px;
   border-radius: 8px;
   background-color: #fff;
   margin-bottom: 32px;
 }
+
+.schedule-daily-item:first-child {
+  width: 100%;
+}
+
+.child:not(:first-child) {
+  flex: 1;
+}
+
 
 .schedule-daily-item-weekday {
   font-size: 20px;
@@ -155,6 +163,7 @@
 
   .schedule-container-slider {
     max-width: 380px;
+    gap: 36px;
   }
 
   .schedule-info {
