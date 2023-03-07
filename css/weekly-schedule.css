@@ -148,7 +148,8 @@
   top: 50%;
   padding: 12px;
   margin-top: -20px;
-  color: white;
+  color: var(--schedule-button-color);
+  background-color: var(--schedule-daily-item-location-color);
   font-weight: bold;
   cursor: pointer;
   transition: 0.2s ease-in;
