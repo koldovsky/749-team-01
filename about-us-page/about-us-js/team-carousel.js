@@ -11,7 +11,7 @@ const swiperProject = new Swiper('.swiper', {
       touchAngle: 45,
       grabCursor: true,
       autoHeight: true,
-      spaceBetween: 10,
+      spaceBetween: 20,
       watchOverflow: true,
       breakpoints:{
         768:{
