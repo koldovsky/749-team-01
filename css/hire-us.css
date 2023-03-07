@@ -1,4 +1,4 @@
- .hire__us {
+ .background {
    background-image: url(../img/hire-us-background.jpg);
    background-size: cover;
    background-position: center;
@@ -203,7 +203,11 @@
    .hire__us-section {
      width: 469px;
      height: 620px;
-     margin-left: 15%;
+     margin-left: 5%;
+   }
+   
+   .container {
+    width: 1200px;
    }
 
    .hire__us-title {
