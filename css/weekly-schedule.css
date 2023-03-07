@@ -121,6 +121,9 @@
   color: var(--schedule-daily-item-location-color);
 }
 
+.schedule-red-dot {
+  color: var(--schedule-daily-item-weekday-color);
+}
 .schedule-daily-item-directions {
   background-color: var(--schedule-daily-item-weekday-color);
   color: #fff;
