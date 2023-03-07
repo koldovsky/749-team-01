@@ -2,7 +2,9 @@
 	background-image: url(../img/header--banner-cover.jpg);
 	background-size: cover;
 	background-color: var(--background-header-banner);
-	background-position: 13%;
+	background-position-y: 12vh;
+	background-position-x: 45%;
+	background-repeat: no-repeat;
 }
 
 .header__background-bottom {
@@ -252,10 +254,9 @@ body.lock {
 
 @media (min-width: 768px) {
 	.header {
-		background-position-x: 20%;
-		background-position-y: 3.5rem;
-	}
-
+		background-position-x: 50%;
+		background-position-y: 2vh;
+		}
 	.header__banner {
 		height: 798px;
 		width: 60%;
@@ -292,6 +293,10 @@ body.lock {
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
+		background-color: var(--background-header-color);
+	}
+
+	.header__contacts-bg {
 		background-color: var(--background-header-color);
 	}
 
@@ -357,10 +362,9 @@ body.lock {
 }
 
 @media (min-width: 1200px) {
-	.header {
-		background-position-y: 90%;
-		background-size: contain;
-	}
+.header {
+background-size: contain;
+}
 
 	.header__nav {
 		background-color: var(--background-header-banner);
