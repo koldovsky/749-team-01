@@ -4,6 +4,7 @@
   --schedule-call-icon-background-color: rgb(239, 173, 24);
   --schedule-message-color: rgb(69, 69, 69);
   --schedule-daily-item-location-color: rgb(103, 103, 103);
+  --schedule-daily-item-weekday-color: rgb(231, 39,45);
   --schedule-button-color: #fff;
   --schedule-button-background-color:rgb(69, 69, 69);
   background-color: var(--schedule-background-color);
@@ -96,6 +97,7 @@
 
 .schedule-daily-item-weekday {
   font-size: 20px;
+  color: var(--schedule-daily-item-weekday-color);
 }
 
 .schedule-daily-item-date {
@@ -120,7 +122,7 @@
 }
 
 .schedule-daily-item-directions {
-  background-color: red;
+  background-color: var(--schedule-daily-item-weekday-color);
   color: #fff;
   border-radius: 20px;
   padding: 10px 20px;
