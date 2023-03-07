@@ -137,7 +137,7 @@
 }
 
 .header__menu-item:hover {
-color: var(--title-color);
+	color: var(--title-color);
 }
 
 .header__wrapper-contacts {
@@ -259,6 +259,7 @@ body.lock {
 	.header__banner {
 		height: 798px;
 		width: 60%;
+		margin: 0;
 	}
 
 	.header__title {
