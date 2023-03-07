@@ -167,4 +167,10 @@
         margin: 0;
         padding: 0;
     }
+    .services__title {
+        paddind: 90px 20px 15px 20px;
+    }
+    .services__text-content {
+        padding: 25px 10px 40px 10px;
+    }
 }
