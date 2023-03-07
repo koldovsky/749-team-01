@@ -62,6 +62,8 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        padding-left: 19%;
+        padding-right: 19%;
         
 }
 
@@ -108,7 +110,7 @@
     .video__content{
         padding-top: 110px;
         padding-bottom: 110px;
-        padding-left: 24px;
+        padding-left: 0px;
         padding-right: 24px;
         margin: auto;
     }
@@ -116,6 +118,16 @@
         display: flex;
         flex-direction: column;
         justify-content: left;
+        align-items: flex-start;
+        padding-left: 24px;
+    }
+    .video__item{
+        justify-content: left;
+    }
+
+    .icon__video{
+        height: 50px;
+        width: 50px;
     }
 }
 
