@@ -1,4 +1,4 @@
-const synonyms = ['tasty', 'delicious', 'luscious'];
+const synonyms = ['TASTY', 'YUMMY', 'SPICY'];
 const headerBannerSynonyms = document.querySelector('.header__banner-synonyms');
 let currentIndex = 0;
 
