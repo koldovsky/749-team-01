@@ -12,7 +12,7 @@
 }
 
 .schedule-info {
-  width: 345px;
+  width: 300px;
   height: 345px;
   padding-top: 36px;
   margin-left: 36px;
@@ -76,7 +76,7 @@
   gap: 36px;
   overflow-x: hidden;
   overflow-y: hidden;
-  max-width: 380px;
+  max-width: 320px;
   flex-wrap: nowrap;
 }
 
@@ -145,12 +145,25 @@
 }
 
 @media only screen and (min-width: 750px) {
+
   .schedule-container {
     height: 600px;
     flex-direction: row;
     align-items: center;
     justify-content: center;
   }
+
+  .schedule-container-slider {
+    max-width: 380px;
+  }
+
+  .schedule-info {
+    width: 345px;
+  }  
+  
+  .schedule-daily-item {
+    height: 345px;
+    width: 345px;
 }
 
 @media only screen and (min-width: 1200px) {
