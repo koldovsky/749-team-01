@@ -2,6 +2,7 @@
     background-image: url(../about-us-team-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position-y: -4em;
 }
 .team__section {
     padding: 90px 30px;
@@ -63,6 +64,9 @@
 }
 .team__foto {
     border-radius: 5px;
+}
+.lock {
+    overflow: hidden;
 }
 @media (min-width: 770px) {
     .team__title {
