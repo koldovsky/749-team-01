@@ -94,6 +94,10 @@
   margin-bottom: 32px;
 }
 
+.schedule-daily-item-weekday {
+  font-size: 20px;
+}
+
 .schedule-daily-item-date {
   color: var(--schedule-background-color);
   font-family: "Rubik", sans-serif;
