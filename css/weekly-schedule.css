@@ -76,7 +76,7 @@
   gap: 36px;
   overflow-x: hidden;
   overflow-y: hidden;
-  max-width: 320px;
+  max-width: 300px;
   flex-wrap: nowrap;
 }
 
@@ -86,8 +86,8 @@
   justify-content:space-around;
   flex-direction: column;
   flex: none;
-  height: 320px;
-  width: 300px;
+  height: 310px;
+  width: 290px;
   padding-top: 20px;
   padding-bottom: 20px;
   border-radius: 8px;
