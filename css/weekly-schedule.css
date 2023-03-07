@@ -76,7 +76,7 @@
   gap: 24px;
   overflow-x: hidden;
   overflow-y: hidden;
-  max-width: 300px;
+  max-width: 280px;
   flex-wrap: nowrap;
 }
 
@@ -97,11 +97,6 @@
 .schedule-daily-item:first-child {
   width: 100%;
 }
-
-.child:not(:first-child) {
-  flex: 1;
-}
-
 
 .schedule-daily-item-weekday {
   font-size: 20px;
