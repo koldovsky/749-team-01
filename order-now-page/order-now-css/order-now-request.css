@@ -5,6 +5,10 @@
 	padding: 90px 24px;
 }
 
+.request__bg {
+background-color: var(--icon-color);
+}
+
 .request__form {
 	height: 815px;
 	padding: 31px;
