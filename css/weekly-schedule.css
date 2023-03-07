@@ -168,7 +168,12 @@
   .schedule-daily-item {
     height: 345px;
     width: 345px;
-  }  
+  }
+  
+  .schedule-daily-item:first-child {
+    width: 345px;
+  }
+  
 }
 
 @media only screen and (min-width: 1200px) {
