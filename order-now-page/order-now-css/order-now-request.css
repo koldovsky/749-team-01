@@ -37,7 +37,7 @@
 	left: 0;
 	opacity: 0;
 	visibility: hidden;
-	z-index: 8;
+	z-index: 11;
 }
 
 .request__popup:target {
