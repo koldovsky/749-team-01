@@ -1,7 +1,11 @@
 .team {
     background-image: url(../about-us-team-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -4em;
+}
+.team__section {
     padding: 90px 30px;
-    background-size: contain;
 }
 .team__slogan {
     margin-top: 20px;
@@ -46,13 +50,13 @@
 .swiper-button-prev::after {
   background-color: var(--icon-color);
   border-radius: 50%;
-  width: 20px !important;
+  width: 24px !important;
   height: 20px !important;
   color: var(--footer-carousel-button-color) !important;
-  font-size: 12px !important;
+  font-size: 14px !important;
   font-weight: 800 !important;
   text-align: center;
-  padding-top: 3px;
+  padding-top: 7px;
 }
 .swiper-button-next:hover,
 .swiper-button-prev:hover {
@@ -60,6 +64,9 @@
 }
 .team__foto {
     border-radius: 5px;
+}
+.lock {
+    overflow: hidden;
 }
 @media (min-width: 770px) {
     .team__title {
@@ -73,14 +80,20 @@
     }
 }
 @media (min-width: 992px) {
+    .team__section {
+        display: flex;
+    }
+    .team__txt {
+        width: 40%;
+    }
+    .team__carousel {
+        align-items:flex-end;
+        width: 60%;
+    }
     .team__title {
         font-size: 20px;
     }
     .team__slogan {
         font-size: 56px;
-    }
-    .team {
-        display: flex;
-        min-width: 0;
     }
 }
