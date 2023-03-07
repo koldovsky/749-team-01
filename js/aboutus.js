@@ -1,6 +1,6 @@
 function changeColor() {
     const pageTitle = document.querySelector('.aboutus__subtitle');
-    const colors = ['pink', 'blue'];
+    const colors = ['yellow', 'blue'];
     let colorIndex = 0;
   
     setInterval(function() {
