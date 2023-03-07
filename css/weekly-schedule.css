@@ -147,6 +147,13 @@
   align-items: center;
 }
 
+@media only screen and (min-width: 400px) {
+  .schedule-container-slider {
+    max-width: 380px;
+    gap: 36px;
+  }
+}  
+
 @media only screen and (min-width: 750px) {
 
   .schedule-container {
@@ -154,11 +161,6 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-  }
-
-  .schedule-container-slider {
-    max-width: 380px;
-    gap: 36px;
   }
 
   .schedule-info {
