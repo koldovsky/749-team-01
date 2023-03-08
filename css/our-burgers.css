@@ -160,8 +160,7 @@
     flex-direction: column;
     justify-content: space-between;
     background: #fcbe37;
-    background-size: cover;
-    padding-left: 100px;
+    background-size: cover;  
 
 }
 
@@ -218,7 +217,7 @@ button {
 }
 
 .use__discount {
-    width: 30%;
+    width: 40%;
     text-align: center;
     font-family: 'Lato', sans-serif;
     font-size: 16.5px;
@@ -226,7 +225,7 @@ button {
     color: white;
     background: #e7272d;
     border-radius: 50px;
-    padding-top: 13px;
+    padding: 13px;
     margin: 15px;
 }
 

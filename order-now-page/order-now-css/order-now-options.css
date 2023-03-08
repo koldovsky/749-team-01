@@ -4,7 +4,7 @@
 	margin-top: 120px;
 }
 .options__areas-bg {
-	background-color: var(--our-burger-bg-color);
+	background-color: var(--options-areas-bg-color);
 }
 .options__text-title{
 	text-align: center;
