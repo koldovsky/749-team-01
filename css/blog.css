@@ -23,12 +23,7 @@
 .blog__press {
     display: grid;
 }
-@media (min-width: 770px) {
-    .blog__press{
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-@media (min-width: 990px) {
+@media (min-width: 768px) {
     .blog__press{
         grid-template-columns: repeat(3, 1fr);
         padding: 0 40px;
