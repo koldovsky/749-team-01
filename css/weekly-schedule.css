@@ -58,7 +58,7 @@
 }
 
 a .color-red {
-  color: var(----schedule-daily-item-weekday-color);
+  color: var(--schedule-daily-item-weekday-color);
 }
 
 .schedule-info-phone-icon {
