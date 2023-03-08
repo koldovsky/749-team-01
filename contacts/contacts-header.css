@@ -69,12 +69,14 @@
 
 .header__burger.active::before {
 	top: 50%;
-	transform: rotate(-45deg);
+	left: 50%;
+	transform: translate(-50%, -50%) rotate(-45deg);
 }
 
 .header__burger.active::after {
-	bottom: 40%;
-	transform: rotate(45deg);
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%) rotate(45deg);
 }
 
 .header__logo {
@@ -224,7 +226,7 @@ body.lock {
 
 	.header__name {
 		font-size: 47px;
-		line-height: 51.7px;
+		line-height: 51.8px;
 	}
 
 	.header__title-name {
@@ -314,7 +316,7 @@ body.lock {
 
 	.header__name {
 		font-size: 56px;
-		line-height: 51.7px;
+		line-height: 51.8px;
 	}
 
 	.header__slogan {
