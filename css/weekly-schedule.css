@@ -57,7 +57,7 @@
   color: rgba(0, 0, 0, 0.7);
 }
 
-a .color-red {
+.schedule-info-phone-number.color-red {
   color: var(--schedule-daily-item-weekday-color);
 }
 
