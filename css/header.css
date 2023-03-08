@@ -2,7 +2,7 @@
 	background-image: url(../img/header--banner-cover.jpg);
 	background-size: cover;
 	background-color: var(--background-header-banner);
-	background-position-x: 45%;
+	background-position: 45%;
 	background-repeat: no-repeat;
 }
 
@@ -78,12 +78,14 @@
 
 .header__burger.active::before {
 	top: 50%;
-	transform: rotate(-45deg);
+	left: 50%;
+	transform: translate(-50%, -50%) rotate(-45deg);
 }
 
 .header__burger.active::after {
-	bottom: 40%;
-	transform: rotate(45deg);
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%) rotate(45deg);
 }
 
 .header__logo {
@@ -237,11 +239,6 @@ body.lock {
 }
 
 @media (min-width: 768px) {
-	.header {
-		background-position-x: 50%;
-		background-position-y: 10vh;
-	}
-
 	.header__banner {
 		width: 60%;
 		display: flex;
@@ -265,6 +262,12 @@ body.lock {
 }
 
 @media (min-width: 992px) {
+	.header {
+		background-size: contain;
+		background-position: 50% 70%;
+	}
+
+
 	.header__container {
 		padding: 0 40px;
 	}
@@ -340,11 +343,6 @@ body.lock {
 }
 
 @media (min-width: 1200px) {
-	.header {
-		background-size: contain;
-		background-position-y: 25vh;
-	}
-
 	.header__nav {
 		background-color: var(--background-header-banner);
 	}
