@@ -39,7 +39,6 @@
     .ingredients {
         display: flex;
         justify-content: space-between;
-        gap: 20%;
     }
 
     .ingredients__right {
