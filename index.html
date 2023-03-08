@@ -142,52 +142,56 @@
         </div>
         <!-- AboutUs fin -->
         <!-- OUR BURGERS block start -->
-        <div id="our-burgers__links" class="main__burgers">
-            <div class="main__burgers-text-title">
-                <h2 class="main__burgers-title"></h2>
-                <p class="main__burgers-subtitle">Our Delicious Burgers</p>
-                <p class="main__burgers-text">
-                    Hungry? Don't miss our selection of juicy burgers prepared just for
-                    you!
-                </p>
-            </div>
-            <div class="main__burgers-carousel">
-                <button class="our__burgers-carousel-prev"> &#10094;</button>
-                <div class="our__burgers-carusel-container">
-                    <div class="burgers__carousel-slide"></div>
-                    <div class="burgers__carousel-slide"></div>
-                    <div class="burgers__carousel-slide"></div>
-                    <div class="burgers__carousel-slide"></div>
-                    <div class="burgers__carousel-slide"></div>
-                    <div class="burgers__carousel-slide"></div>
+        <div class="our-burgers__bg">
+            <div id="our-burgers__links" class="main__burgers container">
+                <div class="main__burgers-text-title">
+                    <h2 class="main__burgers-title"></h2>
+                    <p class="main__burgers-subtitle">Our Delicious Burgers</p>
+                    <p class="main__burgers-text">
+                        Hungry? Don't miss our selection of juicy burgers prepared just for
+                        you!
+                    </p>
                 </div>
-                <button class="our__burgers-carousel-next"> &#10095;</button>
-            </div>
-            <div class="disconts__salads-actual-discount">
-                <div class="discount__and-salads">
-                    <div class="discount">
-                        <h2 class="discount__title">THIS MONTH SPECIAL</h2>
-                        <h4 class="discount__subtitle">
-                            Our Japanese <br />
-                            Oishi Burger
-                        </h4>
-                        <p class="discount__text">
-                            Fresh bun, tuna patty, cheese, tomatoes, and our <br />
-                            special oishi sauce
-                        </p>
-                        <a href="order-now-page/order-now-page.html" class="discount_order-button button">Order Now</a>
+                <div class="main__burgers-carousel">
+                    <button class="our__burgers-carousel-prev"> &#10094;</button>
+                    <div class="our__burgers-carusel-container">
+                        <div class="burgers__carousel-slide"></div>
+                        <div class="burgers__carousel-slide"></div>
+                        <div class="burgers__carousel-slide"></div>
+                        <div class="burgers__carousel-slide"></div>
+                        <div class="burgers__carousel-slide"></div>
+                        <div class="burgers__carousel-slide"></div>
                     </div>
-                    <div class="salads">
-                        <h2 class="salads__title">Salads</h2>
-                        <h4 class="salads__subtitle">
-                            Fresh Salad <br />
-                            with <br />Strawberry
-                        </h4>
-                        <p class="salads__text">
-                            Spinach, walnuts, feta cheese, chopped <br />
-                            strawberries, and signature sauce
-                        </p>
-                        <a href="order-now-page/order-now-page.html" class="salads_order-button button">Order Now</a>
+                    <button class="our__burgers-carousel-next"> &#10095;</button>
+                </div>
+                <div class="disconts__salads-actual-discount">
+                    <div class="discount__and-salads">
+                        <div class="discount">
+                            <h2 class="discount__title">THIS MONTH SPECIAL</h2>
+                            <h4 class="discount__subtitle">
+                                Our Japanese <br />
+                                Oishi Burger
+                            </h4>
+                            <p class="discount__text">
+                                Fresh bun, tuna patty, cheese, tomatoes, and our <br />
+                                special oishi sauce
+                            </p>
+                            <a href="order-now-page/order-now-page.html" class="discount_order-button button">Order
+                                Now</a>
+                        </div>
+                        <div class="salads">
+                            <h2 class="salads__title">Salads</h2>
+                            <h4 class="salads__subtitle">
+                                Fresh Salad <br />
+                                with <br />Strawberry
+                            </h4>
+                            <p class="salads__text">
+                                Spinach, walnuts, feta cheese, chopped <br />
+                                strawberries, and signature sauce
+                            </p>
+                            <a href="order-now-page/order-now-page.html" class="salads_order-button button">Order
+                                Now</a>
+                        </div>
                     </div>
                 </div>
                 <div class="actual__discount">
@@ -524,8 +528,8 @@
             <section class="hire__us container">
                 <form class="hire__us-section" action="register" method="POST">
                     <div class="hire__us-container">
+                        <h2 class="clock"></h2>
                         <h2 class="hire__us-title">Andrii Nasadiuk</h2>
-                        <h2 class="hire__us-title clock"></h2>
                         <p class="hire__us-subtitle">Quick Catering Request</p>
                         <p class="hire__us-info">We will contact you soon to agree on details and throw a gastronomic
                             party!
@@ -538,15 +542,7 @@
                             required>
                         <input class="hire__us-email" type="email" name="email" placeholder="Enter your email" required>
                     </div>
-                    <button onclick="openModal()" class="submit__button" type="submit">Send</button>
-                    <div id="modal" class="modal">
-                        <div class="modal-content">
-                            <span class="close" onclick="closeModal()">&times;</span>
-                            <p>Thank you!</p>
-                            <p>We will contact you shortly</p>
-                            <button onclick="closeModal()">OK</button>
-                        </div>
-                    </div>
+                    <button class="submit__button" type="submit">Send</button>
                 </form>
             </section>
         </div>
@@ -745,9 +741,8 @@
     <script src="js/footer-carousel.js"></script>
     <script src="js/our-burgers__title.js"></script>
     <script src="js/main__burgers-carousel.js"></script>
-    <script src="js/hire-us.js"></script>
     <script src="js/aboutus.js"></script>
-
+    <script src="js/hire-us.js"></script>
+    <script src="js/weekly-schedule.js"></script>
 </body>
-
 </html>

@@ -25,7 +25,7 @@ h3 {
 }
 
 :root {
-  --clock-color: rgba(0, 128, 0, 0.3);
+  --clock-color: rgba(0, 128, 0, 0.5);
   --title-color: rgb(231, 49, 35);
   --text-color: rgb(103, 103, 103);
   --subtext-color: rgb(40, 38, 35);
@@ -45,7 +45,7 @@ h3 {
   --email-footer-background: rgba(255, 255, 255, 0.11);
   --footer-carousel-button-color: rgba(0, 0, 0, 0.5);
   --font-color-checkboxtext: rgb(69, 69, 69);
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 img {
