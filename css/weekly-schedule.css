@@ -59,6 +59,7 @@
 
 .schedule-info-phone-number.color-red {
   color: var(--schedule-daily-item-weekday-color);
+  font-weight: 700;
 }
 
 .schedule-info-phone-icon {
