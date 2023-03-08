@@ -101,7 +101,7 @@
    background-color: var(--title-color);
    margin-top: 55px;
    margin-bottom: 35px;
-   padding-bottom: 5px;
+   padding: 20px 10px;
    align-items: center;
  }
 
