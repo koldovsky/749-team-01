@@ -5,6 +5,7 @@
     flex-direction: column;
     justify-content: space-between;
     min-height: 500px;
+    margin-bottom: 50px;
 }
 
 .our-burgers__bg {
@@ -120,7 +121,7 @@
     flex-direction: column;
     justify-content: space-around;
     padding: 0 24px 0 30px;
-    margin-bottom: 50px;
+    
     gap: 30px;
 }
 
