@@ -10,11 +10,13 @@
     setInterval(updateClock, 1000)
 
     function openModal() {
-        document.getElementById("modal").style.display = "block";
+        var modal = document.getElementById("modal");
+        modal.style.display = "block";
     }
 
     function closeModal() {
-        document.getElementById("modal").style.display = "none";
+        var modal = document.getElementById("modal");
+        modal.style.display = "none";
     }
 
 
