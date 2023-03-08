@@ -2,19 +2,14 @@
 	background-image: url(../img/header--banner-cover.jpg);
 	background-size: cover;
 	background-color: var(--background-header-banner);
-	background-position-y: 12vh;
 	background-position-x: 45%;
 	background-repeat: no-repeat;
 }
 
 .header__background-bottom {
 	background-image: url(../img/header-banner-bottom.svg);
-	background-color: transparent;
 	background-position: center;
 	height: 10px;
-	width: 100%;
-	margin: 0;
-	margin-top: -10px;
 }
 
 .header__container {
@@ -92,7 +87,6 @@
 }
 
 .header__logo {
-	height: 43px;
 	width: 232px;
 	position: relative;
 	z-index: 5;
@@ -167,7 +161,6 @@ body.lock {
 }
 
 .header__banner {
-	height: 1042px;
 	padding: 100px 24px 90px 24px;
 }
 
@@ -206,7 +199,6 @@ body.lock {
 }
 
 .header__call-now {
-	height: 66px;
 	display: flex;
 	color: var(--subtitle-header-color);
 	font-size: 17px;
@@ -223,7 +215,6 @@ body.lock {
 	border-radius: 25px;
 	background-color: var(--title-color);
 	width: 140px;
-	height: 50px;
 	color: var(--subtitle-header-color);
 	padding: 12px 24px;
 }
@@ -239,26 +230,19 @@ body.lock {
 	margin-right: 20px;
 }
 
-
-
 @media (min-width: 380px) {
 	.header__logo {
-		height: 47px;
 		width: 252px;
-	}
-
-	.header__banner {
-		height: 956px;
 	}
 }
 
 @media (min-width: 768px) {
 	.header {
 		background-position-x: 50%;
-		background-position-y: 2vh;
-		}
+		background-position-y: 10vh;
+	}
+
 	.header__banner {
-		height: 798px;
 		width: 60%;
 		display: flex;
 		flex-direction: column;
@@ -278,7 +262,6 @@ body.lock {
 		flex-direction: row;
 		align-items: center;
 	}
-
 }
 
 @media (min-width: 992px) {
@@ -328,10 +311,7 @@ body.lock {
 		justify-content: space-between;
 	}
 
-	.header__wrapper-contacts {
-		display: none;
-	}
-
+	.header__wrapper-contacts,
 	.header__burger {
 		display: none;
 	}
@@ -339,11 +319,9 @@ body.lock {
 	.header__logo {
 		position: relative;
 		width: 173px;
-		height: 72px;
 	}
 
 	.header__banner {
-		height: 874px;
 		padding: 150px 40px 150px 40px;
 	}
 
@@ -362,9 +340,10 @@ body.lock {
 }
 
 @media (min-width: 1200px) {
-.header {
-background-size: contain;
-}
+	.header {
+		background-size: contain;
+		background-position-y: 25vh;
+	}
 
 	.header__nav {
 		background-color: var(--background-header-banner);
@@ -372,18 +351,9 @@ background-size: contain;
 
 	.header__logo {
 		width: 215px;
-		height: 40px;
 	}
 
-	.header__wrapper {
-		width: 65%;
-	}
-
-	.header__banner {
-		height: 774px;
-		padding: 150px 40px;
-	}
-
+	.header__wrapper,
 	.header__order {
 		width: 65%;
 	}
