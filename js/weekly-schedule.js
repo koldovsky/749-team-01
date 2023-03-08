@@ -4,6 +4,6 @@ let currentElement = 0;
 
 setInterval(() => {
   scheduleInfoPhoneSection.textContent = contacts[currentElement];
-  currentElement = (currentElement++) % contacts.length;
+  currentElement = (++currentElement) % contacts.length;
 }, 1500);
 
