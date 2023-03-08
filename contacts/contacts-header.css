@@ -198,6 +198,9 @@ body.lock {
 	padding-right: 15px;
 }
 
+.header__icons-items:hover img{
+	opacity: 1;
+}
 
 @media (min-width: 380px) {
 	.header__logo {
