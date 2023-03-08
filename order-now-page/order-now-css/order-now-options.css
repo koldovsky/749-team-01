@@ -3,6 +3,9 @@
 	background-size: 100%;
 	margin-top: 120px;
 }
+.options__areas-bg {
+	background-color: var(--options-areas-bg-color);
+}
 .options__text-title{
 	text-align: center;
 	line-height: 25.5px;
