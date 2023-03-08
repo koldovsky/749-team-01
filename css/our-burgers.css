@@ -72,14 +72,12 @@
     width: 100%;
     margin: auto;
     padding-right: 30px;
-
-
 }
 
 .our__burgers-carousel-prev,
 .our__burgers-carousel-next {
     color: #fbd47c;
-    background-color: #fbf7ec;
+    background-color: var(--our-burger-bg-color);
     border: none;
 }
 
@@ -97,7 +95,6 @@
     font-size: 16px;
     text-align: center;
     margin-top: 20px;
-
 }
 
 .burgers__carousel-price {
@@ -120,8 +117,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding: 0 24px 0 30px;
-    
+    padding: 0 24px 0 30px;    
     gap: 30px;
 }
 
@@ -171,7 +167,7 @@
 .grab__your-discount {
     font-family: 'Rubik', sans-serif;
     color: white;
-    font-size: 36px;
+    font-size: 30px;
     font-weight: 700;
     padding: 15px;
 }
@@ -238,7 +234,6 @@ button {
     font-size: 15px;
     font-weight: 700;
     font-family: 'Lato', sans-serif;
-
 }
 
 .actual__discount-star {
@@ -380,6 +375,9 @@ button {
 
     .salads {
         width: 580px;
+    }
+    .grab__your-discount {
+        text-align: start;
     }
 
 }
