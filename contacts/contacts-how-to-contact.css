@@ -29,6 +29,10 @@
     flex-basis: 33.33%;
 }
 
+.header__contacts-items:hover {
+    border-color: #f2f2f2;
+}
+
 .header__contacts-title {
     font-family: var(--subtitle-font);
     font-size: 24px;
