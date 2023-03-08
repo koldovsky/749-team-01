@@ -159,9 +159,12 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    text-align: center;
     background: #fcbe37;
     background-size: cover;
-
+}
+.actual__discount-bg {
+    background-color: #fcbe37;
 }
 
 .grab__your-discount {
