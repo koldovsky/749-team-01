@@ -199,7 +199,7 @@ body.lock {
 }
 
 .header__icons-items:hover img{
-	opacity: 1;
+	opacity: 0.65;
 }
 
 @media (min-width: 380px) {
