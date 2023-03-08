@@ -162,6 +162,9 @@
     .header__navigation {
         height: 150px;
     }
+    .header__contacts-bg {
+		background-color: var(--background-header-color);
+	}
     .header__contacts {
         position: relative;
         top: 0;
@@ -172,7 +175,6 @@
 		padding: 15px 40px;
         font-size: 15px;
 		height: 51px;
-		background-color: var(--background-header-color);
     }
     .header__burger, .header__burger-contacts{
         display: none;
