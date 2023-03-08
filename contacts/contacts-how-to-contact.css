@@ -66,11 +66,18 @@
     .header__contacts-items-container {
         display: flex;
         flex-direction: row;
+
     }
 
     .header__contacts-items {
+        display: flex;
         margin: 50px 15px 0;
     }
+
+    .header__contacts-address {
+        word-break: break-all;
+    }
+
 
     .header__contacts-items img {
         width: 70px;
