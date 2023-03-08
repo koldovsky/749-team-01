@@ -61,8 +61,6 @@
 .video__ad{
         display: flex;
         align-items: center;
-        padding-left: 19%;
-        padding-right: 19%;
         
 }
 
@@ -87,6 +85,7 @@
     align-items: center;
     padding-left: 15px;
     padding-right: 15px;
+    width: 100%;
 }
 
 .video__img{
@@ -142,6 +141,16 @@
     }
 }
 
+
+@media (min-width: 1200px){
+    .container{
+        width: 1200px;
+    }
+    .video__ad {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
 .video__h3{
     font-family: 'Lato', sans-serif;
     font-size: 24px;
