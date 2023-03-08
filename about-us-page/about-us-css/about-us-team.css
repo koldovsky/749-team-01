@@ -84,6 +84,7 @@
     }
     .team__txt {
         width: 40%;
+        padding-right: 15px;
     }
     .team__carousel {
         align-items:flex-end;
