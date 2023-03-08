@@ -56,6 +56,11 @@
   line-height: 25px;
   color: rgba(0, 0, 0, 0.7);
 }
+
+a .color-red {
+  color: var(----schedule-daily-item-weekday-color);
+}
+
 .schedule-info-phone-icon {
   width: 45px;
   margin-right: 15px;
@@ -140,28 +145,6 @@
   color: #fff;
   border-radius: 20px;
   padding: 10px 20px;
-}
-
-.schedule-slider-prevbtn, .schedule-slider-nextbtn {
-  position: relative;
-  top: 50%;
-  padding: 12px;
-  margin-top: -20px;
-  color: var(--schedule-button-color);
-  background-color: var(--schedule-daily-item-location-color);
-  font-weight: bold;
-  cursor: pointer;
-  transition: 0.2s ease-in;
-  border-radius: 50%;
-}
-
-.schedule-slider-nextbtn:hover, .schedule-slider-nextbtn:hover {
-  background-color: darkgrey;
-  color: rgb(0,0,0);
-}
-
-.schedule-slider-nextbtn {
-  right: 0;
 }
 
 .hidden-item {

@@ -6,6 +6,7 @@
 
   setInterval(() => {
     scheduleInfoPhoneSection.textContent = contacts[currentElement];
+    scheduleInfoPhoneSection.classList.toggle("clor-red");
     currentElement = (++currentElement) % contacts.length;
   }, 1500);
   
